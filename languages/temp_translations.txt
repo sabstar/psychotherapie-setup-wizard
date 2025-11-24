@@ -1,0 +1,11 @@
+s|^msgid "Weiter →"\nmsgstr ""|msgid "Weiter →"\nmsgstr "Next →"|
+s|^msgid "Hello Theme installieren →"\nmsgstr ""|msgid "Hello Theme installieren →"\nmsgstr "Install Hello Theme →"|
+s|^msgid "Elementor installieren →"\nmsgstr ""|msgid "Elementor installieren →"\nmsgstr "Install Elementor →"|
+s|^msgid "Bitte Lizenz aktivieren"\nmsgstr ""|msgid "Bitte Lizenz aktivieren"\nmsgstr "Please activate license"|
+s|^msgid "Bitte Template Kit importieren"\nmsgstr ""|msgid "Bitte Template Kit importieren"\nmsgstr "Please import Template Kit"|
+s|^msgid "ACF installieren →"\nmsgstr ""|msgid "ACF installieren →"\nmsgstr "Install ACF →"|
+s|^msgid "Plugin installieren →"\nmsgstr ""|msgid "Plugin installieren →"\nmsgstr "Install Plugin →"|
+s|^msgid "Farben anwenden →"\nmsgstr ""|msgid "Farben anwenden →"\nmsgstr "Apply Colors →"|
+s|^msgid "Weiter ohne Änderung →"\nmsgstr ""|msgid "Weiter ohne Änderung →"\nmsgstr "Continue without change →"|
+s|^msgid "Weiter (Styles sind optional) →"\nmsgstr ""|msgid "Weiter (Styles sind optional) →"\nmsgstr "Continue (Styles are optional) →"|
+s|^msgid "Setup abgeschlossen ✓"\nmsgstr ""|msgid "Setup abgeschlossen ✓"\nmsgstr "Setup completed ✓"|

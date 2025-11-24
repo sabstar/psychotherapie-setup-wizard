@@ -1,0 +1,10 @@
+Schema,Name,Primary,Secondary,Text,Info,Warning,Error,Background,Surface,Muted,Border
+template-standard,✨ Template Standard,#2F6D67,#6FA89F,#1A1F23,#0D47A1,#8C6E00,#C0392B,#FAFAF8,#F2F5F3,#5B6366,#D9E3DF
+sage-green,🌿 Salbeigrün,#8FA88F,#B8C9B8,#2A2F2A,#5B8CA8,#A89D5B,#A85B5B,#F7F9F7,#EFF3EF,#6B716B,#D4DDD4
+soft-lavender,💜 Sanfte Lavendeltöne,#7B88B5,#A8B3D4,#2E2E3A,#6A9AB0,#B5A67C,#A86B6B,#F9F9FC,#F0F0F5,#6B6B7D,#D8D8E8
+warm-rose,🌸 Warme Rosétöne,#D4877B,#E8AFA6,#3A2E2E,#7FA3B8,#D4A87B,#B86B6B,#FCF8F7,#F5EFED,#7D6E6B,#E8DDD8
+warm-blue-apricot,🌊 Blaugrau/Apricot,#7A93A8,#A8BDC9,#232A2E,#5B7FA8,#D4A03D,#C64B42,#FAFBFC,#EEF3F5,#656B70,#D6E1E7
+chocolate-mokka,☕ Schokobraun,#6B5447,#9B8577,#2F2926,#5B7FA8,#A88D47,#A84D47,#FAF8F7,#F0EBE8,#6B6560,#DDD5D0
+clear-blue,💙 Klares Mittelblau,#5B8CB8,#8FB3D4,#232A2F,#4A7BA7,#B8A047,#B84D4D,#F7FAFC,#EDF3F7,#5F666B,#D4E1EA
+deep-terracotta,🍂 Tiefes Terracotta,#A85840,#D4936B,#2F2623,#5B84A8,#B89447,#B84747,#FCF8F6,#F5EEEA,#6F6560,#E8DDD4
+soft-mauve,🪻 Weiches Mauve,#A8859B,#C9B3BE,#2A2628,#6B8AA8,#C9A350,#B84D4D,#FDFBFC,#F5F0F3,#6F696D,#E3D8DE

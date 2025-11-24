@@ -1,0 +1,6 @@
+{
+    "name": "psycho/wizard",
+    "require": {
+        "php-stubs/wordpress-stubs": "*"
+    }
+}

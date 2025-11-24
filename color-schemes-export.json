@@ -1,0 +1,155 @@
+{
+  "color_schemes": {
+    "template-standard": {
+      "name": "✨ Template Standard",
+      "description": "Original template colors with green tones",
+      "colors": {
+        "primary": "#2F6D67",
+        "secondary": "#6FA89F",
+        "text": "#1A1F23",
+        "info": "#0D47A1",
+        "warning": "#8C6E00",
+        "error": "#C0392B",
+        "background": "#FAFAF8",
+        "surface": "#F2F5F3",
+        "muted": "#5B6366",
+        "border": "#D9E3DF"
+      }
+    },
+    "sage-green": {
+      "name": "🌿 Salbeigrün",
+      "description": "Sage green tones",
+      "colors": {
+        "primary": "#8FA88F",
+        "secondary": "#B8C9B8",
+        "text": "#2A2F2A",
+        "info": "#5B8CA8",
+        "warning": "#A89D5B",
+        "error": "#A85B5B",
+        "background": "#F7F9F7",
+        "surface": "#EFF3EF",
+        "muted": "#6B716B",
+        "border": "#D4DDD4"
+      }
+    },
+    "soft-lavender": {
+      "name": "💜 Sanfte Lavendeltöne",
+      "description": "Soft lavender tones",
+      "colors": {
+        "primary": "#7B88B5",
+        "secondary": "#A8B3D4",
+        "text": "#2E2E3A",
+        "info": "#6A9AB0",
+        "warning": "#B5A67C",
+        "error": "#A86B6B",
+        "background": "#F9F9FC",
+        "surface": "#F0F0F5",
+        "muted": "#6B6B7D",
+        "border": "#D8D8E8"
+      }
+    },
+    "warm-rose": {
+      "name": "🌸 Warme Rosétöne",
+      "description": "Warm rose tones",
+      "colors": {
+        "primary": "#D4877B",
+        "secondary": "#E8AFA6",
+        "text": "#3A2E2E",
+        "info": "#7FA3B8",
+        "warning": "#D4A87B",
+        "error": "#B86B6B",
+        "background": "#FCF8F7",
+        "surface": "#F5EFED",
+        "muted": "#7D6E6B",
+        "border": "#E8DDD8"
+      }
+    },
+    "warm-blue-apricot": {
+      "name": "🌊 Blaugrau/Apricot",
+      "description": "Blue-gray and apricot",
+      "colors": {
+        "primary": "#7A93A8",
+        "secondary": "#A8BDC9",
+        "text": "#232A2E",
+        "info": "#5B7FA8",
+        "warning": "#D4A03D",
+        "error": "#C64B42",
+        "background": "#FAFBFC",
+        "surface": "#EEF3F5",
+        "muted": "#656B70",
+        "border": "#D6E1E7"
+      }
+    },
+    "chocolate-mokka": {
+      "name": "☕ Schokobraun",
+      "description": "Chocolate brown tones",
+      "colors": {
+        "primary": "#6B5447",
+        "secondary": "#9B8577",
+        "text": "#2F2926",
+        "info": "#5B7FA8",
+        "warning": "#A88D47",
+        "error": "#A84D47",
+        "background": "#FAF8F7",
+        "surface": "#F0EBE8",
+        "muted": "#6B6560",
+        "border": "#DDD5D0"
+      }
+    },
+    "clear-blue": {
+      "name": "💙 Klares Mittelblau",
+      "description": "Clear medium blue",
+      "colors": {
+        "primary": "#5B8CB8",
+        "secondary": "#8FB3D4",
+        "text": "#232A2F",
+        "info": "#4A7BA7",
+        "warning": "#B8A047",
+        "error": "#B84D4D",
+        "background": "#F7FAFC",
+        "surface": "#EDF3F7",
+        "muted": "#5F666B",
+        "border": "#D4E1EA"
+      }
+    },
+    "deep-terracotta": {
+      "name": "🍂 Tiefes Terracotta",
+      "description": "Deep terracotta",
+      "colors": {
+        "primary": "#A85840",
+        "secondary": "#D4936B",
+        "text": "#2F2623",
+        "info": "#5B84A8",
+        "warning": "#B89447",
+        "error": "#B84747",
+        "background": "#FCF8F6",
+        "surface": "#F5EEEA",
+        "muted": "#6F6560",
+        "border": "#E8DDD4"
+      }
+    },
+    "soft-mauve": {
+      "name": "🪻 Weiches Mauve",
+      "description": "Soft mauve",
+      "colors": {
+        "primary": "#A8859B",
+        "secondary": "#C9B3BE",
+        "text": "#2A2628",
+        "info": "#6B8AA8",
+        "warning": "#C9A350",
+        "error": "#B84D4D",
+        "background": "#FDFBFC",
+        "surface": "#F5F0F3",
+        "muted": "#6F696D",
+        "border": "#E3D8DE"
+      }
+    }
+  },
+  "metadata": {
+    "total_schemes": 9,
+    "colors_per_scheme": 10,
+    "export_date": "2025-01-21",
+    "source": "Psychotherapie Setup Wizard - Step 13",
+    "changelog": "Updated: Removed 'warm-earth' and 'dove-blue-beige', added 'sage-green', 'chocolate-mokka', 'clear-blue', and 'deep-terracotta'"
+  }
+}

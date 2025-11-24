@@ -1,0 +1,29 @@
+# IDE Settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
+
+# Build files
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+error_log
+debug.log
+
+# WordPress
+wp-config.php
+.htaccess

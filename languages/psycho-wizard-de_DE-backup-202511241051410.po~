@@ -1,0 +1,1503 @@
+# Copyright (C) 2025 Psychotherapie Template Kit - Setup Wizard
+# This file is distributed under the same license as the Psychotherapie Template Kit - Setup Wizard package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Psychotherapie Template Kit - Setup Wizard 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 13:51+0100\n"
+"PO-Revision-Date: 2025-11-24 10:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.29"
+
+msgid ""
+"1. Klicke auf \"Elementor aktivieren\" (öffnet Plugins-Seite in neuem Tab)"
+msgstr ""
+"1. Klicke auf \"Elementor aktivieren\" (öffnet Plugins-Seite in neuem Tab)"
+
+msgid ""
+"2. Finde <strong>\"Elementor\"</strong> in der Plugin-Liste und klicke auf "
+"<strong>\"Aktivieren\"</strong>"
+msgstr ""
+"2. Finde <strong>\"Elementor\"</strong> in der Plugin-Liste und klicke auf "
+"<strong>\"Aktivieren\"</strong>"
+
+msgid "3. Kehre zu diesem Tab zurück und klicke auf \"Status prüfen\""
+msgstr "3. Kehre zu diesem Tab zurück und klicke auf \"Status prüfen\""
+
+msgid ""
+"<strong>1. Öffne die Elementor Einstellungen</strong><br>Klicke auf den "
+"Button unten um die Elementor-Einstellungen in einem neuen Tab zu öffnen.<br>"
+"<br><strong>2. Aktiviere den Team Post Type</strong><br>• Gehe zu <strong>"
+"Funktionen</strong> (Features)<br>• Scrolle nach unten zu <strong>\"Custom "
+"Post Types\"</strong><br>• Aktiviere das Häkchen bei <strong>"
+"\"Team\"</strong><br><br><strong>3. Deaktiviere Standard-Farben & "
+"Schriftarten</strong><br>• Scrolle weiter nach unten<br>• Aktiviere <strong>"
+"\"Standardfarben deaktivieren\"</strong><br>• Aktiviere <strong>"
+"\"Standardschriftarten deaktivieren\"</strong><br><br><strong>4. "
+"Speichern</strong><br>• Klicke auf <strong>\"Änderungen speichern\"</strong> "
+"ganz unten<br>• Kehre zu diesem Tab zurück und klicke auf \"Konfiguration "
+"prüfen\""
+msgstr ""
+"<strong>1. Öffne die Elementor Einstellungen</strong><br>Klicke auf den "
+"Button unten um die Elementor-Einstellungen in einem neuen Tab zu öffnen.<br>"
+"<br><strong>2. Aktiviere den Team Post Type</strong><br>• Gehe zu <strong>"
+"Funktionen</strong> (Features)<br>• Scrolle nach unten zu <strong>\"Custom "
+"Post Types\"</strong><br>• Aktiviere das Häkchen bei <strong>"
+"\"Team\"</strong><br><br><strong>3. Deaktiviere Standard-Farben & "
+"Schriftarten</strong><br>• Scrolle weiter nach unten<br>• Aktiviere <strong>"
+"\"Standardfarben deaktivieren\"</strong><br>• Aktiviere <strong>"
+"\"Standardschriftarten deaktivieren\"</strong><br><br><strong>4. "
+"Speichern</strong><br>• Klicke auf <strong>\"Änderungen speichern\"</strong> "
+"ganz unten<br>• Kehre zu diesem Tab zurück und klicke auf \"Konfiguration "
+"prüfen\""
+
+msgid ""
+"<strong>Bessere Backend-Übersicht:</strong><br>• Größere, lesbarere "
+"Überschriften für ACF Feldgruppen<br>• Bessere visuelle Trennung zwischen "
+"Feld-Sections<br>• Optimierte Darstellung bei 40+ Feldern<br>• Hilft deinen "
+"Kunden beim Bearbeiten der Team Members<br><br>Das Plugin ist im Template "
+"Kit Paket enthalten als <code>styling-plugin.zip</code>"
+msgstr ""
+"<strong>Bessere Backend-Übersicht:</strong><br>• Größere, lesbarere "
+"Überschriften für ACF Feldgruppen<br>• Bessere visuelle Trennung zwischen "
+"Feld-Sections<br>• Optimierte Darstellung bei 40+ Feldern<br>• Hilft deinen "
+"Kunden beim Bearbeiten der Team Members<br><br>Das Plugin ist im Template "
+"Kit Paket enthalten als <code>styling-plugin.zip</code>"
+
+msgid "<strong>Contact</strong> → Suche nach \"Contact\""
+msgstr "<strong>Contact</strong> → Suche nach \"Contact\""
+
+msgid ""
+"<strong>Die Lizenz-Aktivierung ist zwingend erforderlich!</strong><br>Ohne "
+"aktive Elementor Pro Lizenz kann das Template Kit nicht importiert werden."
+"<br><br><strong>Falls die Lizenz bereits woanders verwendet wird:</strong>"
+"<br>Gehe auf der alten Website zu Elementor → Lizenz → \"Deaktivieren\""
+msgstr ""
+"<strong>Die Lizenz-Aktivierung ist zwingend erforderlich!</strong><br>Ohne "
+"aktive Elementor Pro Lizenz kann das Template Kit nicht importiert werden."
+"<br><br><strong>Falls die Lizenz bereits woanders verwendet wird:</strong>"
+"<br>Gehe auf der alten Website zu Elementor → Lizenz → \"Deaktivieren\""
+
+msgid ""
+"<strong>Elementor Pro ist bereits auf deinem System installiert, aber "
+"momentan deaktiviert.</strong><br><br>Du musst es nicht nochmal hochladen! "
+"Aktiviere es einfach und verbinde dann die Lizenz."
+msgstr ""
+"<strong>Elementor Pro ist bereits auf deinem System installiert, aber "
+"momentan deaktiviert.</strong><br><br>Du musst es nicht nochmal hochladen! "
+"Aktiviere es einfach und verbinde dann die Lizenz."
+
+msgid ""
+"<strong>Elementor Pro Status:</strong><br>• Plugin: ✅ Installiert und "
+"aktiviert<br>• Lizenz: ✅ Aktiv<br><br>Du kannst direkt zum nächsten Schritt "
+"weitergehen!"
+msgstr ""
+"<strong>Elementor Pro Status:</strong><br>• Plugin: ✅ Installiert und "
+"aktiviert<br>• Lizenz: ✅ Aktiv<br><br>Du kannst direkt zum nächsten Schritt "
+"weitergehen!"
+
+msgid ""
+"<strong>Elementor Pro wurde installiert!</strong><br><br>Aktiviere jetzt "
+"deine Lizenz, damit du das Template Kit importieren kannst.<br><br><strong>"
+"So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+msgstr ""
+"<strong>Elementor Pro wurde installiert!</strong><br><br>Aktiviere jetzt "
+"deine Lizenz, damit du das Template Kit importieren kannst.<br><br><strong>"
+"So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+
+msgid ""
+"<strong>Erfolgreich eingerichtet:</strong><br>• Custom Post Type \"Team "
+"Member\" (team_member)<br>• %d ACF Field Group(s) für Team Members<br>• "
+"Insgesamt %d ACF Field Group(s) vorhanden<br><br>Du kannst jetzt Team "
+"Members unter \"Team\" im WordPress Menü verwalten!<br><strong>⚠️ Wichtig:"
+"</strong> Lade die ACF-Datei nicht erneut hoch, das würde Duplikate "
+"erstellen!"
+msgstr ""
+"<strong>Erfolgreich eingerichtet:</strong><br>• Custom Post Type \"Team "
+"Member\" (team_member)<br>• %d ACF Field Group(s) für Team Members<br>• "
+"Insgesamt %d ACF Field Group(s) vorhanden<br><br>Du kannst jetzt Team "
+"Members unter \"Team\" im WordPress Menü verwalten!<br><strong>⚠️ Wichtig:"
+"</strong> Lade die ACF-Datei nicht erneut hoch, das würde Duplikate "
+"erstellen!"
+
+msgid ""
+"<strong>Folgende Einstellungen wurden gesetzt:</strong><br>• Team Custom "
+"Post Type aktiviert<br>• Standardfarben deaktiviert (Theme-Farben aktiv)<br>"
+"• Standardschriftarten deaktiviert (Theme-Fonts aktiv)<br><br>Du kannst "
+"direkt zum nächsten Schritt weitergehen!"
+msgstr ""
+"<strong>Folgende Einstellungen wurden gesetzt:</strong><br>• Team Custom "
+"Post Type aktiviert<br>• Standardfarben deaktiviert (Theme-Farben aktiv)<br>"
+"• Standardschriftarten deaktiviert (Theme-Fonts aktiv)<br><br>Du kannst "
+"direkt zum nächsten Schritt weitergehen!"
+
+msgid ""
+"<strong>Gefundene Inhalte:</strong><br>• %d Elementor Templates (Header, "
+"Footer, Singles, etc.)<br>• %d Seiten mit Elementor erstellt<br><br>Du "
+"kannst direkt zum nächsten Schritt weitergehen!"
+msgstr ""
+"<strong>Gefundene Inhalte:</strong><br>• %d Elementor Templates (Header, "
+"Footer, Singles, etc.)<br>• %d Seiten mit Elementor erstellt<br><br>Du "
+"kannst direkt zum nächsten Schritt weitergehen!"
+
+msgid "<strong>Home</strong> → Suche nach \"Home\""
+msgstr "<strong>Home</strong> → Suche nach \"Home\""
+
+msgid "<strong>How it works</strong> → Suche nach \"How it works\""
+msgstr "<strong>How it works</strong> → Suche nach \"How it works\""
+
+msgid "<strong>Kosten & Abrechnung</strong> → Suche nach \"Fees\""
+msgstr "<strong>Kosten & Abrechnung</strong> → Suche nach \"Fees\""
+
+msgid ""
+"<strong>Lade die ACF JSON-Datei nur einmal hoch!</strong><br>Ein erneuter "
+"Upload würde Duplikate erstellen und das Backend beschädigen."
+msgstr ""
+"<strong>Lade die ACF JSON-Datei nur einmal hoch!</strong><br>Ein erneuter "
+"Upload würde Duplikate erstellen und das Backend beschädigen."
+
+msgid ""
+"<strong>Schritt-für-Schritt:</strong><br><br><strong>1.</strong> Klicke auf "
+"\"Elementor Kit Import öffnen\" (öffnet in neuem Tab)<br><strong>2.</strong> "
+"Klicke auf <strong>\"Upload\"</strong> und wähle deine ZIP-Datei aus<br>"
+"<strong>3.</strong> Wähle aus was importiert werden soll:<br>&nbsp;&nbsp;"
+"&nbsp;&nbsp;✅ Templates<br>&nbsp;&nbsp;&nbsp;&nbsp;✅ Content (Seiten)<br>"
+"&nbsp;&nbsp;&nbsp;&nbsp;✅ Site Settings<br><strong>4.</strong> Klicke auf "
+"<strong>\"Import\"</strong> und warte bis der Import abgeschlossen ist<br>"
+"<strong>5.</strong> Kehre zu diesem Tab zurück und klicke auf \"Import-"
+"Status prüfen\""
+msgstr ""
+"<strong>Schritt-für-Schritt:</strong><br><br><strong>1.</strong> Klicke auf "
+"\"Elementor Kit Import öffnen\" (öffnet in neuem Tab)<br><strong>2.</strong> "
+"Klicke auf <strong>\"Upload\"</strong> und wähle deine ZIP-Datei aus<br>"
+"<strong>3.</strong> Wähle aus was importiert werden soll:<br>&nbsp;&nbsp;"
+"&nbsp;&nbsp;✅ Templates<br>&nbsp;&nbsp;&nbsp;&nbsp;✅ Content (Seiten)<br>"
+"&nbsp;&nbsp;&nbsp;&nbsp;✅ Site Settings<br><strong>4.</strong> Klicke auf "
+"<strong>\"Import\"</strong> und warte bis der Import abgeschlossen ist<br>"
+"<strong>5.</strong> Kehre zu diesem Tab zurück und klicke auf \"Import-"
+"Status prüfen\""
+
+msgid ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" "
+"(öffnet Plugins-Seite in neuem Tab)<br>2. Finde <strong>\"Elementor "
+"Pro\"</strong> in der Plugin-Liste und klicke auf <strong>"
+"\"Aktivieren\"</strong><br>3. Klicke dann auf <strong>\"Connect & "
+"Activate\"</strong> um die Lizenz zu verbinden<br>4. Melde dich mit deinem "
+"Elementor-Account an<br>5. Kehre zu diesem Tab zurück und klicke auf "
+"\"Status prüfen\""
+msgstr ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" "
+"(öffnet Plugins-Seite in neuem Tab)<br>2. Finde <strong>\"Elementor "
+"Pro\"</strong> in der Plugin-Liste und klicke auf <strong>"
+"\"Aktivieren\"</strong><br>3. Klicke dann auf <strong>\"Connect & "
+"Activate\"</strong> um die Lizenz zu verbinden<br>4. Melde dich mit deinem "
+"Elementor-Account an<br>5. Kehre zu diesem Tab zurück und klicke auf "
+"\"Status prüfen\""
+
+msgid ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Zur Lizenz-Seite\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+msgstr ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Zur Lizenz-Seite\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+
+msgid "<strong>Therapy Services</strong> → Suche nach \"Services\""
+msgstr "<strong>Therapy Services</strong> → Suche nach \"Services\""
+
+msgid ""
+"<strong>Warum ist das wichtig?</strong><br><br><strong>Team Post Type:"
+"</strong><br>Ermöglicht die Verwaltung deiner Team-Mitglieder mit allen 40+ "
+"Custom Fields (Foto, Position, Qualifikationen, etc.)<br><br><strong>"
+"Standardfarben deaktivieren:</strong><br>Deine Template-Farben werden "
+"verwendet statt Elementor-Standard. So siehst du sofort die richtigen Farben "
+"auf deiner Website.<br><br><strong>Standardschriftarten deaktivieren:"
+"</strong><br>Deine Template-Fonts werden verwendet. So erscheinen alle Texte "
+"in der korrekten Schriftart."
+msgstr ""
+"<strong>Warum ist das wichtig?</strong><br><br><strong>Team Post Type:"
+"</strong><br>Ermöglicht die Verwaltung deiner Team-Mitglieder mit allen 40+ "
+"Custom Fields (Foto, Position, Qualifikationen, etc.)<br><br><strong>"
+"Standardfarben deaktivieren:</strong><br>Deine Template-Farben werden "
+"verwendet statt Elementor-Standard. So siehst du sofort die richtigen Farben "
+"auf deiner Website.<br><br><strong>Standardschriftarten deaktivieren:"
+"</strong><br>Deine Template-Fonts werden verwendet. So erscheinen alle Texte "
+"in der korrekten Schriftart."
+
+#: templates/steps/step-6.php
+msgid "ACF für Team Members"
+msgstr "Team Members"
+
+msgid "ACF installieren →"
+msgstr ""
+
+msgid "ACF JSON Datei hochladen"
+msgstr "ACF JSON Datei hochladen"
+
+msgid "ACF Setup"
+msgstr "ACF Setup"
+
+msgid "acf-team-members.json"
+msgstr "acf-team-members.json"
+
+msgid ""
+"Aktiviere den Team Custom Post Type und konfiguriere die Elementor-"
+"Einstellungen für beste Darstellung."
+msgstr ""
+"Aktiviere den Team Custom Post Type und konfiguriere die Elementor-"
+"Einstellungen für beste Darstellung."
+
+msgid "Archiv Übersicht"
+msgstr "Archiv Übersicht"
+
+msgid ""
+"Auf der linken Seite im Loop Grid wählst du jetzt das Template aus. Gebe "
+"<strong>\"blog\"</strong> ein. Es erscheint das <strong>\"Blog Posts Layout "
+"(Template)\"</strong>. Wähle es aus."
+msgstr ""
+"Auf der linken Seite im Loop Grid wählst du jetzt das Template aus. Gebe "
+"<strong>\"blog\"</strong> ein. Es erscheint das <strong>\"Blog Posts Layout "
+"(Template)\"</strong>. Wähle es aus."
+
+msgid ""
+"Auf der rechten Seite solltest du jetzt deine Team Members sehen (sofern du "
+"welche erstellt hast).<br><br><strong>Team Member erscheinen erst, wenn du "
+"sie angelegt hast.</strong> Nach dem Import des Kits sind keine Team Member "
+"vorhanden.<br><br><strong>Solo-Therapeut?</strong> Wenn du als Einzelperson "
+"arbeitest, erstelle einen Team Member für dich und verlinke diese Seite im "
+"Menü als \"Über mich\" statt \"Team\"."
+msgstr ""
+"Auf der rechten Seite solltest du jetzt deine Team Members sehen (sofern du "
+"welche erstellt hast).<br><br><strong>Team Member erscheinen erst, wenn du "
+"sie angelegt hast.</strong> Nach dem Import des Kits sind keine Team Member "
+"vorhanden.<br><br><strong>Solo-Therapeut?</strong> Wenn du als Einzelperson "
+"arbeitest, erstelle einen Team Member für dich und verlinke diese Seite im "
+"Menü als \"Über mich\" statt \"Team\"."
+
+msgid "Automatische Konfiguration"
+msgstr "Konfiguration"
+
+#: templates/steps/step-8.php
+msgid "Backend Styling Plugin"
+msgstr "Styling Plugin"
+
+msgid "Bearbeite die Datenschutzseite"
+msgstr "Bearbeite die Datenschutzseite"
+
+msgid "Bedingung hinzufügen"
+msgstr "Bedingung hinzufügen"
+
+msgid "Bedingungen bearbeiten"
+msgstr "Bedingungen bearbeiten"
+
+msgid ""
+"Bei dem ausgewählten Template siehst du links unten die Option <strong>"
+"\"Bedingungen bearbeiten\"</strong>. Klicke darauf."
+msgstr ""
+"Bei dem ausgewählten Template siehst du links unten die Option <strong>"
+"\"Bedingungen bearbeiten\"</strong>. Klicke darauf."
+
+msgid ""
+"Bei den Legal Pages wählst du <strong>Imprint UND Privacy Policy</strong> "
+"aus."
+msgstr ""
+"Bei den Legal Pages wählst du <strong>Imprint UND Privacy Policy</strong> "
+"aus."
+
+msgid "Beispiel-Daten mit ausgefüllten Feldern als Vorlage (optional)"
+msgstr "Beispiel-Daten mit ausgefüllten Feldern als Vorlage (optional)"
+
+msgid "Bereit"
+msgstr "Bereit"
+
+msgid "Bereit zur Installation"
+msgstr "Bereit zur Installation"
+
+msgid ""
+"Bevor wir die Templates zuweisen, müssen wir die Datenschutzseite "
+"veröffentlichen."
+msgstr ""
+"Bevor wir die Templates zuweisen, müssen wir die Datenschutzseite "
+"veröffentlichen."
+
+msgid "Bitte aktiviere Elementor über die Plugins-Seite."
+msgstr "Bitte aktiviere Elementor über die Plugins-Seite."
+
+msgid "Bitte lade das Plugin hoch."
+msgstr "Bitte lade das Plugin hoch."
+
+msgid "Bitte lade die ACF JSON-Datei hoch."
+msgstr "Bitte lade die ACF JSON-Datei hoch."
+
+msgid "Bitte lade eine XML-Datei hoch (.xml)"
+msgstr "Bitte lade eine XML-Datei hoch (.xml)"
+
+msgid "Bitte Lizenz aktivieren"
+msgstr "Bitte Lizenz aktivieren"
+
+msgid "Bitte Template Kit importieren"
+msgstr "Bitte Template Kit importieren"
+
+msgid "Bitte versuche es erneut."
+msgstr "Bitte versuche es erneut."
+
+msgid "Blog Posts Layout"
+msgstr "Blog Posts Layout"
+
+msgid "Blog Template wählen"
+msgstr "Blog Template wählen"
+
+msgid "Blog Template zuweisen"
+msgstr "Blog Template zuweisen"
+
+msgid "Custom Post Type mit 40+ Feldern"
+msgstr "Custom Post Type mit 40+ Feldern"
+
+msgid ""
+"Damit ist das Grund-Setup fertig. Jetzt geht es daran, deine Seite zu "
+"personalisieren und deine eigenen Farben, Schriften und Inhalte einzufügen."
+msgstr ""
+"Damit ist das Grund-Setup fertig. Jetzt geht es daran, deine Seite zu "
+"personalisieren und deine eigenen Farben, Schriften und Inhalte einzufügen."
+
+msgid ""
+"Das Backend Styling Plugin ist aktiv und verbessert die Darstellung der Team "
+"Member Felder im WordPress Backend."
+msgstr ""
+"Das Backend Styling Plugin ist aktiv und verbessert die Darstellung der Team "
+"Member Felder im WordPress Backend."
+
+msgid ""
+"Das gleiche gilt für alle anderen Seiten, die du nicht brauchst. Im nächsten "
+"Step werden wir die Menüpunkte anpassen."
+msgstr ""
+"Das gleiche gilt für alle anderen Seiten, die du nicht brauchst. Im nächsten "
+"Step werden wir die Menüpunkte anpassen."
+
+msgid ""
+"Das Hello Theme ist das offizielle, leichtgewichtige Theme von Elementor."
+msgstr ""
+"Das Hello Theme ist das offizielle, leichtgewichtige Theme von Elementor."
+
+msgid ""
+"Das Template aus den <strong>Conditions</strong> im Theme Builder löschen"
+msgstr ""
+"Das Template aus den <strong>Conditions</strong> im Theme Builder löschen"
+
+msgid "Datei ist zu groß."
+msgstr "Datei ist zu groß."
+
+msgid "Datei ist zu groß. Maximum: 10MB"
+msgstr "Datei ist zu groß. Maximum: 10MB"
+
+msgid "Datenschutz"
+msgstr "Datenschutz"
+
+#: templates/steps/step-10.php
+msgid "Datenschutzseite vorbereiten"
+msgstr "Datenschutzseite vorbereiten"
+
+msgid "Dein Fortschritt"
+msgstr "Dein Fortschritt"
+
+msgid ""
+"Deine Website ist jetzt bereit für deine persönlichen Inhalte! Folge dieser "
+"Anleitung, um Texte und Bilder in den Templates zu personalisieren."
+msgstr ""
+"Deine Website ist jetzt bereit für deine persönlichen Inhalte! Folge dieser "
+"Anleitung, um Texte und Bilder in den Templates zu personalisieren."
+
+msgid "Demo Daten"
+msgstr "Demo Daten"
+
+msgid "Demo Team Members importieren"
+msgstr "Demo Team Members importieren"
+
+#: templates/steps/step-9.php
+msgid "Demo-Daten importieren (Optional)"
+msgstr "Demo-Daten importieren (Optional)"
+
+msgid "Demo-Daten werden importiert..."
+msgstr "Demo-Daten werden importiert..."
+
+msgid "Demo-Daten XML hochladen"
+msgstr "Demo-Daten XML hochladen"
+
+msgid "Demo-Daten übersprungen"
+msgstr "Demo-Daten übersprungen"
+
+msgid ""
+"Der <strong>Team Post Type</strong> erscheint nur, wenn das ACF JSON "
+"erfolgreich importiert wurde (Schritt 6).<br>Falls \"Team\" nicht sichtbar "
+"ist, gehe zurück zu Schritt 6 und importiere das ACF JSON erneut."
+msgstr ""
+"Der <strong>Team Post Type</strong> erscheint nur, wenn das ACF JSON "
+"erfolgreich importiert wurde (Schritt 6).<br>Falls \"Team\" nicht sichtbar "
+"ist, gehe zurück zu Schritt 6 und importiere das ACF JSON erneut."
+
+msgid ""
+"Der Custom Post Type \"Team Members\" ermöglicht es dir, dein Team mit ca. "
+"40 individuellen Feldern zu verwalten (Foto, Position, Qualifikationen, "
+"Spezialisierungen, etc.)."
+msgstr ""
+"Der Custom Post Type \"Team Members\" ermöglicht es dir, dein Team mit ca. "
+"40 individuellen Feldern zu verwalten (Foto, Position, Qualifikationen, "
+"Spezialisierungen, etc.)."
+
+msgid "Der Setup-Wizard wurde bereits durchlaufen."
+msgstr "Der Setup-Wizard wurde bereits durchlaufen."
+
+msgid "Design"
+msgstr "Design"
+
+msgid ""
+"Die <strong>Impressum-Seite</strong> ist bereits in deinem Template Kit "
+"enthalten und veröffentlicht. Du musst nur noch den Inhalt mit deinen "
+"eigenen Daten anpassen."
+msgstr ""
+"Die <strong>Impressum-Seite</strong> ist bereits in deinem Template Kit "
+"enthalten und veröffentlicht. Du musst nur noch den Inhalt mit deinen "
+"eigenen Daten anpassen."
+
+msgid "Die Anfrage hat zu lange gedauert."
+msgstr "Die Anfrage hat zu lange gedauert."
+
+msgid ""
+"Die Beispiel-Team-Members wurden erfolgreich importiert und können als "
+"Vorlage genutzt werden."
+msgstr ""
+"Die Beispiel-Team-Members wurden erfolgreich importiert und können als "
+"Vorlage genutzt werden."
+
+msgid "Die Datenschutzseite existiert, ist aber noch nicht veröffentlicht."
+msgstr "Die Datenschutzseite existiert, ist aber noch nicht veröffentlicht."
+
+msgid ""
+"Die Datenschutzseite ist <strong>deine rechtliche Verantwortung</strong>!"
+msgstr ""
+
+msgid ""
+"Die Datenschutzseite ist bereits veröffentlicht und kann den Templates "
+"zugewiesen werden."
+msgstr ""
+"Die Datenschutzseite ist bereits veröffentlicht und kann den Templates "
+"zugewiesen werden."
+
+msgid ""
+"Die Demo-Daten sind <strong>optional</strong>. Du kannst auch direkt mit "
+"eigenen Team Members starten.<br>Die Demo-Daten helfen dir zu verstehen, wie "
+"die 40+ Felder ausgefüllt werden sollten."
+msgstr ""
+"Die Demo-Daten sind <strong>optional</strong>. Du kannst auch direkt mit "
+"eigenen Team Members starten.<br>Die Demo-Daten helfen dir zu verstehen, wie "
+"die 40+ Felder ausgefüllt werden sollten."
+
+msgid "Die Installation startet automatisch, wenn du auf \"Weiter\" klickst."
+msgstr "Die Installation startet automatisch, wenn du auf \"Weiter\" klickst."
+
+msgid ""
+"Die Privacy Page (Datenschutz) muss zuerst veröffentlicht sein, um sie "
+"auswählen und zuordnen zu können!"
+msgstr ""
+"Die Privacy Page (Datenschutz) muss zuerst veröffentlicht sein, um sie "
+"auswählen und zuordnen zu können!"
+
+msgid ""
+"Die Seite auf <strong>\"Entwurf\"</strong> stellen (sie sollte nicht "
+"veröffentlicht sein)"
+msgstr ""
+"Die Seite auf <strong>\"Entwurf\"</strong> stellen (sie sollte nicht "
+"veröffentlicht sein)"
+
+msgid "Die Seite aus dem Menü entfernen (das machen wir im nächsten Step)"
+msgstr "Die Seite aus dem Menü entfernen (das machen wir im nächsten Step)"
+
+msgid "Die Seite wird in 2 Sekunden aktualisiert..."
+msgstr "Die Seite wird in 2 Sekunden aktualisiert..."
+
+msgid ""
+"Dieser Schritt ist essentiell! Ohne Template-Zuordnung werden deine Seiten "
+"nicht korrekt angezeigt."
+msgstr ""
+"Dieser Schritt ist essentiell! Ohne Template-Zuordnung werden deine Seiten "
+"nicht korrekt angezeigt."
+
+msgid "DO: Nur im Tab \"Inhalt\" arbeiten"
+msgstr "DO: Nur im Tab \"Inhalt\" arbeiten"
+
+msgid "DON'T: Tab \"Style\" vermeiden"
+msgstr "DON'T: Tab \"Style\" vermeiden"
+
+msgid ""
+"Du bist bei Schritt %d von 16. Setze den Setup-Wizard fort um dein Template "
+"Kit zu vervollständigen."
+msgstr ""
+"Du bist bei Schritt %d von 16. Setze den Setup-Wizard fort um dein Template "
+"Kit zu vervollständigen."
+
+msgid "Du kannst direkt zum nächsten Schritt weitergehen!"
+msgstr "Du kannst direkt zum nächsten Schritt weitergehen!"
+
+msgid ""
+"Du musst es nicht nochmal installieren! Aktiviere es einfach über die "
+"Plugins-Seite."
+msgstr ""
+"Du musst es nicht nochmal installieren! Aktiviere es einfach über die "
+"Plugins-Seite."
+
+msgid ""
+"Du siehst hier die Übersichtsseite mit allen Templates. Wenn ein Template "
+"einen <strong style=\"color: #10b981;\">grünen Punkt</strong> oben links hat,"
+" bedeutet dies, dass es bereits einer Seite zugeordnet ist.<br><br>In der "
+"Übersicht siehst du auch die <strong>Loop Grids</strong>, die wir später den "
+"Blog- und Team-Seiten zuordnen werden."
+msgstr ""
+"Du siehst hier die Übersichtsseite mit allen Templates. Wenn ein Template "
+"einen <strong style=\"color: #10b981;\">grünen Punkt</strong> oben links hat,"
+" bedeutet dies, dass es bereits einer Seite zugeordnet ist.<br><br>In der "
+"Übersicht siehst du auch die <strong>Loop Grids</strong>, die wir später den "
+"Blog- und Team-Seiten zuordnen werden."
+
+msgid "Ein Fehler ist aufgetreten"
+msgstr "Ein Fehler ist aufgetreten"
+
+msgid "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+msgstr "Bitte versuche es erneut."
+
+msgid "Elementor"
+msgstr "Elementor"
+
+msgid "Elementor & notwendige Erweiterungen"
+msgstr "Elementor & notwendige Erweiterungen"
+
+#: templates/steps/step-3.php
+msgid "Elementor installieren & aktivieren"
+msgstr "Elementor installieren & aktivieren"
+
+msgid "Elementor installieren →"
+msgstr ""
+
+msgid ""
+"Elementor ist bereits auf deinem System installiert, aber momentan "
+"deaktiviert."
+msgstr ""
+"Elementor ist bereits auf deinem System installiert, aber momentan "
+"deaktiviert."
+
+msgid "Elementor ist der Page Builder, mit dem alle Templates erstellt wurden."
+msgstr ""
+"Elementor ist der Page Builder, mit dem alle Templates erstellt wurden."
+
+msgid "Elementor Pro"
+msgstr "Elementor Pro"
+
+#: templates/steps/step-4.php
+msgid "Elementor Pro hochladen & aktivieren"
+msgstr "Elementor Pro hochladen & aktivieren"
+
+msgid ""
+"Elementor Pro ist installiert und aktiviert, aber die Lizenz wurde noch "
+"nicht verbunden."
+msgstr ""
+"Elementor Pro ist installiert und aktiviert, aber die Lizenz wurde noch "
+"nicht verbunden."
+
+msgid "Elementor Pro ZIP hochladen"
+msgstr "Elementor Pro ZIP hochladen"
+
+msgid "Elementor Status:"
+msgstr "Elementor Status:"
+
+msgid ""
+"Entferne alle Seiten vom Menü, die du nicht brauchst.<br><br>Gehe zu <strong>"
+"Design → Menüs</strong> und wähle <strong>Psychotherape Main Menu</strong> "
+"aus und klicke auf <strong>\"Auswählen\"</strong>.<br>Gehe zu \"Team\" oder "
+"eine andere Seite die du nicht mehr im Menü haben möchtest und klicke auf "
+"<strong>\"Entfernen\"</strong>. Wenn du Seiten hinzufügen möchtest wähle von "
+"der linken Seite die gewünschten Seiten aus klicke auf <strong>\"Zum Menü "
+"hinzufügen\"</strong>.<br>Weise dem Menü <strong>Header</strong> hinzu und "
+"speichere dann."
+msgstr ""
+"Entferne alle Seiten vom Menü, die du nicht brauchst.<br><br>Gehe zu <strong>"
+"Design → Menüs</strong> und wähle <strong>Psychotherape Main Menu</strong> "
+"aus und klicke auf <strong>\"Auswählen\"</strong>.<br>Gehe zu \"Team\" oder "
+"eine andere Seite die du nicht mehr im Menü haben möchtest und klicke auf "
+"<strong>\"Entfernen\"</strong>. Wenn du Seiten hinzufügen möchtest wähle von "
+"der linken Seite die gewünschten Seiten aus klicke auf <strong>\"Zum Menü "
+"hinzufügen\"</strong>.<br>Weise dem Menü <strong>Header</strong> hinzu und "
+"speichere dann."
+
+msgid ""
+"Falls du die Zuweisung manuell ändern möchtest, gehe zu <strong>Design → "
+"Customizer</strong>.<br>Bei <strong>Homepage Einstellungen</strong> legst du "
+"deine Startseite und Blogseite fest."
+msgstr ""
+"Falls du die Zuweisung manuell ändern möchtest, gehe zu <strong>Design → "
+"Customizer</strong>.<br>Bei <strong>Homepage Einstellungen</strong> legst du "
+"deine Startseite und Blogseite fest."
+
+msgid "Farben"
+msgstr "Farben"
+
+msgid "Farben anwenden →"
+msgstr "Farben anwenden →"
+
+msgid "Farben, Schriften & Templates"
+msgstr "Farben, Schriften & Templates"
+
+msgid "Farben: "
+msgstr "Farben"
+
+msgid "Fehler beim Importieren der Demo-Daten"
+msgstr "Fehler beim Importieren der Demo-Daten"
+
+msgid "Fehler beim Zurücksetzen"
+msgstr "Fehler beim Zurücksetzen"
+
+msgid "Fertig"
+msgstr "Fertig"
+
+msgid "Field Groups: "
+msgstr "Field Groups: "
+
+msgid "Fonts: "
+msgstr "Fonts: "
+
+msgid "Footer Legal Menü bearbeiten"
+msgstr "Footer Legal Menü bearbeiten"
+
+msgid "Footer zuweisen"
+msgstr "Footer zuweisen"
+
+msgid ""
+"Führe den Setup-Wizard fort um dein Template Kit zu installieren und zu "
+"konfigurieren."
+msgstr ""
+"Führe den Setup-Wizard fort um dein Template Kit zu installieren und zu "
+"konfigurieren."
+
+msgid ""
+"Gehe im Theme Builder auf <strong>\"Archiv\"</strong> und klicke bei der "
+"<strong>Blog Overview</strong> Seite auf <strong>\"Bearbeiten\"</strong>."
+msgstr ""
+"Gehe im Theme Builder auf <strong>\"Archiv\"</strong> und klicke bei der "
+"<strong>Blog Overview</strong> Seite auf <strong>\"Bearbeiten\"</strong>."
+
+msgid "Gehe im WordPress-Backend zu:"
+msgstr ""
+
+msgid ""
+"Gehe zu <strong>Design → Menüs</strong> und wähle bei \"Wähle ein Menü zum "
+"bearbeiten\" das <strong>Footer Menu Legal</strong> aus und klicke auf "
+"<strong>\"Auswählen\"</strong>."
+msgstr ""
+"Gehe zu <strong>Design → Menüs</strong> und wähle bei \"Wähle ein Menü zum "
+"bearbeiten\" das <strong>Footer Menu Legal</strong> aus und klicke auf "
+"<strong>\"Auswählen\"</strong>."
+
+msgid ""
+"Gehe zu <strong>Seiten → Alle Seiten</strong>, wähle z.B. \"Team\" aus und "
+"klicke auf <strong>\"Schnellbearbeitung\"</strong>. Bei Status wählst du "
+"<strong>\"Entwurf\"</strong> aus und klickst auf <strong>"
+"\"Aktualisieren\"</strong>."
+msgstr ""
+"Gehe zu <strong>Seiten → Alle Seiten</strong>, wähle z.B. \"Team\" aus und "
+"klicke auf <strong>\"Schnellbearbeitung\"</strong>. Bei Status wählst du "
+"<strong>\"Entwurf\"</strong> aus und klickst auf <strong>"
+"\"Aktualisieren\"</strong>."
+
+msgid "Gehe zu Einstellungen → Datenschutz"
+msgstr "Gehe zu Einstellungen → Datenschutz"
+
+msgid "Gehe zu Templates → Theme Builder"
+msgstr "Gehe zu Templates → Theme Builder"
+
+#: templates/steps/step-16.php
+msgid "Geschafft!"
+msgstr "Geschafft!"
+
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+msgid "Hello Theme"
+msgstr "Hello Theme"
+
+#: templates/steps/step-2.php
+msgid "Hello Theme installieren"
+msgstr "Hello Theme installieren"
+
+msgid "Hello Theme installieren →"
+msgstr ""
+
+msgid ""
+"Hello Theme ist extra schlank und enthält nur das Nötigste. Das sorgt für "
+"beste Performance und volle Kontrolle über dein Design mit Elementor."
+msgstr ""
+"Hello Theme ist extra schlank und enthält nur das Nötigste. Das sorgt für "
+"beste Performance und volle Kontrolle über dein Design mit Elementor."
+
+msgid "Home und Blog Seite festlegen (optional)"
+msgstr "Home und Blog Seite festlegen (optional)"
+
+msgid "Homepage und Blog festlegen"
+msgstr "Homepage und Blog festlegen"
+
+msgid ""
+"Im Customizer unter <strong>Website Informationen</strong> lädst du dein "
+"Logo und auch das Website Icon (Favicon) hoch."
+msgstr ""
+"Im Customizer unter <strong>Website Informationen</strong> lädst du dein "
+"Logo und auch das Website Icon (Favicon) hoch."
+
+msgid ""
+"Im Editor sollten jetzt deine Blogposts in der Übersicht erscheinen (sofern "
+"du bereits Blog Posts erstellt hast). Klicke auf <strong>"
+"\"Veröffentlichen\"</strong> damit alles gespeichert wird."
+msgstr ""
+"Im Editor sollten jetzt deine Blogposts in der Übersicht erscheinen (sofern "
+"du bereits Blog Posts erstellt hast). Klicke auf <strong>"
+"\"Veröffentlichen\"</strong> damit alles gespeichert wird."
+
+msgid ""
+"Importiere Beispiel-Team-Members um die Struktur zu verstehen (optional)."
+msgstr ""
+"Importiere Beispiel-Team-Members um die Struktur zu verstehen (optional)."
+
+msgid ""
+"Importiere jetzt dein Elementor Website Kit über die offizielle Elementor "
+"Import-Seite."
+msgstr ""
+"Importiere jetzt dein Elementor Website Kit über die offizielle Elementor "
+"Import-Seite."
+
+msgid ""
+"Installiere das Backend Styling Plugin für eine bessere Übersicht der Team "
+"Member Felder."
+msgstr ""
+"Installiere das Backend Styling Plugin für eine bessere Übersicht der Team "
+"Member Felder."
+
+msgid "Jetzt fortsetzen →"
+msgstr "Jetzt fortsetzen →"
+
+msgid "Keine Berechtigung."
+msgstr "Keine Berechtigung."
+
+msgid "Keine Datei ausgewählt"
+msgstr "Keine Datei ausgewählt"
+
+msgid ""
+"Keine Datenschutzseite gefunden. Erstelle eine unter Einstellungen → "
+"Datenschutz."
+msgstr ""
+"Keine Datenschutzseite gefunden. Erstelle eine unter Einstellungen → "
+"Datenschutz."
+
+msgid "Keine Verbindung zum Server."
+msgstr "Keine Verbindung zum Server."
+
+msgid "Klicke auf \"Los geht's →\" unten rechts um zu beginnen"
+msgstr "Klicke auf \"Los geht's →\" unten rechts um zu beginnen"
+
+msgid "Klicke auf <strong>\"Bearbeiten\"</strong>."
+msgstr ""
+
+msgid "Klicke auf <strong>\"Bedingung hinzufügen\"</strong>."
+msgstr "Klicke auf <strong>\"Bearbeiten\"</strong>."
+
+msgid ""
+"Klicke auf <strong>\"Weiter →\"</strong> um Elementor automatisch aus dem "
+"WordPress Repository zu installieren und zu aktivieren."
+msgstr ""
+"Klicke auf <strong>\"Weiter →\"</strong> um Elementor automatisch aus dem "
+"WordPress Repository zu installieren und zu aktivieren."
+
+msgid ""
+"Klicke auf das <strong>Loop Grid Widget</strong> - entweder direkt auf die "
+"graue Fläche oder rechts in der Struktur."
+msgstr ""
+"Klicke auf das <strong>Loop Grid Widget</strong> - entweder direkt auf die "
+"graue Fläche oder rechts in der Struktur."
+
+msgid ""
+"Klicke auf den Button um Homepage, Blog-Seite, Permalinks und "
+"Datenschutzseiten automatisch zu konfigurieren."
+msgstr ""
+"Klicke auf den Button um Homepage, Blog-Seite, Permalinks und "
+"Datenschutzseiten automatisch zu konfigurieren."
+
+msgid ""
+"Klicke einfach in das <strong>Widget</strong> (Textblock, Überschrift, Bild "
+"etc.), das du bearbeiten möchtest."
+msgstr ""
+"Klicke einfach in das <strong>Widget</strong> (Textblock, Überschrift, Bild "
+"etc.), das du bearbeiten möchtest."
+
+msgid "Klicke links auf \"Einzelne Seite\""
+msgstr "Klicke links auf \"Einzelne Seite\""
+
+msgid "Klicke oder ziehe die elementor-pro.zip Datei hier her"
+msgstr "Klicke oder ziehe die elementor-pro.zip Datei hier her"
+
+msgid "Konfiguration"
+msgstr "Konfiguration"
+
+msgid ""
+"Konfiguriere die grundlegenden WordPress-Einstellungen für deine "
+"Psychotherapie-Praxis."
+msgstr ""
+"Konfiguriere die grundlegenden WordPress-Einstellungen für deine "
+"Psychotherapie-Praxis."
+
+msgid ""
+"Lade die ACF JSON-Datei hoch, um die Custom Post Type Struktur für Team "
+"Members zu erstellen."
+msgstr ""
+"Lade die ACF JSON-Datei hoch, um die Custom Post Type Struktur für Team "
+"Members zu erstellen."
+
+msgid "Lade Elementor Pro hoch und aktiviere anschließend deine Lizenz."
+msgstr "Lade Elementor Pro hoch und aktiviere anschließend deine Lizenz."
+
+msgid "Legal Pages zuweisen"
+msgstr "Legal Pages zuweisen"
+
+msgid "Loading..."
+msgstr "Loading..."
+
+msgid "Logo und Icon hochladen"
+msgstr "Logo und Icon hochladen"
+
+msgid "Logo und Website Icon hochladen"
+msgstr "Logo und Website Icon hochladen"
+
+msgid "Loop Grid auswählen"
+msgstr "Loop Grid auswählen"
+
+msgid "Loop Grid Widget auswählen"
+msgstr "Loop Grid Widget auswählen"
+
+msgid "Los geht's →"
+msgstr "Los geht's →"
+
+msgid ""
+"Mache hier das gleiche wie bei den Blog Posts. Gehe zurück zum <strong>Team "
+"Overview Template</strong> und klicke auf <strong>\"Bearbeiten\"</strong>. "
+"Suche wieder das <strong>Loop Grid Widget</strong> aus."
+msgstr ""
+"Mache hier das gleiche wie bei den Blog Posts. Gehe zurück zum <strong>Team "
+"Overview Template</strong> und klicke auf <strong>\"Bearbeiten\"</strong>. "
+"Suche wieder das <strong>Loop Grid Widget</strong> aus."
+
+msgid "Main Menu bearbeiten"
+msgstr "Main Menu bearbeiten"
+
+msgid "Menüpunkte Entfernen & Hinzufügen, Menü zuweisen"
+msgstr "Menüpunkte Entfernen & Hinzufügen, Menü zuweisen"
+
+msgid "Menüs auswählen"
+msgstr "Menüs auswählen"
+
+msgid "Minimalistisches Theme optimiert für Elementor"
+msgstr "Minimalistisches Theme optimiert für Elementor"
+
+msgid ""
+"Möchtest du wirklich die Demo-Daten zurücksetzen? Dies löscht alle "
+"importierten Team Members und setzt den Status zurück."
+msgstr ""
+"Möchtest du wirklich die Demo-Daten zurücksetzen? Dies löscht alle "
+"importierten Team Members und setzt den Status zurück."
+
+msgid ""
+"Möchtest du wirklich von vorne beginnen? Der bisherige Fortschritt bleibt "
+"erhalten."
+msgstr ""
+"Möchtest du wirklich von vorne beginnen? Der bisherige Fortschritt bleibt "
+"erhalten."
+
+msgid ""
+"Nachdem du den Inhalt angepasst hast, klicke unten auf den Button um die "
+"Datenschutzseite zu veröffentlichen."
+msgstr ""
+"Nachdem du den Inhalt angepasst hast, klicke unten auf den Button um die "
+"Datenschutzseite zu veröffentlichen."
+
+msgid "Nächster Schritt:"
+msgstr "Nächster Schritt:"
+
+msgid ""
+"Passe den Inhalt der Datenschutzseite an deine Praxis an. Stelle sicher, "
+"dass alle Informationen rechtlich korrekt sind."
+msgstr ""
+"Passe den Inhalt der Datenschutzseite an deine Praxis an. Stelle sicher, "
+"dass alle Informationen rechtlich korrekt sind."
+
+msgid "Plugin installieren →"
+msgstr ""
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Privacy Policy hinzufügen"
+msgstr "Privacy Policy hinzufügen"
+
+msgid "Richte deine Psychotherapie-Website in wenigen Schritten ein"
+msgstr "Richte deine Psychotherapie-Website in wenigen Schritten ein"
+
+msgid "Schritt %d von 13"
+msgstr "Schritt %d von 13"
+
+msgid "Seite auswählen"
+msgstr "Seite zum Bearbeiten auswählen"
+
+msgid "Seite auswählen und speichern"
+msgstr "Widget auswählen und Inhalt ändern"
+
+msgid "Seite zum Bearbeiten auswählen"
+msgstr "Seite zum Bearbeiten auswählen"
+
+msgid "Seiten Status ändern"
+msgstr "Seiten Status ändern"
+
+msgid "Settings Recovery"
+msgstr "Settings Recovery"
+
+msgid "Setup abgeschlossen ✓"
+msgstr "Setup abgeschlossen ✓"
+
+msgid "Setup erneut durchführen"
+msgstr "Setup erneut durchführen"
+
+msgid "So geht's:"
+msgstr "So geht's:"
+
+msgid "So stellst du eine Seite auf Entwurf:"
+msgstr "So stellst du eine Seite auf Entwurf:"
+
+msgid "Standardfarben noch aktiv"
+msgstr "Standardfarben noch aktiv"
+
+msgid "Standardschriftarten noch aktiv"
+msgstr "Standardschriftarten noch aktiv"
+
+msgid "Styles"
+msgstr "Styles"
+
+msgid "Styling Plugin"
+msgstr "Styling Plugin"
+
+msgid "Styling Plugin ZIP hochladen"
+msgstr "Styling Plugin"
+
+msgid ""
+"Suche die Seite heraus, auf der du deine <strong>Texte und Bilder "
+"personalisieren</strong> möchtest."
+msgstr ""
+
+msgid ""
+"Suche nach <strong>\"team\"</strong> und wähle das <strong>\"Team Members "
+"Overview (Template)\"</strong> aus."
+msgstr ""
+"Suche nach <strong>\"team\"</strong> und wähle das <strong>\"Team Members "
+"Overview (Template)\"</strong> aus."
+
+msgid ""
+"Super! Du hast deine <strong>Basic Settings und Styles</strong> erfolgreich "
+"abgeschlossen."
+msgstr ""
+"Super! Du hast deine <strong>Basic Settings und Styles</strong> erfolgreich "
+"abgeschlossen."
+
+#: templates/steps/step-7.php
+msgid "Team CPT & Elementor Einstellungen"
+msgstr "Team CPT & Elementor Einstellungen"
+
+msgid "Team CPT nicht aktiviert"
+msgstr "Team CPT nicht aktiviert"
+
+msgid "Team Members"
+msgstr "Team Members"
+
+msgid "Team Settings"
+msgstr "Team Settings"
+
+msgid "Team Template wählen"
+msgstr "Team Template wählen"
+
+msgid "team-members-demo.xml"
+msgstr "team-members-demo.xml"
+
+msgid "Template Kit"
+msgstr "Template Kit"
+
+#: templates/steps/step-5.php
+msgid "Template Kit importieren"
+msgstr "Template Kit"
+
+#: includes/class-wizard.php
+msgid "Template Setup"
+msgstr "Template Setup"
+
+msgid "Templates"
+msgstr "Templates"
+
+msgid "Templates wurden als zugewiesen markiert!"
+msgstr "Templates wurden als zugewiesen markiert!"
+
+#: templates/steps/step-11.php
+msgid "Templates zuweisen"
+msgstr "Templates"
+
+msgid "Theme Builder Übersicht"
+msgstr "Theme Builder öffnen"
+
+msgid "Theme Builder Übersicht verstehen"
+msgstr "Theme Builder öffnen"
+
+msgid "Theme Builder öffnen"
+msgstr "Theme Builder öffnen"
+
+msgid "Typography"
+msgstr "Typography"
+
+msgid "Unbekannter Fehler"
+msgstr "Unbekannter Fehler"
+
+msgid "Upload fehlgeschlagen. "
+msgstr "Upload fehlgeschlagen. "
+
+msgid "Veröffentliche die Seite"
+msgstr "Veröffentliche die Seite"
+
+msgid "Viel Erfolg mit deiner neuen Website! 🚀"
+msgstr "Viel Erfolg mit deiner neuen Website! 🚀"
+
+msgid "Visueller Page Builder für WordPress"
+msgstr "Visueller Page Builder für WordPress"
+
+msgid "Was wird eingerichtet?"
+msgstr "Was wird eingerichtet?"
+
+msgid "Weise dem Menü den <strong>Footer</strong> zu."
+msgstr "Weise dem Menü den <strong>Footer</strong> zu."
+
+msgid ""
+"Weise die Elementor Templates den jeweiligen Seiten zu und verbinde Loop "
+"Grids mit deinen Inhalten."
+msgstr ""
+"Weise die Elementor Templates den jeweiligen Seiten zu und verbinde Loop "
+"Grids mit deinen Inhalten."
+
+msgid "Weiter (Styles sind optional) →"
+msgstr "Weiter (Styles sind optional) →"
+
+msgid "Weiter ohne Änderung →"
+msgstr "Weiter ohne Änderung →"
+
+#: includes/class-wizard.php
+msgid "Weiter →"
+msgstr "Weiter →"
+
+msgid "Weitermachen wo du aufgehört hast"
+msgstr "Weitermachen wo du aufgehört hast"
+
+msgid ""
+"Wenn du bestimmte Seiten nicht brauchst (z.B. Team-Seite als Solo-Therapeut),"
+" solltest du:"
+msgstr ""
+"Wenn du bestimmte Seiten nicht brauchst (z.B. Team-Seite als Solo-Therapeut),"
+" solltest du:"
+
+msgid ""
+"Wenn du die Team Seite wieder zum Menü hinzufügen willst, wirst du sie in "
+"der linken Seite bei der Auswahl nicht finden.<br><br>Wähle deshalb <strong>"
+"\"Individuelle Links\"</strong> aus und gebe bei URL <strong>/team/</strong> "
+"ein."
+msgstr ""
+"Wenn du die Team Seite wieder zum Menü hinzufügen willst, wirst du sie in "
+"der linken Seite bei der Auswahl nicht finden.<br><br>Wähle deshalb <strong>"
+"\"Individuelle Links\"</strong> aus und gebe bei URL <strong>/team/</strong> "
+"ein."
+
+msgid "Widget auswählen und Inhalt ändern"
+msgstr "Widget auswählen und Inhalt ändern"
+
+msgid "Willkommen"
+msgstr "Willkommen"
+
+#: templates/steps/step-welcome.php
+msgid "Willkommen beim Setup Wizard"
+msgstr "Willkommen beim Setup Wizard"
+
+msgid ""
+"Wir werden jetzt Seite für Seite die Templates zuordnen. Wähle eine Seite "
+"aus, die noch nicht zugeordnet ist (z.B. <strong>Contact</strong>)."
+msgstr ""
+"Wir werden jetzt Seite für Seite die Templates zuordnen. Wähle eine Seite "
+"aus, die noch nicht zugeordnet ist (z.B. <strong>Contact</strong>)."
+
+msgid "WordPress & Elementor Settings"
+msgstr "WordPress & Elementor Settings"
+
+#: templates/steps/step-12.php
+msgid "WordPress Einstellungen"
+msgstr "WordPress & Elementor Settings"
+
+msgid "WP Settings"
+msgstr "WP Settings"
+
+msgid ""
+"Wähle im ersten Dropdown <strong>\"Seiten\"</strong> aus. Im zweiten "
+"Dropdown gibst du <strong>\"Contact\"</strong> in die Suche ein. Die Contact-"
+"Seite sollte nun erscheinen. Wähle sie aus und klicke auf <strong>"
+"\"Speichern und Schließen\"</strong>."
+msgstr ""
+"Wähle im ersten Dropdown <strong>\"Seiten\"</strong> aus. Im zweiten "
+"Dropdown gibst du <strong>\"Contact\"</strong> in die Suche ein. Die Contact-"
+"Seite sollte nun erscheinen. Wähle sie aus und klicke auf <strong>"
+"\"Speichern und Schließen\"</strong>."
+
+msgid ""
+"Wähle links die <strong>Privacy Policy Seite</strong> aus und klicke danach "
+"auf <strong>\"Zum Menü hinzufügen\"</strong>. Klicke dann auf <strong>\"Menü "
+"speichern\"</strong>."
+msgstr ""
+"Wähle links die <strong>Privacy Policy Seite</strong> aus und klicke danach "
+"auf <strong>\"Zum Menü hinzufügen\"</strong>. Klicke dann auf <strong>\"Menü "
+"speichern\"</strong>."
+
+msgid "Ziehe die styling-plugin.zip Datei hier her"
+msgstr "Klicke oder ziehe die elementor-pro.zip Datei hier her"
+
+msgid "Zum Dashboard"
+msgstr "Zum Dashboard"
+
+msgid "Öffne Blog Overview im Theme Builder"
+msgstr "Öffne Blog Overview im Theme Builder"
+
+msgid "Öffne die Datenschutz-Einstellungen in WordPress."
+msgstr "Öffne die Datenschutz-Einstellungen in WordPress."
+
+msgid "Öffne im WordPress Dashboard den Theme Builder von Elementor."
+msgstr "Öffne im WordPress Dashboard den Theme Builder von Elementor."
+
+msgid "Überprüfen und Veröffentlichen"
+msgstr "Überprüfen und Veröffentlichen"
+
+msgid ""
+"• <strong>Startseite:</strong> Die \"Home\" Seite wird als statische "
+"Startseite festgelegt<br>• <strong>Blog-Seite:</strong> Die \"Blog\" Seite "
+"wird für Blog-Beiträge zugewiesen<br>• <strong>Datenschutz & Impressum:"
+"</strong> Werden veröffentlicht<br>• <strong>Permalinks:</strong> Auf SEO-"
+"freundliche URLs umgestellt (/%postname%/)"
+msgstr ""
+"• <strong>Startseite:</strong> Die \"Home\" Seite wird als statische "
+"Startseite festgelegt<br>• <strong>Blog-Seite:</strong> Die \"Blog\" Seite "
+"wird für Blog-Beiträge zugewiesen<br>• <strong>Datenschutz & Impressum:"
+"</strong> Werden veröffentlicht<br>• <strong>Permalinks:</strong> Auf SEO-"
+"freundliche URLs umgestellt (/%postname%/)"
+
+msgid ""
+"• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge "
+"zugewiesen<br>• SEO-freundliche Permalinks aktiviert"
+msgstr ""
+"• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge "
+"zugewiesen<br>• SEO-freundliche Permalinks aktiviert"
+
+msgid "• Plugin: ✅ Installiert und aktiviert"
+msgstr "• Plugin: ✅ Installiert und aktiviert"
+
+msgid "ℹ️ Hinweis zur Impressum-Seite"
+msgstr "ℹ️ Hinweis zur Impressum-Seite"
+
+msgid "ℹ️ Installation"
+msgstr "ℹ️ Installation"
+
+msgid "ℹ️ Warum Hello Theme?"
+msgstr "ℹ️ Warum Hello Theme?"
+
+msgid "ℹ️ Was wird konfiguriert?"
+msgstr "Was wird eingerichtet?"
+
+msgid "← Zurück"
+msgstr "← Zurück"
+
+msgid "⏭️ Überspringen (keine Demo-Daten)"
+msgstr "⏭️ Überspringen (keine Demo-Daten)"
+
+msgid "⏳ Prüfe Einstellungen..."
+msgstr "⏳ Prüfe Status..."
+
+msgid "⏳ Prüfe Status..."
+msgstr "⏳ Prüfe Status..."
+
+#: psychotherapie-setup-wizard.php
+msgid "▶️ Setup fortsetzen (Schritt %d)"
+msgstr "▶️ Setup fortsetzen (Schritt %d)"
+
+msgid "⚙️ Automatische Konfiguration"
+msgstr "⚙️ Automatische Konfiguration"
+
+msgid "⚙️ Einstellungen übernehmen"
+msgstr "⚙️ Einstellungen übernehmen"
+
+msgid "⚙️ Elementor Einstellungen öffnen (neuer Tab)"
+msgstr "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+
+msgid "⚙️ Konfiguriere..."
+msgstr "⚙️ Konfiguriere..."
+
+msgid "⚙️ Schritt-für-Schritt Anleitung"
+msgstr "⚙️ Schritt-für-Schritt Anleitung"
+
+msgid "⚠️ <strong>ACF Setup unvollständig</strong><br>"
+msgstr "⚠️ <strong>ACF Setup unvollständig</strong><br>"
+
+msgid "⚠️ <strong>Noch nicht vollständig konfiguriert</strong><br>"
+msgstr "⚠️ <strong>Noch nicht vollständig konfiguriert</strong><br>"
+
+msgid "⚠️ <strong>Plugin noch nicht installiert</strong><br>"
+msgstr "⚠️ <strong>Plugin noch nicht installiert</strong><br>"
+
+msgid "⚠️ Elementor ist noch nicht aktiviert"
+msgstr "⚠️ Elementor ist noch nicht aktiviert"
+
+msgid "⚠️ Lizenz nicht aktiv"
+msgstr "⚠️ Lizenz nicht aktiv"
+
+msgid "⚠️ Sonderfall Team Seite"
+msgstr "⚠️ Sonderfall Team Seite"
+
+msgid "⚠️ Wichtig"
+msgstr "⚠️ Wichtig"
+
+msgid "⚠️ WICHTIG: Deine rechtliche Verantwortung!"
+msgstr "⚠️ WICHTIG: Deine rechtliche Verantwortung!"
+
+msgid "✅ <strong>ACF Setup erfolgreich!</strong><br>Team CPT: "
+msgstr "✅ <strong>ACF Setup erfolgreich!</strong><br>Team CPT: "
+
+msgid "✅ <strong>Perfekt konfiguriert!</strong><br>Team CPT: "
+msgstr "✅ <strong>Perfekt konfiguriert!</strong><br>Team CPT: "
+
+msgid ""
+"✅ <strong>Plugin aktiv!</strong><br>Das Backend Styling Plugin ist "
+"installiert."
+msgstr ""
+"✅ <strong>Plugin aktiv!</strong><br>Das Backend Styling Plugin ist "
+"installiert."
+
+msgid "✅ ACF Setup wurde bereits erfolgreich abgeschlossen!"
+msgstr "✓ Setup bereits abgeschlossen"
+
+msgid "✅ Alles bereit!"
+msgstr "✅ Alles bereit!"
+
+msgid "✅ Automatisch konfiguriert"
+msgstr "✅ Automatisch konfiguriert"
+
+msgid "✅ Datenschutzseite ist veröffentlicht"
+msgstr "✅ Datenschutzseite ist veröffentlicht"
+
+msgid "✅ Demo-Daten importiert!"
+msgstr "✅ Demo-Daten importiert!"
+
+msgid "✅ Demo-Daten wurden importiert!"
+msgstr "✅ Demo-Daten wurden importiert!"
+
+msgid "✅ Einstellungen aktiv!"
+msgstr "✅ Elementor ist aktiv!"
+
+msgid "✅ Einstellungen wurden bereits konfiguriert!"
+msgstr "✅ Einstellungen wurden bereits konfiguriert!"
+
+msgid "✅ Elementor ist aktiv!"
+msgstr "✅ Elementor ist aktiv!"
+
+msgid "✅ Elementor ist jetzt aktiv!"
+msgstr "✅ Elementor ist jetzt aktiv!"
+
+msgid "✅ Elementor Pro ist bereits installiert und die Lizenz ist aktiv!"
+msgstr "✅ Elementor Pro ist bereits installiert und die Lizenz ist aktiv!"
+
+msgid "✅ Plugin bereits installiert"
+msgstr "✅ Plugin bereits installiert"
+
+msgid "✅ Plugin installiert!"
+msgstr "✅ Plugin bereits installiert"
+
+msgid "✅ Setup abgeschlossen!"
+msgstr "✓ Setup bereits abgeschlossen"
+
+msgid "✅ Speichere..."
+msgstr "✅ Speichere..."
+
+msgid "✅ Styling Plugin wurde bereits installiert!"
+msgstr "✅ Plugin bereits installiert"
+
+msgid "✅ Template Kit bereits importiert!"
+msgstr "✅ Plugin bereits installiert"
+
+msgid "✅ Template Kit wurde bereits importiert!"
+msgstr "✅ Template Kit wurde bereits importiert!"
+
+msgid "✅ Templates zugewiesen - Weiter"
+msgstr "✅ Templates zugewiesen - Weiter"
+
+msgid "✅ Weiter zum nächsten Schritt"
+msgstr "✅ Weiter zum nächsten Schritt"
+
+msgid "✏️ Datenschutzseite bearbeiten"
+msgstr "✏️ Datenschutzseite bearbeiten"
+
+#: templates/wizard-page.php
+msgid "✓ Setup bereits abgeschlossen"
+msgstr "✓ Setup bereits abgeschlossen"
+
+msgid "✨ Was macht dieses Plugin?"
+msgstr "✨ Was macht dieses Plugin?"
+
+msgid "❌ <strong>Fehler beim Prüfen</strong><br>Bitte versuche es erneut."
+msgstr "❌ <strong>Fehler beim Prüfen. </strong><br>Bitte versuche es erneut."
+
+msgid "❌ Datenschutzseite nicht gefunden"
+msgstr "❌ Datenschutzseite nicht gefunden"
+
+msgid "❌ Fehler beim Status-Check"
+msgstr "❌ Fehler beim Status-Check"
+
+msgid "🆘 Recovery"
+msgstr "🆘 Recovery"
+
+msgid "🎉 Grund-Setup abgeschlossen!"
+msgstr "✓ Setup bereits abgeschlossen"
+
+msgid "🎨 Manuelle Anpassungen"
+msgstr "🎨 Manuelle Anpassungen"
+
+msgid "🎨 Zum Theme Builder"
+msgstr "🎨 Zum Theme Builder"
+
+msgid "🎯 Psychotherapie Template Kit Setup"
+msgstr "🎯 Psychotherapie Template Kit Setup"
+
+msgid "🎯 Psychotherapie Template Kit Setup - Fortsetzen"
+msgstr "🎯 Psychotherapie Template Kit Setup - Fortsetzen"
+
+msgid "👥 Teil 4: Loop Grid - Team Members zuweisen"
+msgstr "👥 Teil 4: Loop Grid - Team Members zuweisen"
+
+msgid "👥 Was sind Team Members?"
+msgstr "Team Members"
+
+msgid "💡 Hilfreiche Tipps"
+msgstr "💡 Hilfreiche Tipps"
+
+msgid "💡 Hinweis"
+msgstr "💡 Hilfreiche Tipps"
+
+msgid "💡 Hinweis für Solo-Therapeuten"
+msgstr "💡 Hinweis für Solo-Therapeuten"
+
+msgid "💡 Tipp"
+msgstr "💡 Hilfreiche Tipps"
+
+msgid "📄 Status der Datenschutzseite"
+msgstr "📄 Status der Datenschutzseite"
+
+msgid "📄 Teil 1: Single Pages zuweisen"
+msgstr "📄 Teil 1: Single Pages zuweisen"
+
+msgid "📋 So bereitest du die Datenschutzseite vor"
+msgstr "📋 So bereitest du die Datenschutzseite vor"
+
+msgid "📋 Wiederhole dies für folgende Seiten:"
+msgstr "📋 Wiederhole dies für folgende Seiten:"
+
+msgid "📘 Wichtig"
+msgstr "⚠️ Wichtig"
+
+msgid "📝 Datenschutzseite ist im Entwurf"
+msgstr "📝 Datenschutzseite ist im Entwurf"
+
+msgid "📝 Jetzt: Eigene Inhalte & Bilder hinzufügen"
+msgstr "📝 Jetzt: Eigene Inhalte & Bilder hinzufügen"
+
+msgid "📝 Teil 3: Loop Grid - Blog Posts zuweisen"
+msgstr "📝 Teil 3: Loop Grid - Blog Posts zuweisen"
+
+msgid "📢 Datenschutzseite jetzt veröffentlichen"
+msgstr "📢 Datenschutzseite jetzt veröffentlichen"
+
+msgid "📢 Veröffentliche..."
+msgstr "📢 Veröffentliche..."
+
+msgid "📦 So importierst du dein Template Kit"
+msgstr "📦 So importierst du dein Template Kit"
+
+msgid "🔄 Demo-Daten zurücksetzen & erneut importieren"
+msgstr "🔄 Demo-Daten zurücksetzen & erneut importieren"
+
+msgid "🔄 Import-Status prüfen"
+msgstr "🔄 Status prüfen"
+
+msgid "🔄 Konfiguration prüfen"
+msgstr "Konfiguration"
+
+msgid "🔄 Lizenz-Status prüfen"
+msgstr "🔄 Lizenz-Status prüfen"
+
+msgid "🔄 Status erneut prüfen"
+msgstr "🔄 Status erneut prüfen"
+
+msgid "🔄 Status prüfen"
+msgstr "🔄 Status prüfen"
+
+msgid "🔌 Plugin aktivieren"
+msgstr "🔌 Plugin aktivieren"
+
+msgid "🔌 Plugin aktivieren & Lizenz verbinden"
+msgstr "🔌 Plugin aktivieren & Lizenz verbinden"
+
+msgid "🔑 Lizenz verbinden"
+msgstr "🔑 Lizenz verbinden"
+
+msgid "🔑 Schritt 2: Lizenz aktivieren"
+msgstr "🔑 Schritt 2: Lizenz aktivieren"
+
+msgid "🔒 Teil 2: Legal Pages zuweisen"
+msgstr "🔒 Teil 2: Legal Pages zuweisen"
+
+msgid "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+msgstr "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+
+msgid "🔗 Elementor Pro aktivieren (öffnet in neuem Tab)"
+msgstr "🔗 Elementor Pro aktivieren (öffnet in neuem Tab)"
+
+msgid "🔗 Zur Lizenz-Seite (öffnet in neuem Tab)"
+msgstr "🔗 Zur Lizenz-Seite (öffnet in neuem Tab)"
+
+msgid "🗑️ Teil 5: Nicht benötigte Seiten verwalten"
+msgstr "🗑️ Teil 5: Nicht benötigte Seiten verwalten"
+
+msgid "🚀 Elementor Kit Import öffnen (neuer Tab)"
+msgstr "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+
+msgid "🚀 Setup fortführen"
+msgstr "🚀 Setup fortführen"

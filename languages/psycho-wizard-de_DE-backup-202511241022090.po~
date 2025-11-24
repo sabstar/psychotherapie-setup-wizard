@@ -1,0 +1,2457 @@
+# Copyright (C) 2025 Psychotherapie Template Kit - Setup Wizard
+# This file is distributed under the same license as the Psychotherapie Template Kit - Setup Wizard package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Psychotherapie Template Kit - Setup Wizard 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 13:51+0100\n"
+"PO-Revision-Date: 2025-11-17 20:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.29"
+
+#: includes/class-wizard.php:25 includes/class-wizard.php:26
+msgid "Template Setup"
+msgstr "Template Setup"
+
+#: includes/class-wizard.php:37
+msgid "Settings Recovery"
+msgstr "Settings Recovery"
+
+#: includes/class-wizard.php:38
+msgid "🆘 Recovery"
+msgstr "🆘 Recovery"
+
+#: includes/class-wizard.php:89
+msgid "Weiter →"
+msgstr "Weiter →"
+
+#: includes/class-wizard.php:90 psychotherapie-setup-wizard.php:40
+#: templates/wizard-page.php:107
+msgid "Los geht's →"
+msgstr "Los geht's →"
+
+#: includes/class-wizard.php:91
+msgid "Bitte Lizenz aktivieren"
+msgstr "Bitte Lizenz aktivieren"
+
+#: includes/class-wizard.php:92
+msgid "Bitte Template Kit importieren"
+msgstr "Bitte Template Kit importieren"
+
+#: includes/class-wizard.php:93
+msgid "Farben anwenden →"
+msgstr "Farben anwenden →"
+
+#: includes/class-wizard.php:94
+msgid "Weiter ohne Änderung →"
+msgstr "Weiter ohne Änderung →"
+
+#: includes/class-wizard.php:95
+msgid "Weiter (Styles sind optional) →"
+msgstr "Weiter (Styles sind optional) →"
+
+#: includes/class-wizard.php:96
+msgid "Setup abgeschlossen ✓"
+msgstr "Setup abgeschlossen ✓"
+
+#: psychotherapie-setup-wizard.php:143
+#, php-format
+msgid "▶️ Setup fortsetzen (Schritt %d)"
+msgstr "▶️ Setup fortsetzen (Schritt %d)"
+
+#: psychotherapie-setup-wizard.php:144
+msgid "🚀 Setup fortführen"
+msgstr "🚀 Setup fortführen"
+
+#: psychotherapie-setup-wizard.php:146
+msgid "🎯 Psychotherapie Template Kit Setup - Fortsetzen"
+msgstr "🎯 Psychotherapie Template Kit Setup - Fortsetzen"
+
+#: psychotherapie-setup-wizard.php:147
+msgid "🎯 Psychotherapie Template Kit Setup"
+msgstr "🎯 Psychotherapie Template Kit Setup"
+
+#: psychotherapie-setup-wizard.php:149
+#, php-format
+msgid ""
+"Du bist bei Schritt %d von 16. Setze den Setup-Wizard fort um dein Template "
+"Kit zu vervollständigen."
+msgstr ""
+"Du bist bei Schritt %d von 16. Setze den Setup-Wizard fort um dein Template "
+"Kit zu vervollständigen."
+
+#: psychotherapie-setup-wizard.php:150
+msgid ""
+"Führe den Setup-Wizard fort um dein Template Kit zu installieren und zu "
+"konfigurieren."
+msgstr ""
+"Führe den Setup-Wizard fort um dein Template Kit zu installieren und zu "
+"konfigurieren."
+
+#: templates/wizard-page.php:16
+msgid "✓ Setup bereits abgeschlossen"
+msgstr "✓ Setup bereits abgeschlossen"
+
+#: templates/wizard-page.php:17
+msgid "Der Setup-Wizard wurde bereits durchlaufen."
+msgstr "Der Setup-Wizard wurde bereits durchlaufen."
+
+#: templates/wizard-page.php:18
+msgid "Zum Dashboard"
+msgstr "Zum Dashboard"
+
+#: templates/wizard-page.php:19
+msgid "Setup erneut durchführen"
+msgstr "Setup erneut durchführen"
+
+#: templates/wizard-page.php:51
+msgid "Willkommen"
+msgstr "Willkommen"
+
+#: templates/wizard-page.php:52
+msgid "Hello Theme"
+msgstr "Hello Theme"
+
+#: templates/wizard-page.php:53 templates/steps/step-3.php:90
+msgid "Elementor"
+msgstr "Elementor"
+
+#: templates/wizard-page.php:54
+msgid "Elementor Pro"
+msgstr "Elementor Pro"
+
+#: templates/wizard-page.php:55
+msgid "Template Kit"
+msgstr "Template Kit"
+
+#: templates/wizard-page.php:56
+msgid "ACF Setup"
+msgstr "ACF Setup"
+
+#: templates/wizard-page.php:57
+msgid "Team Settings"
+msgstr "Team Settings"
+
+#: templates/wizard-page.php:58
+msgid "Styling Plugin"
+msgstr "Styling Plugin"
+
+#: templates/wizard-page.php:59
+msgid "Demo Daten"
+msgstr "Demo Daten"
+
+#: templates/wizard-page.php:60
+msgid "Datenschutz"
+msgstr "Datenschutz"
+
+#: templates/wizard-page.php:61
+msgid "Templates"
+msgstr "Templates"
+
+#: templates/wizard-page.php:62
+msgid "WP Settings"
+msgstr "WP Settings"
+
+#: templates/wizard-page.php:63
+msgid "Farben"
+msgstr "Farben"
+
+#: templates/wizard-page.php:64
+msgid "Typography"
+msgstr "Typography"
+
+#: templates/wizard-page.php:65
+msgid "Styles"
+msgstr "Styles"
+
+#: templates/wizard-page.php:66
+msgid "Fertig"
+msgstr "Fertig"
+
+#: templates/wizard-page.php:104
+msgid "← Zurück"
+msgstr "← Zurück"
+
+#: templates/steps/step-16.php:13
+msgid "Geschafft!"
+msgstr "Geschafft!"
+
+#: templates/steps/step-16.php:15
+msgid ""
+"Super! Du hast deine <strong>Basic Settings und Styles</strong> erfolgreich "
+"abgeschlossen."
+msgstr ""
+"Super! Du hast deine <strong>Basic Settings und Styles</strong> erfolgreich "
+"abgeschlossen."
+
+#: templates/steps/step-16.php:21
+msgid "📝 Jetzt: Eigene Inhalte & Bilder hinzufügen"
+msgstr "📝 Jetzt: Eigene Inhalte & Bilder hinzufügen"
+
+#: templates/steps/step-16.php:23
+msgid ""
+"Deine Website ist jetzt bereit für deine persönlichen Inhalte! Folge dieser "
+"Anleitung, um Texte und Bilder in den Templates zu personalisieren."
+msgstr ""
+"Deine Website ist jetzt bereit für deine persönlichen Inhalte! Folge dieser "
+"Anleitung, um Texte und Bilder in den Templates zu personalisieren."
+
+#: templates/steps/step-16.php:31
+msgid "Theme Builder öffnen"
+msgstr "Theme Builder öffnen"
+
+#: templates/steps/step-16.php:34
+msgid ""
+"Gehe im WordPress-Backend zu: <br><strong style=\"color: #1e293b; font-size: "
+"17px;\">Templates → Theme Builder</strong>"
+msgstr ""
+
+#: templates/steps/step-16.php:39
+msgid "Seite zum Bearbeiten auswählen"
+msgstr "Seite zum Bearbeiten auswählen"
+
+#: templates/steps/step-16.php:42
+#, fuzzy
+msgid ""
+"Suche die Seite heraus, auf der du deine <strong>Texte und Bilder "
+"personalisieren</strong> möchtest.<br>Klicke auf <strong>"
+"\"Bearbeiten\"</strong>."
+msgstr ""
+"Suche die Seite heraus, auf der du deine <strong>Texte und Bilder "
+"personalisieren</strong> möchtest."
+
+#: templates/steps/step-16.php:47
+msgid "Widget auswählen und Inhalt ändern"
+msgstr "Widget auswählen und Inhalt ändern"
+
+#: templates/steps/step-16.php:50
+msgid ""
+"Klicke einfach in das <strong>Widget</strong> (Textblock, Überschrift, Bild "
+"etc.), das du bearbeiten möchtest."
+msgstr ""
+"Klicke einfach in das <strong>Widget</strong> (Textblock, Überschrift, Bild "
+"etc.), das du bearbeiten möchtest."
+
+#: templates/steps/step-16.php:57
+msgid "DO: Nur im Tab \"Inhalt\" arbeiten"
+msgstr "DO: Nur im Tab \"Inhalt\" arbeiten"
+
+#: templates/steps/step-16.php:59
+msgid ""
+"Ändere <strong>NUR</strong> die Inhalte im Tab <strong>\"Inhalt\"</strong>:"
+"<br>• Texte anpassen<br>• Bilder austauschen<br>• Links aktualisieren<br><br>"
+"So bleiben deine <strong>globalen Styles konsistent</strong> und du kannst "
+"jederzeit global Änderungen vornehmen."
+msgstr ""
+
+#: templates/steps/step-16.php:69
+msgid "DON'T: Tab \"Style\" vermeiden"
+msgstr "DON'T: Tab \"Style\" vermeiden"
+
+#: templates/steps/step-16.php:71
+msgid ""
+"Mache <strong>nur in Ausnahmefällen</strong> Änderungen im Tab <strong>"
+"\"Style\"</strong>.<br><br><strong>Warum?</strong> Sobald du Styles in "
+"einzelnen Widgets änderst:<br>• Verlierst du die <strong>Konsistenz</strong> "
+"deines Layouts<br>• Kannst du Änderungen <strong>nicht mehr global</strong> "
+"anwenden<br>• Lassen sich diese Widget-Styles <strong>nicht mehr "
+"zurücksetzen</strong><br><br>Alle Widget-spezifischen Style-Änderungen "
+"überschreiben die Global Settings und werden <strong>nicht</strong> von "
+"globalen Änderungen betroffen."
+msgstr ""
+
+#: templates/steps/step-16.php:81
+msgid "💡 Hilfreiche Tipps"
+msgstr "💡 Hilfreiche Tipps"
+
+#: templates/steps/step-16.php:85
+msgid ""
+"<strong>Global Settings</strong> findest du unter: <code style=\"background: "
+"white; padding: 2px 8px; border-radius: 4px; font-size: 14px;\">Elementor → "
+"Site Settings</code>"
+msgstr ""
+
+#: templates/steps/step-16.php:88
+msgid ""
+"Dort kannst du <strong>Farben, Schriftarten, Button-Styles</strong> und mehr "
+"für die gesamte Website ändern"
+msgstr ""
+
+#: templates/steps/step-16.php:91
+msgid ""
+"Du kannst jederzeit zu diesem Wizard zurückkehren über: <strong>Template "
+"Setup im Dashboard</strong>"
+msgstr ""
+
+#: templates/steps/step-16.php:95
+#, php-format
+msgid ""
+"Bei Fragen zur Bedienung von Elementor: <a href=\"%s\" target=\"_blank\" "
+"style=\"color: #2563eb; text-decoration: underline;\">Elementor "
+"Documentation</a>"
+msgstr ""
+
+#: templates/steps/step-16.php:105
+msgid "Viel Erfolg mit deiner neuen Website! 🚀"
+msgstr "Viel Erfolg mit deiner neuen Website! 🚀"
+
+#: templates/steps/step-16.php:108
+msgid "🎨 Zum Theme Builder"
+msgstr "🎨 Zum Theme Builder"
+
+#: templates/steps/step-6.php:42
+msgid "ACF für Team Members"
+msgstr "Team Members"
+
+#: templates/steps/step-6.php:45
+msgid "✅ ACF Setup wurde bereits erfolgreich abgeschlossen!"
+msgstr "✓ Setup bereits abgeschlossen"
+
+#: templates/steps/step-6.php:47
+msgid ""
+"Lade die ACF JSON-Datei hoch, um die Custom Post Type Struktur für Team "
+"Members zu erstellen."
+msgstr ""
+"Lade die ACF JSON-Datei hoch, um die Custom Post Type Struktur für Team "
+"Members zu erstellen."
+
+#: templates/steps/step-6.php:54
+msgid "✅ Setup abgeschlossen!"
+msgstr "✓ Setup bereits abgeschlossen"
+
+#: templates/steps/step-6.php:56
+#, php-format
+msgid ""
+"<strong>Erfolgreich eingerichtet:</strong><br>• Custom Post Type \"Team "
+"Member\" (team_member)<br>• %d ACF Field Group(s) für Team Members<br>• "
+"Insgesamt %d ACF Field Group(s) vorhanden<br><br>Du kannst jetzt Team "
+"Members unter \"Team\" im WordPress Menü verwalten!<br><strong>⚠️ Wichtig:"
+"</strong> Lade die ACF-Datei nicht erneut hoch, das würde Duplikate "
+"erstellen!"
+msgstr ""
+"<strong>Erfolgreich eingerichtet:</strong><br>• Custom Post Type \"Team "
+"Member\" (team_member)<br>• %d ACF Field Group(s) für Team Members<br>• "
+"Insgesamt %d ACF Field Group(s) vorhanden<br><br>Du kannst jetzt Team "
+"Members unter \"Team\" im WordPress Menü verwalten!<br><strong>⚠️ Wichtig:"
+"</strong> Lade die ACF-Datei nicht erneut hoch, das würde Duplikate "
+"erstellen!"
+
+#: templates/steps/step-6.php:65 templates/steps/step-6.php:127
+#: templates/steps/step-6.php:150 templates/steps/step-7.php:38
+#: templates/steps/step-5.php:70 templates/steps/step-4.php:40
+#: templates/steps/step-3.php:36 templates/steps/step-8.php:38
+#: templates/steps/step-8.php:95 templates/steps/step-8.php:117
+msgid "🔄 Status erneut prüfen"
+msgstr "🔄 Status erneut prüfen"
+
+#: templates/steps/step-6.php:78
+msgid "ACF JSON Datei hochladen"
+msgstr "ACF JSON Datei hochladen"
+
+#: templates/steps/step-6.php:79
+msgid "acf-team-members.json"
+msgstr "acf-team-members.json"
+
+#: templates/steps/step-6.php:83
+msgid "👥 Was sind Team Members?"
+msgstr "Team Members"
+
+#: templates/steps/step-6.php:85
+msgid ""
+"Der Custom Post Type \"Team Members\" ermöglicht es dir, dein Team mit ca. "
+"40 individuellen Feldern zu verwalten (Foto, Position, Qualifikationen, "
+"Spezialisierungen, etc.)."
+msgstr ""
+"Der Custom Post Type \"Team Members\" ermöglicht es dir, dein Team mit ca. "
+"40 individuellen Feldern zu verwalten (Foto, Position, Qualifikationen, "
+"Spezialisierungen, etc.)."
+
+#: templates/steps/step-6.php:90 templates/steps/step-7.php:79
+#: templates/steps/step-4.php:159 templates/steps/step-14.php:143
+#: templates/steps/step-11.php:123
+msgid "⚠️ Wichtig"
+msgstr "⚠️ Wichtig"
+
+#: templates/steps/step-6.php:92
+msgid ""
+"<strong>Lade die ACF JSON-Datei nur einmal hoch!</strong><br>Ein erneuter "
+"Upload würde Duplikate erstellen und das Backend beschädigen."
+msgstr ""
+"<strong>Lade die ACF JSON-Datei nur einmal hoch!</strong><br>Ein erneuter "
+"Upload würde Duplikate erstellen und das Backend beschädigen."
+
+#: templates/steps/step-6.php:115 templates/steps/step-3.php:124
+#: templates/steps/step-8.php:83
+msgid "⏳ Prüfe Status..."
+msgstr "⏳ Prüfe Status..."
+
+#: templates/steps/step-6.php:135
+msgid "✅ <strong>ACF Setup erfolgreich!</strong><br>Team CPT: "
+msgstr "✅ <strong>ACF Setup erfolgreich!</strong><br>Team CPT: "
+
+#: templates/steps/step-6.php:136
+msgid "Field Groups: "
+msgstr "Field Groups: "
+
+#: templates/steps/step-6.php:144
+msgid "⚠️ <strong>ACF Setup unvollständig</strong><br>"
+msgstr "⚠️ <strong>ACF Setup unvollständig</strong><br>"
+
+#: templates/steps/step-6.php:145
+msgid "Bitte lade die ACF JSON-Datei hoch."
+msgstr "Bitte lade die ACF JSON-Datei hoch."
+
+#: templates/steps/step-6.php:152 templates/steps/step-7.php:154
+#: templates/steps/step-8.php:119
+msgid "❌ <strong>Fehler beim Prüfen</strong><br>Bitte versuche es erneut."
+msgstr "❌ <strong>Fehler beim Prüfen. </strong><br>Bitte versuche es erneut."
+
+#: templates/steps/step-7.php:15
+msgid "Team CPT & Elementor Einstellungen"
+msgstr "Team CPT & Elementor Einstellungen"
+
+#: templates/steps/step-7.php:18
+msgid "✅ Einstellungen wurden bereits konfiguriert!"
+msgstr "✅ Einstellungen wurden bereits konfiguriert!"
+
+#: templates/steps/step-7.php:20
+msgid ""
+"Aktiviere den Team Custom Post Type und konfiguriere die Elementor-"
+"Einstellungen für beste Darstellung."
+msgstr ""
+"Aktiviere den Team Custom Post Type und konfiguriere die Elementor-"
+"Einstellungen für beste Darstellung."
+
+#: templates/steps/step-7.php:27
+msgid "✅ Einstellungen aktiv!"
+msgstr "✅ Elementor ist aktiv!"
+
+#: templates/steps/step-7.php:29
+msgid ""
+"<strong>Folgende Einstellungen wurden gesetzt:</strong><br>• Team Custom "
+"Post Type aktiviert<br>• Standardfarben deaktiviert (Theme-Farben aktiv)<br>"
+"• Standardschriftarten deaktiviert (Theme-Fonts aktiv)<br><br>Du kannst "
+"direkt zum nächsten Schritt weitergehen!"
+msgstr ""
+"<strong>Folgende Einstellungen wurden gesetzt:</strong><br>• Team Custom "
+"Post Type aktiviert<br>• Standardfarben deaktiviert (Theme-Farben aktiv)<br>"
+"• Standardschriftarten deaktiviert (Theme-Fonts aktiv)<br><br>Du kannst "
+"direkt zum nächsten Schritt weitergehen!"
+
+#: templates/steps/step-7.php:50
+msgid "⚙️ Schritt-für-Schritt Anleitung"
+msgstr "⚙️ Schritt-für-Schritt Anleitung"
+
+#: templates/steps/step-7.php:52
+msgid ""
+"<strong>1. Öffne die Elementor Einstellungen</strong><br>Klicke auf den "
+"Button unten um die Elementor-Einstellungen in einem neuen Tab zu öffnen.<br>"
+"<br><strong>2. Aktiviere den Team Post Type</strong><br>• Gehe zu <strong>"
+"Funktionen</strong> (Features)<br>• Scrolle nach unten zu <strong>\"Custom "
+"Post Types\"</strong><br>• Aktiviere das Häkchen bei <strong>"
+"\"Team\"</strong><br><br><strong>3. Deaktiviere Standard-Farben & "
+"Schriftarten</strong><br>• Scrolle weiter nach unten<br>• Aktiviere <strong>"
+"\"Standardfarben deaktivieren\"</strong><br>• Aktiviere <strong>"
+"\"Standardschriftarten deaktivieren\"</strong><br><br><strong>4. "
+"Speichern</strong><br>• Klicke auf <strong>\"Änderungen speichern\"</strong> "
+"ganz unten<br>• Kehre zu diesem Tab zurück und klicke auf \"Konfiguration "
+"prüfen\""
+msgstr ""
+"<strong>1. Öffne die Elementor Einstellungen</strong><br>Klicke auf den "
+"Button unten um die Elementor-Einstellungen in einem neuen Tab zu öffnen.<br>"
+"<br><strong>2. Aktiviere den Team Post Type</strong><br>• Gehe zu <strong>"
+"Funktionen</strong> (Features)<br>• Scrolle nach unten zu <strong>\"Custom "
+"Post Types\"</strong><br>• Aktiviere das Häkchen bei <strong>"
+"\"Team\"</strong><br><br><strong>3. Deaktiviere Standard-Farben & "
+"Schriftarten</strong><br>• Scrolle weiter nach unten<br>• Aktiviere <strong>"
+"\"Standardfarben deaktivieren\"</strong><br>• Aktiviere <strong>"
+"\"Standardschriftarten deaktivieren\"</strong><br><br><strong>4. "
+"Speichern</strong><br>• Klicke auf <strong>\"Änderungen speichern\"</strong> "
+"ganz unten<br>• Kehre zu diesem Tab zurück und klicke auf \"Konfiguration "
+"prüfen\""
+
+#: templates/steps/step-7.php:62
+msgid "⚙️ Elementor Einstellungen öffnen (neuer Tab)"
+msgstr "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+
+#: templates/steps/step-7.php:69 templates/steps/step-7.php:123
+#: templates/steps/step-7.php:152
+msgid "🔄 Konfiguration prüfen"
+msgstr "Konfiguration"
+
+#: templates/steps/step-7.php:81
+msgid ""
+"<strong>Warum ist das wichtig?</strong><br><br><strong>Team Post Type:"
+"</strong><br>Ermöglicht die Verwaltung deiner Team-Mitglieder mit allen 40+ "
+"Custom Fields (Foto, Position, Qualifikationen, etc.)<br><br><strong>"
+"Standardfarben deaktivieren:</strong><br>Deine Template-Farben werden "
+"verwendet statt Elementor-Standard. So siehst du sofort die richtigen Farben "
+"auf deiner Website.<br><br><strong>Standardschriftarten deaktivieren:"
+"</strong><br>Deine Template-Fonts werden verwendet. So erscheinen alle Texte "
+"in der korrekten Schriftart."
+msgstr ""
+"<strong>Warum ist das wichtig?</strong><br><br><strong>Team Post Type:"
+"</strong><br>Ermöglicht die Verwaltung deiner Team-Mitglieder mit allen 40+ "
+"Custom Fields (Foto, Position, Qualifikationen, etc.)<br><br><strong>"
+"Standardfarben deaktivieren:</strong><br>Deine Template-Farben werden "
+"verwendet statt Elementor-Standard. So siehst du sofort die richtigen Farben "
+"auf deiner Website.<br><br><strong>Standardschriftarten deaktivieren:"
+"</strong><br>Deine Template-Fonts werden verwendet. So erscheinen alle Texte "
+"in der korrekten Schriftart."
+
+#: templates/steps/step-7.php:86 templates/steps/step-11.php:231
+msgid "💡 Tipp"
+msgstr "💡 Hilfreiche Tipps"
+
+#: templates/steps/step-7.php:88
+msgid ""
+"Der <strong>Team Post Type</strong> erscheint nur, wenn das ACF JSON "
+"erfolgreich importiert wurde (Schritt 6).<br>Falls \"Team\" nicht sichtbar "
+"ist, gehe zurück zu Schritt 6 und importiere das ACF JSON erneut."
+msgstr ""
+"Der <strong>Team Post Type</strong> erscheint nur, wenn das ACF JSON "
+"erfolgreich importiert wurde (Schritt 6).<br>Falls \"Team\" nicht sichtbar "
+"ist, gehe zurück zu Schritt 6 und importiere das ACF JSON erneut."
+
+#: templates/steps/step-7.php:111
+msgid "⏳ Prüfe Einstellungen..."
+msgstr "⏳ Prüfe Status..."
+
+#: templates/steps/step-7.php:128
+msgid "✅ <strong>Perfekt konfiguriert!</strong><br>Team CPT: "
+msgstr "✅ <strong>Perfekt konfiguriert!</strong><br>Team CPT: "
+
+#: templates/steps/step-7.php:129
+msgid "Farben: "
+msgstr "Farben"
+
+#: templates/steps/step-7.php:130
+msgid "Fonts: "
+msgstr "Fonts: "
+
+#: templates/steps/step-7.php:141
+msgid "Team CPT nicht aktiviert"
+msgstr "Team CPT nicht aktiviert"
+
+#: templates/steps/step-7.php:142
+msgid "Standardfarben noch aktiv"
+msgstr "Standardfarben noch aktiv"
+
+#: templates/steps/step-7.php:143
+msgid "Standardschriftarten noch aktiv"
+msgstr "Standardschriftarten noch aktiv"
+
+#: templates/steps/step-7.php:146
+msgid "⚠️ <strong>Noch nicht vollständig konfiguriert</strong><br>"
+msgstr "⚠️ <strong>Noch nicht vollständig konfiguriert</strong><br>"
+
+#: templates/steps/step-15.php:11
+msgid "🎨 Button, Image & Container Styles"
+msgstr ""
+
+#: templates/steps/step-15.php:13
+msgid ""
+"Wähle ein Style-Set für deine Buttons, Images und Container. Du kannst die "
+"Styles jederzeit hier ändern."
+msgstr ""
+
+#: templates/steps/step-15.php:24
+msgid "💡 Tipp: Zurück zu Template-Standards"
+msgstr ""
+
+#: templates/steps/step-15.php:26
+msgid ""
+"Um alle Styles auf die Template-Standardwerte zurückzusetzen, wähle einfach "
+"<strong>\"🎯 Template Standard\"</strong> aus. Die Styles gelten für alle "
+"Buttons, Images und Container mit der Klasse <code>.rounded-container</code>."
+msgstr ""
+
+#: templates/steps/step-15.php:31
+msgid "ℹ️ Optionaler Schritt"
+msgstr ""
+
+#: templates/steps/step-15.php:33
+msgid ""
+"Dieser Schritt ist <strong>optional</strong>. Du kannst direkt zum nächsten "
+"Schritt gehen, falls du die Styles nicht ändern möchtest."
+msgstr ""
+
+#: templates/steps/step-15.php:42
+#, fuzzy
+msgid "🎯 Template Standard"
+msgstr "Template Setup"
+
+#: templates/steps/step-15.php:43
+msgid "Runde Buttons & sanfte Schatten"
+msgstr ""
+
+#: templates/steps/step-15.php:79
+msgid "🔲 Modern & Sharp"
+msgstr ""
+
+#: templates/steps/step-15.php:80
+msgid "Kantige Buttons, minimale Schatten"
+msgstr ""
+
+#: templates/steps/step-15.php:116
+msgid "🌸 Soft & Cozy"
+msgstr ""
+
+#: templates/steps/step-15.php:117
+msgid "Sehr runde Ecken, weiche Schatten"
+msgstr ""
+
+#: templates/steps/step-15.php:153
+msgid "✨ Minimal"
+msgstr ""
+
+#: templates/steps/step-15.php:154
+msgid "Leichte Rundung, keine Schatten"
+msgstr ""
+
+#: templates/steps/step-15.php:206
+msgid "Button"
+msgstr ""
+
+#: templates/steps/step-15.php:224
+msgid "Container"
+msgstr ""
+
+#: templates/steps/step-15.php:264
+msgid "⏳ Wird angewendet..."
+msgstr ""
+
+#: templates/steps/step-15.php:303
+#, fuzzy
+msgid "Fehler beim Anwenden"
+msgstr "Fehler beim Zurücksetzen"
+
+#: templates/steps/step-15.php:310
+msgid "❌ Verbindungsfehler"
+msgstr ""
+
+#: templates/steps/step-5.php:47
+msgid "Template Kit importieren"
+msgstr "Template Kit"
+
+#: templates/steps/step-5.php:50
+msgid "✅ Template Kit wurde bereits importiert!"
+msgstr "✅ Template Kit wurde bereits importiert!"
+
+#: templates/steps/step-5.php:52
+msgid ""
+"Importiere jetzt dein Elementor Website Kit über die offizielle Elementor "
+"Import-Seite."
+msgstr ""
+"Importiere jetzt dein Elementor Website Kit über die offizielle Elementor "
+"Import-Seite."
+
+#: templates/steps/step-5.php:59
+msgid "✅ Template Kit bereits importiert!"
+msgstr "✅ Plugin bereits installiert"
+
+#: templates/steps/step-5.php:61
+#, php-format
+msgid ""
+"<strong>Gefundene Inhalte:</strong><br>• %d Elementor Templates (Header, "
+"Footer, Singles, etc.)<br>• %d Seiten mit Elementor erstellt<br><br>Du "
+"kannst direkt zum nächsten Schritt weitergehen!"
+msgstr ""
+"<strong>Gefundene Inhalte:</strong><br>• %d Elementor Templates (Header, "
+"Footer, Singles, etc.)<br>• %d Seiten mit Elementor erstellt<br><br>Du "
+"kannst direkt zum nächsten Schritt weitergehen!"
+
+#: templates/steps/step-5.php:82
+msgid "📦 So importierst du dein Template Kit"
+msgstr "📦 So importierst du dein Template Kit"
+
+#: templates/steps/step-5.php:84
+msgid ""
+"<strong>Schritt-für-Schritt:</strong><br><br><strong>1.</strong> Klicke auf "
+"\"Elementor Kit Import öffnen\" (öffnet in neuem Tab)<br><strong>2.</strong> "
+"Klicke auf <strong>\"Upload\"</strong> und wähle deine ZIP-Datei aus<br>"
+"<strong>3.</strong> Wähle aus was importiert werden soll:<br>&nbsp;&nbsp;"
+"&nbsp;&nbsp;✅ Templates<br>&nbsp;&nbsp;&nbsp;&nbsp;✅ Content (Seiten)<br>"
+"&nbsp;&nbsp;&nbsp;&nbsp;✅ Site Settings<br><strong>4.</strong> Klicke auf "
+"<strong>\"Import\"</strong> und warte bis der Import abgeschlossen ist<br>"
+"<strong>5.</strong> Kehre zu diesem Tab zurück und klicke auf \"Import-"
+"Status prüfen\""
+msgstr ""
+"<strong>Schritt-für-Schritt:</strong><br><br><strong>1.</strong> Klicke auf "
+"\"Elementor Kit Import öffnen\" (öffnet in neuem Tab)<br><strong>2.</strong> "
+"Klicke auf <strong>\"Upload\"</strong> und wähle deine ZIP-Datei aus<br>"
+"<strong>3.</strong> Wähle aus was importiert werden soll:<br>&nbsp;&nbsp;"
+"&nbsp;&nbsp;✅ Templates<br>&nbsp;&nbsp;&nbsp;&nbsp;✅ Content (Seiten)<br>"
+"&nbsp;&nbsp;&nbsp;&nbsp;✅ Site Settings<br><strong>4.</strong> Klicke auf "
+"<strong>\"Import\"</strong> und warte bis der Import abgeschlossen ist<br>"
+"<strong>5.</strong> Kehre zu diesem Tab zurück und klicke auf \"Import-"
+"Status prüfen\""
+
+#: templates/steps/step-5.php:95
+msgid "🚀 Elementor Kit Import öffnen (neuer Tab)"
+msgstr "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+
+#: templates/steps/step-5.php:102
+msgid "🔄 Import-Status prüfen"
+msgstr "🔄 Status prüfen"
+
+#: templates/steps/step-4.php:17
+msgid "Elementor Pro hochladen & aktivieren"
+msgstr "Elementor Pro hochladen & aktivieren"
+
+#: templates/steps/step-4.php:20
+msgid "✅ Elementor Pro ist bereits installiert und die Lizenz ist aktiv!"
+msgstr "✅ Elementor Pro ist bereits installiert und die Lizenz ist aktiv!"
+
+#: templates/steps/step-4.php:22
+msgid "Lade Elementor Pro hoch und aktiviere anschließend deine Lizenz."
+msgstr "Lade Elementor Pro hoch und aktiviere anschließend deine Lizenz."
+
+#: templates/steps/step-4.php:29
+msgid "✅ Alles bereit!"
+msgstr "✅ Alles bereit!"
+
+#: templates/steps/step-4.php:31
+msgid ""
+"<strong>Elementor Pro Status:</strong><br>• Plugin: ✅ Installiert und "
+"aktiviert<br>• Lizenz: ✅ Aktiv<br><br>Du kannst direkt zum nächsten Schritt "
+"weitergehen!"
+msgstr ""
+"<strong>Elementor Pro Status:</strong><br>• Plugin: ✅ Installiert und "
+"aktiviert<br>• Lizenz: ✅ Aktiv<br><br>Du kannst direkt zum nächsten Schritt "
+"weitergehen!"
+
+#: templates/steps/step-4.php:47 templates/steps/step-3.php:47
+msgid "✅ Plugin bereits installiert"
+msgstr "✅ Plugin bereits installiert"
+
+#: templates/steps/step-4.php:49
+msgid ""
+"<strong>Elementor Pro ist bereits auf deinem System installiert, aber "
+"momentan deaktiviert.</strong><br><br>Du musst es nicht nochmal hochladen! "
+"Aktiviere es einfach und verbinde dann die Lizenz."
+msgstr ""
+"<strong>Elementor Pro ist bereits auf deinem System installiert, aber "
+"momentan deaktiviert.</strong><br><br>Du musst es nicht nochmal hochladen! "
+"Aktiviere es einfach und verbinde dann die Lizenz."
+
+#: templates/steps/step-4.php:55
+msgid "🔌 Plugin aktivieren & Lizenz verbinden"
+msgstr "🔌 Plugin aktivieren & Lizenz verbinden"
+
+#: templates/steps/step-4.php:57
+msgid ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" "
+"(öffnet Plugins-Seite in neuem Tab)<br>2. Finde <strong>\"Elementor "
+"Pro\"</strong> in der Plugin-Liste und klicke auf <strong>"
+"\"Aktivieren\"</strong><br>3. Klicke dann auf <strong>\"Connect & "
+"Activate\"</strong> um die Lizenz zu verbinden<br>4. Melde dich mit deinem "
+"Elementor-Account an<br>5. Kehre zu diesem Tab zurück und klicke auf "
+"\"Status prüfen\""
+msgstr ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" "
+"(öffnet Plugins-Seite in neuem Tab)<br>2. Finde <strong>\"Elementor "
+"Pro\"</strong> in der Plugin-Liste und klicke auf <strong>"
+"\"Aktivieren\"</strong><br>3. Klicke dann auf <strong>\"Connect & "
+"Activate\"</strong> um die Lizenz zu verbinden<br>4. Melde dich mit deinem "
+"Elementor-Account an<br>5. Kehre zu diesem Tab zurück und klicke auf "
+"\"Status prüfen\""
+
+#: templates/steps/step-4.php:66 templates/steps/step-4.php:141
+msgid "🔗 Elementor Pro aktivieren (öffnet in neuem Tab)"
+msgstr "🔗 Elementor Pro aktivieren (öffnet in neuem Tab)"
+
+#: templates/steps/step-4.php:73 templates/steps/step-3.php:76
+#: templates/steps/step-3.php:134 templates/steps/step-3.php:157
+msgid "🔄 Status prüfen"
+msgstr "🔄 Status prüfen"
+
+#: templates/steps/step-4.php:85
+msgid "⚠️ Lizenz nicht aktiv"
+msgstr "⚠️ Lizenz nicht aktiv"
+
+#: templates/steps/step-4.php:87
+msgid ""
+"Elementor Pro ist installiert und aktiviert, aber die Lizenz wurde noch "
+"nicht verbunden."
+msgstr ""
+"Elementor Pro ist installiert und aktiviert, aber die Lizenz wurde noch "
+"nicht verbunden."
+
+#: templates/steps/step-4.php:93
+msgid "🔑 Lizenz verbinden"
+msgstr "🔑 Lizenz verbinden"
+
+#: templates/steps/step-4.php:95
+msgid ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Zur Lizenz-Seite\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+msgstr ""
+"<strong>So geht's:</strong><br>1. Klicke auf \"Zur Lizenz-Seite\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+
+#: templates/steps/step-4.php:104
+msgid "🔗 Zur Lizenz-Seite (öffnet in neuem Tab)"
+msgstr "🔗 Zur Lizenz-Seite (öffnet in neuem Tab)"
+
+#: templates/steps/step-4.php:111 templates/steps/step-4.php:148
+msgid "🔄 Lizenz-Status prüfen"
+msgstr "🔄 Lizenz-Status prüfen"
+
+#: templates/steps/step-4.php:124
+msgid "Elementor Pro ZIP hochladen"
+msgstr "Elementor Pro ZIP hochladen"
+
+#: templates/steps/step-4.php:125
+msgid "Klicke oder ziehe die elementor-pro.zip Datei hier her"
+msgstr "Klicke oder ziehe die elementor-pro.zip Datei hier her"
+
+#: templates/steps/step-4.php:130
+msgid "🔑 Schritt 2: Lizenz aktivieren"
+msgstr "🔑 Schritt 2: Lizenz aktivieren"
+
+#: templates/steps/step-4.php:132
+msgid ""
+"<strong>Elementor Pro wurde installiert!</strong><br><br>Aktiviere jetzt "
+"deine Lizenz, damit du das Template Kit importieren kannst.<br><br><strong>"
+"So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+msgstr ""
+"<strong>Elementor Pro wurde installiert!</strong><br><br>Aktiviere jetzt "
+"deine Lizenz, damit du das Template Kit importieren kannst.<br><br><strong>"
+"So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" (öffnet in "
+"neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
+"Melde dich mit deinem Elementor-Account an<br>4. Kehre zu diesem Tab zurück "
+"und klicke auf \"Lizenz-Status prüfen\""
+
+#: templates/steps/step-4.php:161
+msgid ""
+"<strong>Die Lizenz-Aktivierung ist zwingend erforderlich!</strong><br>Ohne "
+"aktive Elementor Pro Lizenz kann das Template Kit nicht importiert werden."
+"<br><br><strong>Falls die Lizenz bereits woanders verwendet wird:</strong>"
+"<br>Gehe auf der alten Website zu Elementor → Lizenz → \"Deaktivieren\""
+msgstr ""
+"<strong>Die Lizenz-Aktivierung ist zwingend erforderlich!</strong><br>Ohne "
+"aktive Elementor Pro Lizenz kann das Template Kit nicht importiert werden."
+"<br><br><strong>Falls die Lizenz bereits woanders verwendet wird:</strong>"
+"<br>Gehe auf der alten Website zu Elementor → Lizenz → \"Deaktivieren\""
+
+#: templates/steps/step-14.php:15
+msgid "🔤 Schriftarten vorbereiten & anpassen"
+msgstr ""
+
+#: templates/steps/step-14.php:17
+msgid ""
+"Bereite deine Custom Fonts vor und wähle ein Schriftarten-Schema für deine "
+"Website."
+msgstr ""
+
+#: templates/steps/step-14.php:22
+msgid "📋 Schritt 1: Fonts vorbereiten (wichtig!)"
+msgstr ""
+
+#: templates/steps/step-14.php:25
+#, fuzzy
+msgid "🔧 Was wird gemacht?"
+msgstr "Was wird eingerichtet?"
+
+#: templates/steps/step-14.php:28
+msgid ""
+"<strong>Custom Fonts aktualisieren:</strong> Alle importierten Custom Fonts "
+"(Inter, Inter Italic, Instrument Serif, Instrument Serif Italic) werden "
+"aktualisiert und im Dropdown sichtbar gemacht"
+msgstr ""
+
+#: templates/steps/step-14.php:29
+msgid ""
+"<strong>Google Fonts lokal laden:</strong> Elementor wird so konfiguriert, "
+"dass Google Fonts DSGVO-konform von deinem Server geladen werden (nicht von "
+"Google)"
+msgstr ""
+
+#: templates/steps/step-14.php:35
+msgid "💡 Manuelle Einstellung (falls benötigt)"
+msgstr ""
+
+#: templates/steps/step-14.php:37
+msgid ""
+"Diese Einstellungen werden automatisch vorgenommen. Falls du sie später "
+"manuell ändern möchtest:"
+msgstr ""
+
+#: templates/steps/step-14.php:39
+msgid ""
+"<strong>Custom Fonts aktualisieren:</strong> Elementor → Custom Fonts → Jede "
+"Font bearbeiten und \"Aktualisieren\" klicken"
+msgstr ""
+
+#: templates/steps/step-14.php:40
+msgid ""
+"<strong>Google Fonts lokal laden:</strong> Elementor → Settings → "
+"Performance → \"Load Google Fonts Locally\" auf \"Enable\" setzen"
+msgstr ""
+
+#: templates/steps/step-14.php:47 templates/steps/step-14.php:189
+#: templates/steps/step-14.php:194
+msgid "🚀 Fonts jetzt vorbereiten"
+msgstr "Schriftarten Datenschutzkonform einrichten"
+
+#: templates/steps/step-14.php:52
+msgid ""
+"✅ <strong>Fonts sind vorbereitet!</strong> Custom Fonts aktualisiert und "
+"Google Fonts lokal aktiviert."
+msgstr ""
+
+#: templates/steps/step-14.php:59
+msgid "🎨 Schritt 2: Schriftarten-Schema wählen"
+msgstr ""
+
+#: templates/steps/step-14.php:64
+msgid ""
+"⏸️ Bitte bereite zuerst die Fonts vor (Schritt 1), um die Schriftarten-"
+"Schemas auswählen zu können."
+msgstr ""
+
+#: templates/steps/step-14.php:70
+msgid ""
+"Wähle ein Schriftarten-Schema für deine Website. Es werden nur die "
+"Schriftarten geändert, Größen und Abstände bleiben erhalten."
+msgstr ""
+
+#: templates/steps/step-14.php:74
+#, fuzzy
+msgid "💡 Typography-System"
+msgstr "Typography"
+
+#: templates/steps/step-14.php:76
+msgid ""
+"Das System ändert <strong>15 Schriftarten</strong>: 4 System Fonts (Primary, "
+"Secondary, Text, Accent/Button) + 3 Custom Fonts (Small Text, Numbers, "
+"Quotes) + H1-H6 + Body + Link. Font-Größen, Line-Heights und Text-Transforms "
+"bleiben unverändert. <strong>H1-H4</strong> verwenden die Primary Font, "
+"<strong>H5-H6</strong> die Text Font."
+msgstr ""
+
+#: templates/steps/step-14.php:83
+#, fuzzy
+msgid "📖 Template Standard"
+msgstr "Template Setup"
+
+#: templates/steps/step-14.php:85 templates/steps/step-14.php:97
+#: templates/steps/step-14.php:109 templates/steps/step-14.php:121
+#: templates/steps/step-14.php:133
+#, fuzzy
+msgid "Überschrift"
+msgstr "Archiv Übersicht"
+
+#: templates/steps/step-14.php:86
+msgid "Fließtext mit Inter — professionell und gut lesbar"
+msgstr ""
+
+#: templates/steps/step-14.php:89
+msgid "<strong>Instrument Serif</strong> (Custom) + <strong>Inter</strong>"
+msgstr ""
+
+#: templates/steps/step-14.php:95
+msgid "🎯 Modern Sans"
+msgstr ""
+
+#: templates/steps/step-14.php:98
+msgid "Fließtext mit Inter — clean, modern und minimal"
+msgstr ""
+
+#: templates/steps/step-14.php:101
+msgid "Nur <strong>Inter</strong> (Clean & Modern)"
+msgstr ""
+
+#: templates/steps/step-14.php:107
+msgid "✨ Elegant Serif"
+msgstr ""
+
+#: templates/steps/step-14.php:110
+msgid "Fließtext mit Inter — elegant und klassisch"
+msgstr ""
+
+#: templates/steps/step-14.php:113
+msgid "<strong>Playfair Display</strong> + <strong>Inter</strong>"
+msgstr ""
+
+#: templates/steps/step-14.php:119
+msgid "😊 Warm & Friendly"
+msgstr ""
+
+#: templates/steps/step-14.php:122
+msgid "Fließtext mit Inter — freundlich und einladend"
+msgstr ""
+
+#: templates/steps/step-14.php:125
+msgid "<strong>Outfit</strong> + <strong>Inter</strong> (Rounded)"
+msgstr ""
+
+#: templates/steps/step-14.php:131
+msgid "💼 Professional"
+msgstr ""
+
+#: templates/steps/step-14.php:134
+msgid "Fließtext mit Inter — professionell und klar"
+msgstr ""
+
+#: templates/steps/step-14.php:137
+msgid "<strong>Montserrat</strong> + <strong>Inter</strong> (Corporate)"
+msgstr ""
+
+#: templates/steps/step-14.php:145
+msgid ""
+"Google Fonts werden lokal geladen (DSGVO-konform). Custom Fonts wie <strong>"
+"Instrument Serif</strong> bleiben verfügbar. Die Schriftarten-Auswahl ändert "
+"nur die <strong>font-family</strong>, alle Größen bleiben erhalten."
+msgstr ""
+
+#: templates/steps/step-14.php:150
+#, fuzzy
+msgid "🎨 Weitere Anpassungen"
+msgstr "🎨 Manuelle Anpassungen"
+
+#: templates/steps/step-14.php:152
+msgid ""
+"Du kannst später jede Schriftart einzeln unter <strong>Elementor → Site "
+"Settings → Typography</strong> anpassen. Dort findest du alle System Fonts, "
+"Custom Fonts, H1-H6, Body und Link Settings."
+msgstr ""
+
+#: templates/steps/step-14.php:165
+msgid "⏳ Bereite Fonts vor..."
+msgstr ""
+
+#: templates/steps/step-14.php:166
+msgid "⏳ Custom Fonts werden aktualisiert und Google Fonts lokal aktiviert..."
+msgstr ""
+
+#: templates/steps/step-14.php:177
+msgid "✅ <strong>"
+msgstr ""
+
+#: templates/steps/step-14.php:177
+msgid "</strong>"
+msgstr ""
+
+#: templates/steps/step-14.php:188
+msgid "❌ <strong>Fehler:</strong> "
+msgstr ""
+
+#: templates/steps/step-14.php:188 templates/steps/step-9.php:197
+msgid "Unbekannter Fehler"
+msgstr "Unbekannter Fehler"
+
+#: templates/steps/step-14.php:193
+msgid "❌ <strong>Verbindungsfehler</strong> beim Vorbereiten der Fonts"
+msgstr ""
+
+#: templates/steps/step-10.php:23
+msgid "Datenschutzseite vorbereiten"
+msgstr "Datenschutzseite vorbereiten"
+
+#: templates/steps/step-10.php:25
+msgid ""
+"Bevor wir die Templates zuweisen, müssen wir die Datenschutzseite "
+"veröffentlichen."
+msgstr ""
+"Bevor wir die Templates zuweisen, müssen wir die Datenschutzseite "
+"veröffentlichen."
+
+#: templates/steps/step-10.php:30
+msgid "⚠️ WICHTIG: Deine rechtliche Verantwortung!"
+msgstr "⚠️ WICHTIG: Deine rechtliche Verantwortung!"
+
+#: templates/steps/step-10.php:32
+msgid ""
+"Die Datenschutzseite ist <strong>deine rechtliche Verantwortung</strong>!<br>"
+"<br>WordPress erstellt automatisch eine Standard-Datenschutzseite. Du "
+"<strong>MUSST</strong>:<br>• Den Inhalt an deine Praxis anpassen<br>• "
+"Rechtlich korrekte Informationen eintragen<br>• Bei Unsicherheit einen "
+"Anwalt konsultieren"
+msgstr ""
+
+#: templates/steps/step-10.php:38
+msgid "📄 Status der Datenschutzseite"
+msgstr "📄 Status der Datenschutzseite"
+
+#: templates/steps/step-10.php:42
+msgid "✅ Datenschutzseite ist veröffentlicht"
+msgstr "✅ Datenschutzseite ist veröffentlicht"
+
+#: templates/steps/step-10.php:44
+msgid ""
+"Die Datenschutzseite ist bereits veröffentlicht und kann den Templates "
+"zugewiesen werden."
+msgstr ""
+"Die Datenschutzseite ist bereits veröffentlicht und kann den Templates "
+"zugewiesen werden."
+
+#: templates/steps/step-10.php:49
+msgid "📝 Datenschutzseite ist im Entwurf"
+msgstr "📝 Datenschutzseite ist im Entwurf"
+
+#: templates/steps/step-10.php:51
+msgid "Die Datenschutzseite existiert, ist aber noch nicht veröffentlicht."
+msgstr "Die Datenschutzseite existiert, ist aber noch nicht veröffentlicht."
+
+#: templates/steps/step-10.php:56
+msgid "❌ Datenschutzseite nicht gefunden"
+msgstr "❌ Datenschutzseite nicht gefunden"
+
+#: templates/steps/step-10.php:58
+msgid ""
+"Keine Datenschutzseite gefunden. Erstelle eine unter Einstellungen → "
+"Datenschutz."
+msgstr ""
+"Keine Datenschutzseite gefunden. Erstelle eine unter Einstellungen → "
+"Datenschutz."
+
+#: templates/steps/step-10.php:66
+msgid "📋 So bereitest du die Datenschutzseite vor"
+msgstr "📋 So bereitest du die Datenschutzseite vor"
+
+#: templates/steps/step-10.php:71
+msgid "Gehe zu Einstellungen → Datenschutz"
+msgstr "Gehe zu Einstellungen → Datenschutz"
+
+#: templates/steps/step-10.php:74
+msgid "Öffne die Datenschutz-Einstellungen in WordPress."
+msgstr "Öffne die Datenschutz-Einstellungen in WordPress."
+
+#: templates/steps/step-10.php:81
+msgid "Bearbeite die Datenschutzseite"
+msgstr "Bearbeite die Datenschutzseite"
+
+#: templates/steps/step-10.php:84
+msgid ""
+"Passe den Inhalt der Datenschutzseite an deine Praxis an. Stelle sicher, "
+"dass alle Informationen rechtlich korrekt sind."
+msgstr ""
+"Passe den Inhalt der Datenschutzseite an deine Praxis an. Stelle sicher, "
+"dass alle Informationen rechtlich korrekt sind."
+
+#: templates/steps/step-10.php:88
+msgid "✏️ Datenschutzseite bearbeiten"
+msgstr "✏️ Datenschutzseite bearbeiten"
+
+#: templates/steps/step-10.php:96
+msgid "Veröffentliche die Seite"
+msgstr "Veröffentliche die Seite"
+
+#: templates/steps/step-10.php:99
+msgid ""
+"Nachdem du den Inhalt angepasst hast, klicke unten auf den Button um die "
+"Datenschutzseite zu veröffentlichen."
+msgstr ""
+"Nachdem du den Inhalt angepasst hast, klicke unten auf den Button um die "
+"Datenschutzseite zu veröffentlichen."
+
+#: templates/steps/step-10.php:106
+msgid "ℹ️ Hinweis zur Impressum-Seite"
+msgstr "ℹ️ Hinweis zur Impressum-Seite"
+
+#: templates/steps/step-10.php:108
+msgid ""
+"Die <strong>Impressum-Seite</strong> ist bereits in deinem Template Kit "
+"enthalten und veröffentlicht. Du musst nur noch den Inhalt mit deinen "
+"eigenen Daten anpassen."
+msgstr ""
+"Die <strong>Impressum-Seite</strong> ist bereits in deinem Template Kit "
+"enthalten und veröffentlicht. Du musst nur noch den Inhalt mit deinen "
+"eigenen Daten anpassen."
+
+#: templates/steps/step-10.php:116
+msgid "✅ Weiter zum nächsten Schritt"
+msgstr "✅ Weiter zum nächsten Schritt"
+
+#: templates/steps/step-10.php:122 templates/steps/step-10.php:173
+#: templates/steps/step-10.php:180
+msgid "📢 Datenschutzseite jetzt veröffentlichen"
+msgstr "📢 Datenschutzseite jetzt veröffentlichen"
+
+#: templates/steps/step-10.php:143
+msgid "📢 Veröffentliche..."
+msgstr "📢 Veröffentliche..."
+
+#: templates/steps/step-10.php:175 templates/steps/step-11.php:282
+#: templates/steps/step-12.php:184
+msgid "Ein Fehler ist aufgetreten"
+msgstr "Ein Fehler ist aufgetreten"
+
+#: templates/steps/step-10.php:182 templates/steps/step-11.php:287
+#: templates/steps/step-12.php:190
+msgid "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+msgstr "Bitte versuche es erneut."
+
+#: templates/steps/step-11.php:14
+msgid "Templates zuweisen"
+msgstr "Templates"
+
+#: templates/steps/step-11.php:16
+msgid ""
+"Weise die Elementor Templates den jeweiligen Seiten zu und verbinde Loop "
+"Grids mit deinen Inhalten."
+msgstr ""
+"Weise die Elementor Templates den jeweiligen Seiten zu und verbinde Loop "
+"Grids mit deinen Inhalten."
+
+#: templates/steps/step-11.php:20
+msgid "📘 Wichtig"
+msgstr "⚠️ Wichtig"
+
+#: templates/steps/step-11.php:22
+msgid ""
+"Dieser Schritt ist essentiell! Ohne Template-Zuordnung werden deine Seiten "
+"nicht korrekt angezeigt."
+msgstr ""
+"Dieser Schritt ist essentiell! Ohne Template-Zuordnung werden deine Seiten "
+"nicht korrekt angezeigt."
+
+#: templates/steps/step-11.php:28
+msgid "📄 Teil 1: Single Pages zuweisen"
+msgstr "📄 Teil 1: Single Pages zuweisen"
+
+#: templates/steps/step-11.php:34
+msgid "Gehe zu Templates → Theme Builder"
+msgstr "Gehe zu Templates → Theme Builder"
+
+#: templates/steps/step-11.php:37
+msgid "Öffne im WordPress Dashboard den Theme Builder von Elementor."
+msgstr "Öffne im WordPress Dashboard den Theme Builder von Elementor."
+
+#: templates/steps/step-11.php:45
+msgid "Theme Builder Übersicht verstehen"
+msgstr "Theme Builder öffnen"
+
+#: templates/steps/step-11.php:48
+msgid ""
+"Du siehst hier die Übersichtsseite mit allen Templates. Wenn ein Template "
+"einen <strong style=\"color: #10b981;\">grünen Punkt</strong> oben links hat,"
+" bedeutet dies, dass es bereits einer Seite zugeordnet ist.<br><br>In der "
+"Übersicht siehst du auch die <strong>Loop Grids</strong>, die wir später den "
+"Blog- und Team-Seiten zuordnen werden."
+msgstr ""
+"Du siehst hier die Übersichtsseite mit allen Templates. Wenn ein Template "
+"einen <strong style=\"color: #10b981;\">grünen Punkt</strong> oben links hat,"
+" bedeutet dies, dass es bereits einer Seite zugeordnet ist.<br><br>In der "
+"Übersicht siehst du auch die <strong>Loop Grids</strong>, die wir später den "
+"Blog- und Team-Seiten zuordnen werden."
+
+#: templates/steps/step-11.php:50
+msgid "Theme Builder Übersicht"
+msgstr "Theme Builder öffnen"
+
+#: templates/steps/step-11.php:57
+msgid "Klicke links auf \"Einzelne Seite\""
+msgstr "Klicke links auf \"Einzelne Seite\""
+
+#: templates/steps/step-11.php:60
+msgid ""
+"Wir werden jetzt Seite für Seite die Templates zuordnen. Wähle eine Seite "
+"aus, die noch nicht zugeordnet ist (z.B. <strong>Contact</strong>)."
+msgstr ""
+"Wir werden jetzt Seite für Seite die Templates zuordnen. Wähle eine Seite "
+"aus, die noch nicht zugeordnet ist (z.B. <strong>Contact</strong>)."
+
+#: templates/steps/step-11.php:68 templates/steps/step-11.php:73
+msgid "Bedingungen bearbeiten"
+msgstr "Bedingungen bearbeiten"
+
+#: templates/steps/step-11.php:71
+msgid ""
+"Bei dem ausgewählten Template siehst du links unten die Option <strong>"
+"\"Bedingungen bearbeiten\"</strong>. Klicke darauf."
+msgstr ""
+"Bei dem ausgewählten Template siehst du links unten die Option <strong>"
+"\"Bedingungen bearbeiten\"</strong>. Klicke darauf."
+
+#: templates/steps/step-11.php:80 templates/steps/step-11.php:85
+msgid "Bedingung hinzufügen"
+msgstr "Bedingung hinzufügen"
+
+#: templates/steps/step-11.php:83
+msgid "Klicke auf <strong>\"Bedingung hinzufügen\"</strong>."
+msgstr "Klicke auf <strong>\"Bearbeiten\"</strong>."
+
+#: templates/steps/step-11.php:92
+msgid "Seite auswählen und speichern"
+msgstr "Widget auswählen und Inhalt ändern"
+
+#: templates/steps/step-11.php:95
+msgid ""
+"Wähle im ersten Dropdown <strong>\"Seiten\"</strong> aus. Im zweiten "
+"Dropdown gibst du <strong>\"Contact\"</strong> in die Suche ein. Die Contact-"
+"Seite sollte nun erscheinen. Wähle sie aus und klicke auf <strong>"
+"\"Speichern und Schließen\"</strong>."
+msgstr ""
+"Wähle im ersten Dropdown <strong>\"Seiten\"</strong> aus. Im zweiten "
+"Dropdown gibst du <strong>\"Contact\"</strong> in die Suche ein. Die Contact-"
+"Seite sollte nun erscheinen. Wähle sie aus und klicke auf <strong>"
+"\"Speichern und Schließen\"</strong>."
+
+#: templates/steps/step-11.php:97
+msgid "Seite auswählen"
+msgstr "Seite zum Bearbeiten auswählen"
+
+#: templates/steps/step-11.php:102
+msgid "📋 Wiederhole dies für folgende Seiten:"
+msgstr "📋 Wiederhole dies für folgende Seiten:"
+
+#: templates/steps/step-11.php:104
+msgid "<strong>Contact</strong> → Suche nach \"Contact\""
+msgstr "<strong>Contact</strong> → Suche nach \"Contact\""
+
+#: templates/steps/step-11.php:105
+msgid "<strong>How it works</strong> → Suche nach \"How it works\""
+msgstr "<strong>How it works</strong> → Suche nach \"How it works\""
+
+#: templates/steps/step-11.php:106
+msgid "<strong>Home</strong> → Suche nach \"Home\""
+msgstr "<strong>Home</strong> → Suche nach \"Home\""
+
+#: templates/steps/step-11.php:107
+msgid "<strong>Kosten & Abrechnung</strong> → Suche nach \"Fees\""
+msgstr "<strong>Kosten & Abrechnung</strong> → Suche nach \"Fees\""
+
+#: templates/steps/step-11.php:108
+msgid "<strong>Therapy Services</strong> → Suche nach \"Services\""
+msgstr "<strong>Therapy Services</strong> → Suche nach \"Services\""
+
+#: templates/steps/step-11.php:115
+msgid "🔒 Teil 2: Legal Pages zuweisen"
+msgstr "🔒 Teil 2: Legal Pages zuweisen"
+
+#: templates/steps/step-11.php:119
+msgid ""
+"Bei den Legal Pages wählst du <strong>Imprint UND Privacy Policy</strong> "
+"aus."
+msgstr ""
+"Bei den Legal Pages wählst du <strong>Imprint UND Privacy Policy</strong> "
+"aus."
+
+#: templates/steps/step-11.php:125
+msgid ""
+"Die Privacy Page (Datenschutz) muss zuerst veröffentlicht sein, um sie "
+"auswählen und zuordnen zu können!"
+msgstr ""
+"Die Privacy Page (Datenschutz) muss zuerst veröffentlicht sein, um sie "
+"auswählen und zuordnen zu können!"
+
+#: templates/steps/step-11.php:129
+msgid "Legal Pages zuweisen"
+msgstr "Legal Pages zuweisen"
+
+#: templates/steps/step-11.php:135
+msgid "📝 Teil 3: Loop Grid - Blog Posts zuweisen"
+msgstr "📝 Teil 3: Loop Grid - Blog Posts zuweisen"
+
+#: templates/steps/step-11.php:141
+msgid "Öffne Blog Overview im Theme Builder"
+msgstr "Öffne Blog Overview im Theme Builder"
+
+#: templates/steps/step-11.php:144
+msgid ""
+"Gehe im Theme Builder auf <strong>\"Archiv\"</strong> und klicke bei der "
+"<strong>Blog Overview</strong> Seite auf <strong>\"Bearbeiten\"</strong>."
+msgstr ""
+"Gehe im Theme Builder auf <strong>\"Archiv\"</strong> und klicke bei der "
+"<strong>Blog Overview</strong> Seite auf <strong>\"Bearbeiten\"</strong>."
+
+#: templates/steps/step-11.php:146
+msgid "Archiv Übersicht"
+msgstr "Archiv Übersicht"
+
+#: templates/steps/step-11.php:153
+msgid "Loop Grid Widget auswählen"
+msgstr "Loop Grid Widget auswählen"
+
+#: templates/steps/step-11.php:156
+msgid ""
+"Klicke auf das <strong>Loop Grid Widget</strong> - entweder direkt auf die "
+"graue Fläche oder rechts in der Struktur."
+msgstr ""
+"Klicke auf das <strong>Loop Grid Widget</strong> - entweder direkt auf die "
+"graue Fläche oder rechts in der Struktur."
+
+#: templates/steps/step-11.php:158
+msgid "Loop Grid auswählen"
+msgstr "Loop Grid auswählen"
+
+#: templates/steps/step-11.php:165
+msgid "Blog Template zuweisen"
+msgstr "Blog Template zuweisen"
+
+#: templates/steps/step-11.php:168
+msgid ""
+"Auf der linken Seite im Loop Grid wählst du jetzt das Template aus. Gebe "
+"<strong>\"blog\"</strong> ein. Es erscheint das <strong>\"Blog Posts Layout "
+"(Template)\"</strong>. Wähle es aus."
+msgstr ""
+"Auf der linken Seite im Loop Grid wählst du jetzt das Template aus. Gebe "
+"<strong>\"blog\"</strong> ein. Es erscheint das <strong>\"Blog Posts Layout "
+"(Template)\"</strong>. Wähle es aus."
+
+#: templates/steps/step-11.php:170
+msgid "Blog Template wählen"
+msgstr "Blog Template wählen"
+
+#: templates/steps/step-11.php:177
+msgid "Überprüfen und Veröffentlichen"
+msgstr "Überprüfen und Veröffentlichen"
+
+#: templates/steps/step-11.php:180
+msgid ""
+"Im Editor sollten jetzt deine Blogposts in der Übersicht erscheinen (sofern "
+"du bereits Blog Posts erstellt hast). Klicke auf <strong>"
+"\"Veröffentlichen\"</strong> damit alles gespeichert wird."
+msgstr ""
+"Im Editor sollten jetzt deine Blogposts in der Übersicht erscheinen (sofern "
+"du bereits Blog Posts erstellt hast). Klicke auf <strong>"
+"\"Veröffentlichen\"</strong> damit alles gespeichert wird."
+
+#: templates/steps/step-11.php:182
+msgid "Blog Posts Layout"
+msgstr "Blog Posts Layout"
+
+#: templates/steps/step-11.php:188
+msgid "👥 Teil 4: Loop Grid - Team Members zuweisen"
+msgstr "👥 Teil 4: Loop Grid - Team Members zuweisen"
+
+#: templates/steps/step-11.php:192
+msgid ""
+"Mache hier das gleiche wie bei den Blog Posts. Gehe zurück zum <strong>Team "
+"Overview Template</strong> und klicke auf <strong>\"Bearbeiten\"</strong>. "
+"Suche wieder das <strong>Loop Grid Widget</strong> aus."
+msgstr ""
+"Mache hier das gleiche wie bei den Blog Posts. Gehe zurück zum <strong>Team "
+"Overview Template</strong> und klicke auf <strong>\"Bearbeiten\"</strong>. "
+"Suche wieder das <strong>Loop Grid Widget</strong> aus."
+
+#: templates/steps/step-11.php:195
+msgid ""
+"Suche nach <strong>\"team\"</strong> und wähle das <strong>\"Team Members "
+"Overview (Template)\"</strong> aus."
+msgstr ""
+"Suche nach <strong>\"team\"</strong> und wähle das <strong>\"Team Members "
+"Overview (Template)\"</strong> aus."
+
+#: templates/steps/step-11.php:197
+msgid "Team Template wählen"
+msgstr "Team Template wählen"
+
+#: templates/steps/step-11.php:201
+msgid "💡 Hinweis für Solo-Therapeuten"
+msgstr "💡 Hinweis für Solo-Therapeuten"
+
+#: templates/steps/step-11.php:203
+msgid ""
+"Auf der rechten Seite solltest du jetzt deine Team Members sehen (sofern du "
+"welche erstellt hast).<br><br><strong>Team Member erscheinen erst, wenn du "
+"sie angelegt hast.</strong> Nach dem Import des Kits sind keine Team Member "
+"vorhanden.<br><br><strong>Solo-Therapeut?</strong> Wenn du als Einzelperson "
+"arbeitest, erstelle einen Team Member für dich und verlinke diese Seite im "
+"Menü als \"Über mich\" statt \"Team\"."
+msgstr ""
+"Auf der rechten Seite solltest du jetzt deine Team Members sehen (sofern du "
+"welche erstellt hast).<br><br><strong>Team Member erscheinen erst, wenn du "
+"sie angelegt hast.</strong> Nach dem Import des Kits sind keine Team Member "
+"vorhanden.<br><br><strong>Solo-Therapeut?</strong> Wenn du als Einzelperson "
+"arbeitest, erstelle einen Team Member für dich und verlinke diese Seite im "
+"Menü als \"Über mich\" statt \"Team\"."
+
+#: templates/steps/step-11.php:210
+msgid "🗑️ Teil 5: Nicht benötigte Seiten verwalten"
+msgstr "🗑️ Teil 5: Nicht benötigte Seiten verwalten"
+
+#: templates/steps/step-11.php:214
+msgid ""
+"Wenn du bestimmte Seiten nicht brauchst (z.B. Team-Seite als Solo-Therapeut),"
+" solltest du:"
+msgstr ""
+"Wenn du bestimmte Seiten nicht brauchst (z.B. Team-Seite als Solo-Therapeut),"
+" solltest du:"
+
+#: templates/steps/step-11.php:218
+msgid ""
+"Das Template aus den <strong>Conditions</strong> im Theme Builder löschen"
+msgstr ""
+"Das Template aus den <strong>Conditions</strong> im Theme Builder löschen"
+
+#: templates/steps/step-11.php:219
+msgid ""
+"Die Seite auf <strong>\"Entwurf\"</strong> stellen (sie sollte nicht "
+"veröffentlicht sein)"
+msgstr ""
+"Die Seite auf <strong>\"Entwurf\"</strong> stellen (sie sollte nicht "
+"veröffentlicht sein)"
+
+#: templates/steps/step-11.php:220
+msgid "Die Seite aus dem Menü entfernen (das machen wir im nächsten Step)"
+msgstr "Die Seite aus dem Menü entfernen (das machen wir im nächsten Step)"
+
+#: templates/steps/step-11.php:223
+msgid "So stellst du eine Seite auf Entwurf:"
+msgstr "So stellst du eine Seite auf Entwurf:"
+
+#: templates/steps/step-11.php:225
+msgid ""
+"Gehe zu <strong>Seiten → Alle Seiten</strong>, wähle z.B. \"Team\" aus und "
+"klicke auf <strong>\"Schnellbearbeitung\"</strong>. Bei Status wählst du "
+"<strong>\"Entwurf\"</strong> aus und klickst auf <strong>"
+"\"Aktualisieren\"</strong>."
+msgstr ""
+"Gehe zu <strong>Seiten → Alle Seiten</strong>, wähle z.B. \"Team\" aus und "
+"klicke auf <strong>\"Schnellbearbeitung\"</strong>. Bei Status wählst du "
+"<strong>\"Entwurf\"</strong> aus und klickst auf <strong>"
+"\"Aktualisieren\"</strong>."
+
+#: templates/steps/step-11.php:227
+msgid "Seiten Status ändern"
+msgstr "Seiten Status ändern"
+
+#: templates/steps/step-11.php:233
+msgid ""
+"Das gleiche gilt für alle anderen Seiten, die du nicht brauchst. Im nächsten "
+"Step werden wir die Menüpunkte anpassen."
+msgstr ""
+"Das gleiche gilt für alle anderen Seiten, die du nicht brauchst. Im nächsten "
+"Step werden wir die Menüpunkte anpassen."
+
+#: templates/steps/step-11.php:241 templates/steps/step-11.php:281
+#: templates/steps/step-11.php:286
+msgid "✅ Templates zugewiesen - Weiter"
+msgstr "✅ Templates zugewiesen - Weiter"
+
+#: templates/steps/step-11.php:262
+msgid "✅ Speichere..."
+msgstr "✅ Speichere..."
+
+#: templates/steps/step-11.php:274
+msgid "Templates wurden als zugewiesen markiert!"
+msgstr "Templates wurden als zugewiesen markiert!"
+
+#: templates/steps/step-13.php:14
+msgid "Farbschema personalisieren"
+msgstr ""
+
+#: templates/steps/step-13.php:16
+msgid ""
+"Wähle ein Farbschema für deine Website. Das Template verwendet 10 Global "
+"Colors + automatisch berechnete Hover-Farben (insgesamt 23 Colors)."
+msgstr ""
+
+#: templates/steps/step-13.php:20
+msgid "💡 Farbschema-System"
+msgstr ""
+
+#: templates/steps/step-13.php:22
+msgid ""
+"Wähle eines der 4 vorgefertigten Schemas oder erstelle dein eigenes direkt "
+"in den <strong>Elementor → Site Settings → Global Colors</strong>. Das "
+"aktive Schema wird grün markiert. Hover-Farben werden automatisch 15% "
+"dunkler berechnet."
+msgstr ""
+
+#: templates/steps/step-13.php:29
+#, fuzzy
+msgid "✨ Template Standard"
+msgstr "Template Setup"
+
+#: templates/steps/step-13.php:48
+msgid "🌾 Warme Erdtöne"
+msgstr ""
+
+#: templates/steps/step-13.php:67
+msgid "💜 Sanfte Lavendeltöne"
+msgstr ""
+
+#: templates/steps/step-13.php:86
+msgid "🌸 Warme Rosétöne"
+msgstr ""
+
+#: templates/steps/step-13.php:105
+msgid "🌊 Blaugrau/Apricot"
+msgstr ""
+
+#: templates/steps/step-13.php:124
+msgid "🕊️ Taubenblau/Beige"
+msgstr ""
+
+#: templates/steps/step-13.php:143
+msgid "🪻 Weiches Mauve"
+msgstr ""
+
+#: templates/steps/step-13.php:176
+#, fuzzy
+msgid "⚠️ Wichtig: Global Colors"
+msgstr "⚠️ Wichtig"
+
+#: templates/steps/step-13.php:178
+msgid ""
+"Das gewählte Farbschema überschreibt alle Elementor Global Colors. Wenn du "
+"eigene Farben verwendet hast, gehen diese verloren. <strong>Wähle \"Template "
+"Standard\"</strong> um die Original-Farben des Templates wiederherzustellen."
+msgstr ""
+
+#: templates/steps/step-13.php:183
+msgid "🎨 Global Colors System"
+msgstr ""
+
+#: templates/steps/step-13.php:185
+msgid ""
+"Das Template nutzt Elementor Global Colors für maximale Flexibilität. Du "
+"kannst jede Farbe später unter <strong>Elementor → Custom Colors</strong> "
+"einzeln anpassen."
+msgstr ""
+
+#: templates/steps/step-3.php:16
+msgid "Elementor installieren & aktivieren"
+msgstr "Elementor installieren & aktivieren"
+
+#: templates/steps/step-3.php:18
+msgid "Elementor ist der Page Builder, mit dem alle Templates erstellt wurden."
+msgstr ""
+"Elementor ist der Page Builder, mit dem alle Templates erstellt wurden."
+
+#: templates/steps/step-3.php:24
+msgid "✅ Elementor ist aktiv!"
+msgstr "✅ Elementor ist aktiv!"
+
+#: templates/steps/step-3.php:26
+msgid "Elementor Status:"
+msgstr "Elementor Status:"
+
+#: templates/steps/step-3.php:27
+msgid "• Plugin: ✅ Installiert und aktiviert"
+msgstr "• Plugin: ✅ Installiert und aktiviert"
+
+#: templates/steps/step-3.php:28
+msgid "Du kannst direkt zum nächsten Schritt weitergehen!"
+msgstr "Du kannst direkt zum nächsten Schritt weitergehen!"
+
+#: templates/steps/step-3.php:49
+msgid ""
+"Elementor ist bereits auf deinem System installiert, aber momentan "
+"deaktiviert."
+msgstr ""
+"Elementor ist bereits auf deinem System installiert, aber momentan "
+"deaktiviert."
+
+#: templates/steps/step-3.php:50
+msgid ""
+"Du musst es nicht nochmal installieren! Aktiviere es einfach über die "
+"Plugins-Seite."
+msgstr ""
+"Du musst es nicht nochmal installieren! Aktiviere es einfach über die "
+"Plugins-Seite."
+
+#: templates/steps/step-3.php:56
+msgid "🔌 Plugin aktivieren"
+msgstr "🔌 Plugin aktivieren"
+
+#: templates/steps/step-3.php:58
+msgid "So geht's:"
+msgstr "So geht's:"
+
+#: templates/steps/step-3.php:59
+msgid ""
+"1. Klicke auf \"Elementor aktivieren\" (öffnet Plugins-Seite in neuem Tab)"
+msgstr ""
+"1. Klicke auf \"Elementor aktivieren\" (öffnet Plugins-Seite in neuem Tab)"
+
+#: templates/steps/step-3.php:60
+msgid ""
+"2. Finde <strong>\"Elementor\"</strong> in der Plugin-Liste und klicke auf "
+"<strong>\"Aktivieren\"</strong>"
+msgstr ""
+"2. Finde <strong>\"Elementor\"</strong> in der Plugin-Liste und klicke auf "
+"<strong>\"Aktivieren\"</strong>"
+
+#: templates/steps/step-3.php:61
+msgid "3. Kehre zu diesem Tab zurück und klicke auf \"Status prüfen\""
+msgstr "3. Kehre zu diesem Tab zurück und klicke auf \"Status prüfen\""
+
+#: templates/steps/step-3.php:70
+msgid "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+msgstr "🔗 Elementor aktivieren (öffnet in neuem Tab)"
+
+#: templates/steps/step-3.php:91
+msgid "Visueller Page Builder für WordPress"
+msgstr "Visueller Page Builder für WordPress"
+
+#: templates/steps/step-3.php:93
+msgid "Bereit zur Installation"
+msgstr "Bereit zur Installation"
+
+#: templates/steps/step-3.php:98
+msgid "ℹ️ Installation"
+msgstr "ℹ️ Installation"
+
+#: templates/steps/step-3.php:100
+msgid ""
+"Klicke auf <strong>\"Weiter →\"</strong> um Elementor automatisch aus dem "
+"WordPress Repository zu installieren und zu aktivieren."
+msgstr ""
+"Klicke auf <strong>\"Weiter →\"</strong> um Elementor automatisch aus dem "
+"WordPress Repository zu installieren und zu aktivieren."
+
+#: templates/steps/step-3.php:101
+msgid "Die Installation startet automatisch, wenn du auf \"Weiter\" klickst."
+msgstr "Die Installation startet automatisch, wenn du auf \"Weiter\" klickst."
+
+#: templates/steps/step-3.php:139
+msgid "✅ Elementor ist jetzt aktiv!"
+msgstr "✅ Elementor ist jetzt aktiv!"
+
+#: templates/steps/step-3.php:139
+msgid "Die Seite wird in 2 Sekunden aktualisiert..."
+msgstr "Die Seite wird in 2 Sekunden aktualisiert..."
+
+#: templates/steps/step-3.php:153
+msgid "⚠️ Elementor ist noch nicht aktiviert"
+msgstr "⚠️ Elementor ist noch nicht aktiviert"
+
+#: templates/steps/step-3.php:153
+msgid "Bitte aktiviere Elementor über die Plugins-Seite."
+msgstr "Bitte aktiviere Elementor über die Plugins-Seite."
+
+#: templates/steps/step-3.php:159
+msgid "❌ Fehler beim Status-Check"
+msgstr "❌ Fehler beim Status-Check"
+
+#: templates/steps/step-3.php:159
+msgid "Bitte versuche es erneut."
+msgstr "Bitte versuche es erneut."
+
+#: templates/steps/step-2.php:11
+msgid "Hello Theme installieren"
+msgstr "Hello Theme installieren"
+
+#: templates/steps/step-2.php:13
+msgid ""
+"Das Hello Theme ist das offizielle, leichtgewichtige Theme von Elementor."
+msgstr ""
+"Das Hello Theme ist das offizielle, leichtgewichtige Theme von Elementor."
+
+#: templates/steps/step-2.php:18
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: templates/steps/step-2.php:19
+msgid "Minimalistisches Theme optimiert für Elementor"
+msgstr "Minimalistisches Theme optimiert für Elementor"
+
+#: templates/steps/step-2.php:21
+msgid "Bereit"
+msgstr "Bereit"
+
+#: templates/steps/step-2.php:25
+msgid "ℹ️ Warum Hello Theme?"
+msgstr "ℹ️ Warum Hello Theme?"
+
+#: templates/steps/step-2.php:27
+msgid ""
+"Hello Theme ist extra schlank und enthält nur das Nötigste. Das sorgt für "
+"beste Performance und volle Kontrolle über dein Design mit Elementor."
+msgstr ""
+"Hello Theme ist extra schlank und enthält nur das Nötigste. Das sorgt für "
+"beste Performance und volle Kontrolle über dein Design mit Elementor."
+
+#: templates/steps/step-12.php:18
+msgid "WordPress Einstellungen"
+msgstr "WordPress & Elementor Settings"
+
+#: templates/steps/step-12.php:20
+msgid ""
+"Konfiguriere die grundlegenden WordPress-Einstellungen für deine "
+"Psychotherapie-Praxis."
+msgstr ""
+"Konfiguriere die grundlegenden WordPress-Einstellungen für deine "
+"Psychotherapie-Praxis."
+
+#: templates/steps/step-12.php:25
+msgid "⚙️ Automatische Konfiguration"
+msgstr "⚙️ Automatische Konfiguration"
+
+#: templates/steps/step-12.php:29 templates/steps/step-12.php:173
+msgid "✅ Automatisch konfiguriert"
+msgstr "✅ Automatisch konfiguriert"
+
+#: templates/steps/step-12.php:31 templates/steps/step-12.php:175
+msgid ""
+"• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge "
+"zugewiesen<br>• SEO-freundliche Permalinks aktiviert"
+msgstr ""
+"• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge "
+"zugewiesen<br>• SEO-freundliche Permalinks aktiviert"
+
+#: templates/steps/step-12.php:36
+msgid ""
+"Klicke auf den Button um Homepage, Blog-Seite, Permalinks und "
+"Datenschutzseiten automatisch zu konfigurieren."
+msgstr ""
+"Klicke auf den Button um Homepage, Blog-Seite, Permalinks und "
+"Datenschutzseiten automatisch zu konfigurieren."
+
+#: templates/steps/step-12.php:40 templates/steps/step-12.php:183
+#: templates/steps/step-12.php:189
+msgid "⚙️ Einstellungen übernehmen"
+msgstr "⚙️ Einstellungen übernehmen"
+
+#: templates/steps/step-12.php:44
+msgid "ℹ️ Was wird konfiguriert?"
+msgstr "Was wird eingerichtet?"
+
+#: templates/steps/step-12.php:46
+msgid ""
+"• <strong>Startseite:</strong> Die \"Home\" Seite wird als statische "
+"Startseite festgelegt<br>• <strong>Blog-Seite:</strong> Die \"Blog\" Seite "
+"wird für Blog-Beiträge zugewiesen<br>• <strong>Datenschutz & Impressum:"
+"</strong> Werden veröffentlicht<br>• <strong>Permalinks:</strong> Auf SEO-"
+"freundliche URLs umgestellt (/%postname%/)"
+msgstr ""
+"• <strong>Startseite:</strong> Die \"Home\" Seite wird als statische "
+"Startseite festgelegt<br>• <strong>Blog-Seite:</strong> Die \"Blog\" Seite "
+"wird für Blog-Beiträge zugewiesen<br>• <strong>Datenschutz & Impressum:"
+"</strong> Werden veröffentlicht<br>• <strong>Permalinks:</strong> Auf SEO-"
+"freundliche URLs umgestellt (/%postname%/)"
+
+#: templates/steps/step-12.php:54
+msgid "🎨 Manuelle Anpassungen"
+msgstr "🎨 Manuelle Anpassungen"
+
+#: templates/steps/step-12.php:60
+msgid "Home und Blog Seite festlegen (optional)"
+msgstr "Home und Blog Seite festlegen (optional)"
+
+#: templates/steps/step-12.php:63
+msgid ""
+"Falls du die Zuweisung manuell ändern möchtest, gehe zu <strong>Design → "
+"Customizer</strong>.<br>Bei <strong>Homepage Einstellungen</strong> legst du "
+"deine Startseite und Blogseite fest."
+msgstr ""
+"Falls du die Zuweisung manuell ändern möchtest, gehe zu <strong>Design → "
+"Customizer</strong>.<br>Bei <strong>Homepage Einstellungen</strong> legst du "
+"deine Startseite und Blogseite fest."
+
+#: templates/steps/step-12.php:65
+msgid "Homepage und Blog festlegen"
+msgstr "Homepage und Blog festlegen"
+
+#: templates/steps/step-12.php:72
+msgid "Logo und Website Icon hochladen"
+msgstr "Logo und Website Icon hochladen"
+
+#: templates/steps/step-12.php:75
+msgid ""
+"Im Customizer unter <strong>Website Informationen</strong> lädst du dein "
+"Logo und auch das Website Icon (Favicon) hoch."
+msgstr ""
+"Im Customizer unter <strong>Website Informationen</strong> lädst du dein "
+"Logo und auch das Website Icon (Favicon) hoch."
+
+#: templates/steps/step-12.php:77
+msgid "Logo und Icon hochladen"
+msgstr "Logo und Icon hochladen"
+
+#: templates/steps/step-12.php:84
+msgid "Menüpunkte Entfernen & Hinzufügen, Menü zuweisen"
+msgstr "Menüpunkte Entfernen & Hinzufügen, Menü zuweisen"
+
+#: templates/steps/step-12.php:87
+msgid ""
+"Entferne alle Seiten vom Menü, die du nicht brauchst.<br><br>Gehe zu <strong>"
+"Design → Menüs</strong> und wähle <strong>Psychotherape Main Menu</strong> "
+"aus und klicke auf <strong>\"Auswählen\"</strong>.<br>Gehe zu \"Team\" oder "
+"eine andere Seite die du nicht mehr im Menü haben möchtest und klicke auf "
+"<strong>\"Entfernen\"</strong>. Wenn du Seiten hinzufügen möchtest wähle von "
+"der linken Seite die gewünschten Seiten aus klicke auf <strong>\"Zum Menü "
+"hinzufügen\"</strong>.<br>Weise dem Menü <strong>Header</strong> hinzu und "
+"speichere dann."
+msgstr ""
+"Entferne alle Seiten vom Menü, die du nicht brauchst.<br><br>Gehe zu <strong>"
+"Design → Menüs</strong> und wähle <strong>Psychotherape Main Menu</strong> "
+"aus und klicke auf <strong>\"Auswählen\"</strong>.<br>Gehe zu \"Team\" oder "
+"eine andere Seite die du nicht mehr im Menü haben möchtest und klicke auf "
+"<strong>\"Entfernen\"</strong>. Wenn du Seiten hinzufügen möchtest wähle von "
+"der linken Seite die gewünschten Seiten aus klicke auf <strong>\"Zum Menü "
+"hinzufügen\"</strong>.<br>Weise dem Menü <strong>Header</strong> hinzu und "
+"speichere dann."
+
+#: templates/steps/step-12.php:89
+msgid "Main Menu bearbeiten"
+msgstr "Main Menu bearbeiten"
+
+#: templates/steps/step-12.php:92
+msgid "⚠️ Sonderfall Team Seite"
+msgstr "⚠️ Sonderfall Team Seite"
+
+#: templates/steps/step-12.php:94
+msgid ""
+"Wenn du die Team Seite wieder zum Menü hinzufügen willst, wirst du sie in "
+"der linken Seite bei der Auswahl nicht finden.<br><br>Wähle deshalb <strong>"
+"\"Individuelle Links\"</strong> aus und gebe bei URL <strong>/team/</strong> "
+"ein."
+msgstr ""
+"Wenn du die Team Seite wieder zum Menü hinzufügen willst, wirst du sie in "
+"der linken Seite bei der Auswahl nicht finden.<br><br>Wähle deshalb <strong>"
+"\"Individuelle Links\"</strong> aus und gebe bei URL <strong>/team/</strong> "
+"ein."
+
+#: templates/steps/step-12.php:103
+msgid "Footer Legal Menü bearbeiten"
+msgstr "Footer Legal Menü bearbeiten"
+
+#: templates/steps/step-12.php:106
+msgid ""
+"Gehe zu <strong>Design → Menüs</strong> und wähle bei \"Wähle ein Menü zum "
+"bearbeiten\" das <strong>Footer Menu Legal</strong> aus und klicke auf "
+"<strong>\"Auswählen\"</strong>."
+msgstr ""
+"Gehe zu <strong>Design → Menüs</strong> und wähle bei \"Wähle ein Menü zum "
+"bearbeiten\" das <strong>Footer Menu Legal</strong> aus und klicke auf "
+"<strong>\"Auswählen\"</strong>."
+
+#: templates/steps/step-12.php:108
+msgid "Menüs auswählen"
+msgstr "Menüs auswählen"
+
+#: templates/steps/step-12.php:111
+msgid ""
+"Wähle links die <strong>Privacy Policy Seite</strong> aus und klicke danach "
+"auf <strong>\"Zum Menü hinzufügen\"</strong>. Klicke dann auf <strong>\"Menü "
+"speichern\"</strong>."
+msgstr ""
+"Wähle links die <strong>Privacy Policy Seite</strong> aus und klicke danach "
+"auf <strong>\"Zum Menü hinzufügen\"</strong>. Klicke dann auf <strong>\"Menü "
+"speichern\"</strong>."
+
+#: templates/steps/step-12.php:113
+msgid "Privacy Policy hinzufügen"
+msgstr "Privacy Policy hinzufügen"
+
+#: templates/steps/step-12.php:116
+msgid "Weise dem Menü den <strong>Footer</strong> zu."
+msgstr "Weise dem Menü den <strong>Footer</strong> zu."
+
+#: templates/steps/step-12.php:118
+msgid "Footer zuweisen"
+msgstr "Footer zuweisen"
+
+#: templates/steps/step-12.php:124
+msgid "🎉 Grund-Setup abgeschlossen!"
+msgstr "✓ Setup bereits abgeschlossen"
+
+#: templates/steps/step-12.php:126
+msgid ""
+"Damit ist das Grund-Setup fertig. Jetzt geht es daran, deine Seite zu "
+"personalisieren und deine eigenen Farben, Schriften und Inhalte einzufügen."
+msgstr ""
+"Damit ist das Grund-Setup fertig. Jetzt geht es daran, deine Seite zu "
+"personalisieren und deine eigenen Farben, Schriften und Inhalte einzufügen."
+
+#: templates/steps/step-12.php:146
+msgid "⚙️ Konfiguriere..."
+msgstr "⚙️ Konfiguriere..."
+
+#: templates/steps/step-12.php:179
+msgid "Automatische Konfiguration"
+msgstr "Konfiguration"
+
+#: templates/steps/step-welcome.php:20
+msgid "Willkommen beim Setup Wizard"
+msgstr "Willkommen beim Setup Wizard"
+
+#: templates/steps/step-welcome.php:22
+msgid "Richte deine Psychotherapie-Website in wenigen Schritten ein"
+msgstr "Richte deine Psychotherapie-Website in wenigen Schritten ein"
+
+#: templates/steps/step-welcome.php:31
+msgid "Dein Fortschritt"
+msgstr "Dein Fortschritt"
+
+#: templates/steps/step-welcome.php:37
+#, php-format
+msgid "Schritt %d von 13"
+msgstr "Schritt %d von 13"
+
+#: templates/steps/step-welcome.php:44
+msgid "Was wird eingerichtet?"
+msgstr "Was wird eingerichtet?"
+
+#: templates/steps/step-welcome.php:48
+msgid "Plugins"
+msgstr "Plugins"
+
+#: templates/steps/step-welcome.php:49
+msgid "Elementor & notwendige Erweiterungen"
+msgstr "Elementor & notwendige Erweiterungen"
+
+#: templates/steps/step-welcome.php:53
+msgid "Team Members"
+msgstr "Team Members"
+
+#: templates/steps/step-welcome.php:54
+msgid "Custom Post Type mit 40+ Feldern"
+msgstr "Custom Post Type mit 40+ Feldern"
+
+#: templates/steps/step-welcome.php:58
+msgid "Design"
+msgstr "Design"
+
+#: templates/steps/step-welcome.php:59
+msgid "Farben, Schriften & Templates"
+msgstr "Farben, Schriften & Templates"
+
+#: templates/steps/step-welcome.php:63
+msgid "Konfiguration"
+msgstr "Konfiguration"
+
+#: templates/steps/step-welcome.php:64
+msgid "WordPress & Elementor Settings"
+msgstr "WordPress & Elementor Settings"
+
+#: templates/steps/step-welcome.php:74
+msgid "Weitermachen wo du aufgehört hast"
+msgstr "Weitermachen wo du aufgehört hast"
+
+#: templates/steps/step-welcome.php:76
+msgid "Nächster Schritt:"
+msgstr "Nächster Schritt:"
+
+#: templates/steps/step-welcome.php:76
+msgid "Loading..."
+msgstr "Loading..."
+
+#: templates/steps/step-welcome.php:84
+msgid "Jetzt fortsetzen →"
+msgstr "Jetzt fortsetzen →"
+
+#: templates/steps/step-welcome.php:91
+msgid "Klicke auf \"Los geht's →\" unten rechts um zu beginnen"
+msgstr "Klicke auf \"Los geht's →\" unten rechts um zu beginnen"
+
+#: templates/steps/step-welcome.php:371
+msgid ""
+"Möchtest du wirklich von vorne beginnen? Der bisherige Fortschritt bleibt "
+"erhalten."
+msgstr ""
+"Möchtest du wirklich von vorne beginnen? Der bisherige Fortschritt bleibt "
+"erhalten."
+
+#: templates/steps/step-9.php:14
+msgid "Demo-Daten importieren (Optional)"
+msgstr "Demo-Daten importieren (Optional)"
+
+#: templates/steps/step-9.php:17 templates/steps/step-9.php:151
+msgid "✅ Demo-Daten wurden importiert!"
+msgstr "✅ Demo-Daten wurden importiert!"
+
+#: templates/steps/step-9.php:19 templates/steps/step-9.php:280
+msgid ""
+"Importiere Beispiel-Team-Members um die Struktur zu verstehen (optional)."
+msgstr ""
+"Importiere Beispiel-Team-Members um die Struktur zu verstehen (optional)."
+
+#: templates/steps/step-9.php:25 templates/steps/step-9.php:157
+msgid "✅ Demo-Daten importiert!"
+msgstr "✅ Demo-Daten importiert!"
+
+#: templates/steps/step-9.php:27 templates/steps/step-9.php:159
+msgid ""
+"Die Beispiel-Team-Members wurden erfolgreich importiert und können als "
+"Vorlage genutzt werden."
+msgstr ""
+"Die Beispiel-Team-Members wurden erfolgreich importiert und können als "
+"Vorlage genutzt werden."
+
+#: templates/steps/step-9.php:33 templates/steps/step-9.php:165
+msgid "🔄 Demo-Daten zurücksetzen & erneut importieren"
+msgstr "🔄 Demo-Daten zurücksetzen & erneut importieren"
+
+#: templates/steps/step-9.php:41 templates/steps/step-9.php:251
+msgid "Demo Team Members importieren"
+msgstr "Demo Team Members importieren"
+
+#: templates/steps/step-9.php:42 templates/steps/step-9.php:252
+msgid "Beispiel-Daten mit ausgefüllten Feldern als Vorlage (optional)"
+msgstr "Beispiel-Daten mit ausgefüllten Feldern als Vorlage (optional)"
+
+#: templates/steps/step-9.php:50 templates/steps/step-9.php:260
+msgid "Demo-Daten XML hochladen"
+msgstr "Demo-Daten XML hochladen"
+
+#: templates/steps/step-9.php:51 templates/steps/step-9.php:261
+msgid "team-members-demo.xml"
+msgstr "team-members-demo.xml"
+
+#: templates/steps/step-9.php:56 templates/steps/step-9.php:266
+msgid "💡 Hinweis"
+msgstr "💡 Hilfreiche Tipps"
+
+#: templates/steps/step-9.php:58 templates/steps/step-9.php:268
+msgid ""
+"Die Demo-Daten sind <strong>optional</strong>. Du kannst auch direkt mit "
+"eigenen Team Members starten.<br>Die Demo-Daten helfen dir zu verstehen, wie "
+"die 40+ Felder ausgefüllt werden sollten."
+msgstr ""
+"Die Demo-Daten sind <strong>optional</strong>. Du kannst auch direkt mit "
+"eigenen Team Members starten.<br>Die Demo-Daten helfen dir zu verstehen, wie "
+"die 40+ Felder ausgefüllt werden sollten."
+
+#: templates/steps/step-9.php:64 templates/steps/step-9.php:274
+msgid "⏭️ Überspringen (keine Demo-Daten)"
+msgstr "⏭️ Überspringen (keine Demo-Daten)"
+
+#: templates/steps/step-9.php:89
+msgid "Keine Datei ausgewählt"
+msgstr "Keine Datei ausgewählt"
+
+#: templates/steps/step-9.php:97
+msgid "Bitte lade eine XML-Datei hoch (.xml)"
+msgstr "Bitte lade eine XML-Datei hoch (.xml)"
+
+#: templates/steps/step-9.php:106
+msgid "Datei ist zu groß. Maximum: 10MB"
+msgstr "Datei ist zu groß. Maximum: 10MB"
+
+#: templates/steps/step-9.php:117
+msgid "Demo-Daten werden importiert..."
+msgstr "Demo-Daten werden importiert..."
+
+#: templates/steps/step-9.php:176
+msgid "Fehler beim Importieren der Demo-Daten"
+msgstr "Fehler beim Importieren der Demo-Daten"
+
+#: templates/steps/step-9.php:186
+msgid "Upload fehlgeschlagen. "
+msgstr "Upload fehlgeschlagen. "
+
+#: templates/steps/step-9.php:189
+msgid "Die Anfrage hat zu lange gedauert."
+msgstr "Die Anfrage hat zu lange gedauert."
+
+#: templates/steps/step-9.php:191
+msgid "Datei ist zu groß."
+msgstr "Datei ist zu groß."
+
+#: templates/steps/step-9.php:193
+msgid "Keine Berechtigung."
+msgstr "Keine Berechtigung."
+
+#: templates/steps/step-9.php:195
+msgid "Keine Verbindung zum Server."
+msgstr "Keine Verbindung zum Server."
+
+#: templates/steps/step-9.php:216
+msgid "Demo-Daten übersprungen"
+msgstr "Demo-Daten übersprungen"
+
+#: templates/steps/step-9.php:226
+msgid ""
+"Möchtest du wirklich die Demo-Daten zurücksetzen? Dies löscht alle "
+"importierten Team Members und setzt den Status zurück."
+msgstr ""
+"Möchtest du wirklich die Demo-Daten zurücksetzen? Dies löscht alle "
+"importierten Team Members und setzt den Status zurück."
+
+#: templates/steps/step-9.php:359
+msgid "Fehler beim Zurücksetzen"
+msgstr "Fehler beim Zurücksetzen"
+
+#: templates/steps/step-8.php:15
+msgid "Backend Styling Plugin"
+msgstr "Styling Plugin"
+
+#: templates/steps/step-8.php:18
+msgid "✅ Styling Plugin wurde bereits installiert!"
+msgstr "✅ Plugin bereits installiert"
+
+#: templates/steps/step-8.php:20
+msgid ""
+"Installiere das Backend Styling Plugin für eine bessere Übersicht der Team "
+"Member Felder."
+msgstr ""
+"Installiere das Backend Styling Plugin für eine bessere Übersicht der Team "
+"Member Felder."
+
+#: templates/steps/step-8.php:27
+msgid "✅ Plugin installiert!"
+msgstr "✅ Plugin bereits installiert"
+
+#: templates/steps/step-8.php:29
+msgid ""
+"Das Backend Styling Plugin ist aktiv und verbessert die Darstellung der Team "
+"Member Felder im WordPress Backend."
+msgstr ""
+"Das Backend Styling Plugin ist aktiv und verbessert die Darstellung der Team "
+"Member Felder im WordPress Backend."
+
+#: templates/steps/step-8.php:51
+msgid "Styling Plugin ZIP hochladen"
+msgstr "Styling Plugin"
+
+#: templates/steps/step-8.php:52
+msgid "Ziehe die styling-plugin.zip Datei hier her"
+msgstr "Klicke oder ziehe die elementor-pro.zip Datei hier her"
+
+#: templates/steps/step-8.php:56
+msgid "✨ Was macht dieses Plugin?"
+msgstr "✨ Was macht dieses Plugin?"
+
+#: templates/steps/step-8.php:58
+msgid ""
+"<strong>Bessere Backend-Übersicht:</strong><br>• Größere, lesbarere "
+"Überschriften für ACF Feldgruppen<br>• Bessere visuelle Trennung zwischen "
+"Feld-Sections<br>• Optimierte Darstellung bei 40+ Feldern<br>• Hilft deinen "
+"Kunden beim Bearbeiten der Team Members<br><br>Das Plugin ist im Template "
+"Kit Paket enthalten als <code>styling-plugin.zip</code>"
+msgstr ""
+"<strong>Bessere Backend-Übersicht:</strong><br>• Größere, lesbarere "
+"Überschriften für ACF Feldgruppen<br>• Bessere visuelle Trennung zwischen "
+"Feld-Sections<br>• Optimierte Darstellung bei 40+ Feldern<br>• Hilft deinen "
+"Kunden beim Bearbeiten der Team Members<br><br>Das Plugin ist im Template "
+"Kit Paket enthalten als <code>styling-plugin.zip</code>"
+
+#: templates/steps/step-8.php:100
+msgid ""
+"✅ <strong>Plugin aktiv!</strong><br>Das Backend Styling Plugin ist "
+"installiert."
+msgstr ""
+"✅ <strong>Plugin aktiv!</strong><br>Das Backend Styling Plugin ist "
+"installiert."
+
+#: templates/steps/step-8.php:111
+msgid "⚠️ <strong>Plugin noch nicht installiert</strong><br>"
+msgstr "⚠️ <strong>Plugin noch nicht installiert</strong><br>"
+
+#: templates/steps/step-8.php:112
+msgid "Bitte lade das Plugin hoch."
+msgstr "Bitte lade das Plugin hoch."
+
+# Menu item for User Manual
+msgid "User Manual"
+msgstr "Benutzer-Anleitung"
+
+msgid "📖 User Manual"
+msgstr "📖 Anleitung"
+
+# Waiting Badge Settings Page
+msgid "✅ Settings saved!"
+msgstr "✅ Einstellungen gespeichert!"
+
+msgid "⏱️ Waiting Badge Settings"
+msgstr "⏱️ Waiting Badge Einstellungen"
+
+msgid "Manage your Waiting Time Badge - fully integrated with Elementor"
+msgstr "Verwalten Sie Ihr Waiting Time Badge - vollständig integriert mit Elementor"
+
+msgid "Badge Status"
+msgstr "Badge Status"
+
+msgid "✅ Active"
+msgstr "✅ Aktiv"
+
+msgid "⭕ Inactive"
+msgstr "⭕ Inaktiv"
+
+msgid "Enable or disable the Waiting Badge on your website."
+msgstr "Aktivieren oder deaktivieren Sie das Waiting Badge auf Ihrer Website."
+
+msgid "Heading"
+msgstr "Überschrift"
+
+msgid "The main text of the badge (e.g. \"Waiting time\", \"Availability\")"
+msgstr "Der Haupttext des Badges (z.B. \"Wartezeit\", \"Verfügbarkeit\")"
+
+msgid "Time Period"
+msgstr "Zeitangabe"
+
+msgid "The waiting time or availability (e.g. \"8-10 weeks\", \"Available now\")"
+msgstr "Die Wartezeit oder Verfügbarkeit (z.B. \"8-10 Wochen\", \"Ab sofort\")"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Where should the badge be displayed on the page?"
+msgstr "Wo soll das Badge auf der Seite angezeigt werden?"
+
+msgid "Bottom Left"
+msgstr "Unten Links"
+
+msgid "Bottom Right"
+msgstr "Unten Rechts"
+
+msgid "Cookie Duration (Days)"
+msgstr "Cookie-Dauer (Tage)"
+
+msgid "How many days should the badge remain hidden after being closed?"
+msgstr "Wie viele Tage soll das Badge nach dem Wegklicken ausgeblendet bleiben?"
+
+msgid "📖 Elementor Integration"
+msgstr "📖 Elementor Integration"
+
+msgid "How to use the shortcodes in your Elementor widgets:"
+msgstr "So verwenden Sie die Shortcodes in Ihren Elementor-Widgets:"
+
+msgid "1. Heading Widget for heading:"
+msgstr "1. Heading Widget für Überschrift:"
+
+msgid "→ Shows: \"%s\""
+msgstr "→ Zeigt: \"%s\""
+
+msgid "2. Heading Widget for time period:"
+msgstr "2. Heading Widget für Zeitangabe:"
+
+msgid "3. Add CSS class to Container/Section:"
+msgstr "3. Container/Section CSS-Klasse hinzufügen:"
+
+msgid "4. Icon Widget (Close Button) CSS class:"
+msgstr "4. Icon Widget (Close-Button) CSS-Klasse:"
+
+msgid "✨ Colors are automatically inherited from your Elementor Global Colors!"
+msgstr "✨ Die Farben werden automatisch aus Ihren Elementor Global Colors übernommen!"
+
+msgid "💾 Save Settings"
+msgstr "💾 Einstellungen speichern"
+
+msgid "📦 Export / Import"
+msgstr "📦 Export / Import"
+
+msgid "Export your badge settings as JSON file for template kits or import settings from another site."
+msgstr "Exportieren Sie Ihre Badge-Settings als JSON-Datei für Template Kits oder importieren Sie Settings von einer anderen Site."
+
+msgid "⬇️ Export"
+msgstr "⬇️ Export"
+
+msgid "Download your current badge settings as JSON file."
+msgstr "Laden Sie Ihre aktuellen Badge-Settings als JSON-Datei herunter."
+
+msgid "📥 Export Settings (JSON)"
+msgstr "📥 Settings exportieren (JSON)"
+
+msgid "⬆️ Import"
+msgstr "⬆️ Import"
+
+msgid "Import badge settings from a JSON file."
+msgstr "Importieren Sie Badge-Settings aus einer JSON-Datei."
+
+msgid "📤 Import Settings"
+msgstr "📤 Settings importieren"
+
+msgid "🔍 JSON Structure Preview"
+msgstr "🔍 JSON-Struktur Vorschau"
+
+# Minimal Style Updated Description
+msgid "Leichte Rundung, soft shadows"
+msgstr "Leichte Rundung, soft shadows"
+
+# Step 11 - Part 3 & 4 New Translations
+msgid "📝 Part 3: Blog Overview Page - Manage Loop Grid & Conditions"
+msgstr "📝 Teil 3: Blog Übersichtsseite - Loop Grid & Bedingungen verwalten"
+
+msgid "1. Assign Loop Grid"
+msgstr "1. Loop Grid zuweisen"
+
+msgid "2. Set Condition"
+msgstr "2. Bedingung setzen"
+
+msgid "In the archive overview, click on <strong>Edit Conditions</strong> on the Blog Overview."
+msgstr "In der Archiv-Übersicht klickst du bei der Blog Übersicht auf <strong>Bedingungen bearbeiten</strong>."
+
+msgid "Click on <strong>Add Condition</strong> and select the <strong>post archive</strong>. Don't forget to save!"
+msgstr "Klicke auf <strong>Bedingung hinzufügen</strong> und wähle das <strong>Beitragsarchiv</strong> aus. Vergiss nicht zu speichern!"
+
+msgid "👥 Part 4: Team Overview - Manage Taxonomy, Loop Grid & Conditions"
+msgstr "👥 Teil 4: Team Übersicht - Taxonomie, Loop Grid & Bedingungen verwalten"
+
+msgid "1. Assign Taxonomy & Loop Grid"
+msgstr "1. Taxonomie & Loop Grid zuweisen"
+
+msgid "Select Team Overview Template"
+msgstr "Team Übersicht Template auswählen"
+
+msgid "In the archive overview, go to the <strong>Team Overview Template</strong> and click on <strong>Edit</strong>."
+msgstr "In der Archiv-Übersicht gehst du zum <strong>Team Overview Template</strong> und klickst auf <strong>Bearbeiten</strong>."
+
+msgid "Select Taxonomy Filter"
+msgstr "Taxonomie Filter auswählen"
+
+msgid "In the navigation bar search for the <strong>Taxonomy filter</strong> and click on it. On the left side select the <strong>Loop Grid 1</strong>. You will then see the Focus Therapy Tags."
+msgstr "In der Navigationsleiste suchst du nach dem <strong>Taxonomy Filter</strong> und klickst darauf. Auf der linken Seite wählst du <strong>Loop Grid 1</strong> aus. Du siehst dann die Focus Therapy Tags."
+
+msgid "📌 NOTE"
+msgstr "📌 HINWEIS"
+
+msgid "You will only see the tags here in case you have setup the demo data or you have setup your own Tags."
+msgstr "Du siehst die Tags hier nur, wenn du die Demo-Daten importiert oder eigene Tags angelegt hast."
+
+msgid "Assign Team Loop Grid Template"
+msgstr "Team Loop Grid Template zuweisen"
+
+msgid "Search in the navigation structure for the <strong>Loop Grid</strong>, click on it and search on the left side for the <strong>team template</strong> and select it."
+msgstr "Suche in der Navigationsstruktur nach dem <strong>Loop Grid</strong>, klicke darauf und suche auf der linken Seite nach dem <strong>Team Template</strong> und wähle es aus."
+
+msgid "Publish the Page"
+msgstr "Seite veröffentlichen"
+
+msgid "Finally, publish the page to save all your changes."
+msgstr "Veröffentliche abschließend die Seite, um alle Änderungen zu speichern."
+
+msgid "💡 Note for Solo Therapists"
+msgstr "💡 Hinweis für Solo-Therapeuten"
+
+msgid "<strong>Team Members will only appear if you have created them.</strong> After importing the kit, no Team Members are present.<br><br><strong>Solo Therapist?</strong> If you work alone, create one Team Member for yourself and link this page in the menu as \"About me\" instead of \"Team\"."
+msgstr "<strong>Team Members erscheinen nur, wenn du sie angelegt hast.</strong> Nach dem Import des Kits sind keine Team Members vorhanden.<br><br><strong>Solo-Therapeut?</strong> Wenn du alleine arbeitest, erstelle einen Team Member für dich und verlinke diese Seite im Menü als \"Über mich\" statt \"Team\"."
+
+# Step 12 - New Translations
+msgid "Adjust your navigation menus"
+msgstr "Navigationsmenüs anpassen"
+
+msgid "Go to <strong>Appearance → Menus</strong> and select <strong>Psychotherapy Main Menu</strong> and click on <strong>select</strong> (number 1)"
+msgstr "Gehe zu <strong>Design → Menüs</strong> und wähle <strong>Psychotherapy Main Menu</strong> aus und klicke auf <strong>Auswählen</strong> (Nummer 1)"
+
+msgid "Go to <strong>Pages</strong> or <strong>Team</strong> or another page you want to add or remove and click whether on <strong>Add to Menu</strong> or on <strong>remove</strong> (number 2)"
+msgstr "Gehe zu <strong>Seiten</strong> oder <strong>Team</strong> oder einer anderen Seite, die du hinzufügen oder entfernen möchtest und klicke entweder auf <strong>Zum Menü hinzufügen</strong> oder auf <strong>Entfernen</strong> (Nummer 2)"
+
+msgid "In case you don't see all items click on <strong>View all</strong> (number 3)"
+msgstr "Falls du nicht alle Elemente siehst, klicke auf <strong>Alle anzeigen</strong> (Nummer 3)"
+
+msgid "Adjust your navigation labels text (number 4)"
+msgstr "Passe deine Navigations-Label-Texte an (Nummer 4)"
+
+msgid "Assign menu to <strong>header</strong> and click on <strong>save</strong>"
+msgstr "Weise das Menü dem <strong>Header</strong> zu und klicke auf <strong>Speichern</strong>"
+
+msgid "Edit footer Legal Menu"
+msgstr "Footer Legal Menü bearbeiten"
+
+msgid "Go to <strong>Appearance → Menus</strong>"
+msgstr "Gehe zu <strong>Design → Menüs</strong>"
+
+msgid "Select the <strong>Footer menu legal</strong> and click on <strong>select</strong> (number 1)"
+msgstr "Wähle das <strong>Footer Menu Legal</strong> aus und klicke auf <strong>Auswählen</strong> (Nummer 1)"
+
+msgid "Select the <strong>Privacy Policy Page</strong> on the left and click on <strong>Add to menu</strong> (number 2)"
+msgstr "Wähle die <strong>Datenschutzseite</strong> auf der linken Seite aus und klicke auf <strong>Zum Menü hinzufügen</strong> (Nummer 2)"
+
+msgid "Select the Display Location as <strong>Footer</strong> (number 3)"
+msgstr "Wähle den Anzeigeort als <strong>Footer</strong> aus (Nummer 3)"
+
+msgid "Click on <strong>Save</strong> (number 4)"
+msgstr "Klicke auf <strong>Speichern</strong> (Nummer 4)"
