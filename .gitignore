@@ -27,3 +27,11 @@ debug.log
 # WordPress
 wp-config.php
 .htaccess
+
+# Translation Backups (Poedit)
+*.po~
+languages/*.po~
+
+# Demo/Test Data
+*-demo.xml
+demo.xml
