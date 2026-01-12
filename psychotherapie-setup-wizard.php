@@ -3,7 +3,7 @@
  * Plugin Name: Psychotherapie Template Kit - Setup Wizard
  * Plugin URI: https://lechclick.de
  * Description: Setup Wizard für das Psychotherapie Template Kit mit automatischer Installation und Konfiguration
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Lechclick
  * Author URI: https://lechclick.de
  * License: GPL v2 or later
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Plugin Konstanten
-define('PSYCHO_WIZARD_VERSION', '1.0.1');
+define('PSYCHO_WIZARD_VERSION', '1.0.2');
 define('PSYCHO_WIZARD_PATH', plugin_dir_path(__FILE__));
 define('PSYCHO_WIZARD_URL', plugin_dir_url(__FILE__));
 
