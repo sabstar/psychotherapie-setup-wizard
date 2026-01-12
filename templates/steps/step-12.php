@@ -28,8 +28,18 @@ $menus_url = admin_url('nav-menus.php');
             <div class="info-box" style="background: #d1fae5; border-color: #10b981; margin-bottom: 20px;">
                 <div class="info-box-title" style="color: #065f46;"><?php _e('✅ Automatisch konfiguriert', 'psycho-wizard'); ?></div>
                 <div class="info-box-content" style="color: #065f46;">
-                    <?php _e('• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge zugewiesen<br>• SEO-freundliche Permalinks aktiviert', 'psycho-wizard'); ?>
+                    <?php _e('• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge zugewiesen<br>• SEO-freundliche Permalinks aktiviert<br>• Menü-Optionen konfiguriert (Team, Tags, Job Title, Therapy Focus, Link Target)', 'psycho-wizard'); ?>
                 </div>
+            </div>
+
+            <!-- Button zum erneuten Anwenden -->
+            <div style="margin-top: 20px;">
+                <button type="button" class="btn btn-secondary" id="reapplySettingsBtn" onclick="reapplySettings()">
+                    <?php _e('🔄 Einstellungen erneut anwenden', 'psycho-wizard'); ?>
+                </button>
+                <p style="color: #64748b; margin-top: 10px; font-size: 13px;">
+                    <?php _e('Wendet alle Einstellungen erneut an (z.B. um neue Features zu aktivieren).', 'psycho-wizard'); ?>
+                </p>
             </div>
         <?php else: ?>
             <p style="color: #64748b; margin-bottom: 20px;">
@@ -173,7 +183,7 @@ function saveWPSettings() {
                     const successBox = jQuery('<div class="info-box" style="background: #d1fae5; border-color: #10b981; margin-bottom: 20px;">' +
                         '<div class="info-box-title" style="color: #065f46;">' + <?php echo json_encode(__('✅ Automatisch konfiguriert', 'psycho-wizard')); ?> + '</div>' +
                         '<div class="info-box-content" style="color: #065f46;">' +
-                        <?php echo json_encode(__('• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge zugewiesen<br>• SEO-freundliche Permalinks aktiviert', 'psycho-wizard')); ?> +
+                        <?php echo json_encode(__('• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge zugewiesen<br>• SEO-freundliche Permalinks aktiviert<br>• Menü-Optionen konfiguriert (Team, Tags, Job Title, Therapy Focus, Link Target)', 'psycho-wizard')); ?> +
                         '</div>' +
                         '</div>');
 
@@ -190,6 +200,34 @@ function saveWPSettings() {
             $btn.prop('disabled', false).text(<?php echo json_encode(__('⚙️ Einstellungen übernehmen', 'psycho-wizard')); ?>);
             showNotification('error', <?php echo json_encode(__('Ein Fehler ist aufgetreten. Bitte versuche es erneut.', 'psycho-wizard')); ?>);
             console.error('AJAX Error:', {xhr: xhr, status: status, error: error});
+        }
+    });
+}
+
+// Einstellungen erneut anwenden (ohne Confirmation)
+function reapplySettings() {
+    const $btn = jQuery('#reapplySettingsBtn');
+    $btn.prop('disabled', true).text(<?php echo json_encode(__('🔄 Wende an...', 'psycho-wizard')); ?>);
+
+    jQuery.ajax({
+        url: psychoWizard.ajaxUrl,
+        type: 'POST',
+        data: {
+            action: 'psycho_save_wp_settings',
+            nonce: psychoWizard.nonce
+        },
+        success: function(response) {
+            if (response.success) {
+                showNotification('success', response.data.message);
+                $btn.prop('disabled', false).text(<?php echo json_encode(__('🔄 Einstellungen erneut anwenden', 'psycho-wizard')); ?>);
+            } else {
+                $btn.prop('disabled', false).text(<?php echo json_encode(__('🔄 Einstellungen erneut anwenden', 'psycho-wizard')); ?>);
+                showNotification('error', response.data.message || <?php echo json_encode(__('Ein Fehler ist aufgetreten', 'psycho-wizard')); ?>);
+            }
+        },
+        error: function() {
+            $btn.prop('disabled', false).text(<?php echo json_encode(__('🔄 Einstellungen erneut anwenden', 'psycho-wizard')); ?>);
+            showNotification('error', <?php echo json_encode(__('Ein Fehler ist aufgetreten. Bitte versuche es erneut.', 'psycho-wizard')); ?>);
         }
     });
 }

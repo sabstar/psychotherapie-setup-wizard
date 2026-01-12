@@ -32,6 +32,7 @@ class Psycho_Ajax_Handlers {
         add_action('wp_ajax_psycho_check_acf_import', array($this, 'check_acf_import')); // NEU
         add_action('wp_ajax_psycho_upload_demo_data', array($this, 'upload_demo_data'));
         add_action('wp_ajax_psycho_reset_demo_data', array($this, 'reset_demo_data')); // NEU
+        add_action('wp_ajax_psycho_enable_svg_upload', array($this, 'enable_svg_upload')); // NEU
         add_action('wp_ajax_psycho_install_styling_plugin', array($this, 'install_styling_plugin'));
         add_action('wp_ajax_psycho_configure_settings', array($this, 'configure_settings'));
         add_action('wp_ajax_psycho_assign_templates', array($this, 'assign_templates'));
@@ -59,9 +60,58 @@ class Psycho_Ajax_Handlers {
      */
     public function get_status() {
         $this->verify_request();
-        
+
         $status = Psycho_Status_Checker::get_complete_status();
-        
+
+        // WICHTIG: Template Kit Status live prüfen (nicht nur cached status)
+        // Verhindert dass Progress Bubble grün bleibt wenn Kit nicht vorhanden ist
+        if (class_exists('\Elementor\Plugin')) {
+            $template_count = 0;
+            $page_count = 0;
+
+            // Zähle Elementor Templates
+            $args = array(
+                'post_type' => 'elementor_library',
+                'post_status' => 'publish',
+                'posts_per_page' => -1,
+            );
+            $templates = get_posts($args);
+            $template_count = count($templates);
+
+            // Zähle Elementor Pages
+            $args_pages = array(
+                'post_type' => 'page',
+                'post_status' => 'publish',
+                'posts_per_page' => -1,
+                'meta_query' => array(
+                    array(
+                        'key' => '_elementor_edit_mode',
+                        'value' => 'builder',
+                        'compare' => '='
+                    )
+                )
+            );
+            $elementor_pages = get_posts($args_pages);
+            $page_count = count($elementor_pages);
+
+            // Mindestens 5 Items erforderlich
+            $has_templates = ($template_count + $page_count) > 5;
+
+            // Status dynamisch aktualisieren (in wizard_status nested array!)
+            if ($has_templates) {
+                $status['wizard_status']['template_kit_imported'] = true;
+                Psycho_Status_Checker::update_status('template_kit_imported', true);
+            } else {
+                $status['wizard_status']['template_kit_imported'] = false;
+                Psycho_Status_Checker::update_status('template_kit_imported', false);
+            }
+        } else {
+            // Wenn Elementor nicht vorhanden ist, Status auf false setzen
+            // Verhindert dass Status grün bleibt auf neuer Site ohne Elementor
+            $status['wizard_status']['template_kit_imported'] = false;
+            Psycho_Status_Checker::update_status('template_kit_imported', false);
+        }
+
         wp_send_json_success($status);
     }
     
@@ -486,31 +536,116 @@ class Psycho_Ajax_Handlers {
 
     /**
      * Reset Demo Data - Löscht alle importierten Team Members und setzt Status zurück
+     * WICHTIG: Permanent delete, nicht nur in Trash verschieben!
      */
     public function reset_demo_data() {
         $this->verify_request();
 
-        // Hole alle team_member Posts
+        global $wpdb;
+
+        $deleted_count = 0;
+        $deleted_attachments = 0;
+        $restored_count = 0;
+
+        // SCHRITT 1: Hole ALLE team_member Posts (auch Trash!)
         $team_members = get_posts(array(
             'post_type' => 'team_member',
             'posts_per_page' => -1,
+            'post_status' => array('publish', 'draft', 'pending', 'trash', 'private', 'auto-draft')
+        ));
+
+        // SCHRITT 2: Für jeden Post - erst Attachments, dann Post löschen
+        foreach ($team_members as $post) {
+            // Falls Post im Trash ist, erst untrash (macht Löschen zuverlässiger)
+            if ($post->post_status === 'trash') {
+                wp_untrash_post($post->ID);
+                $restored_count++;
+            }
+
+            // Hole alle Attachments für diesen Post
+            $attachments = get_posts(array(
+                'post_type' => 'attachment',
+                'posts_per_page' => -1,
+                'post_parent' => $post->ID,
+                'post_status' => 'any'
+            ));
+
+            // Lösche Attachments (Bilder, etc.)
+            foreach ($attachments as $attachment) {
+                wp_delete_attachment($attachment->ID, true); // true = force delete files
+                $deleted_attachments++;
+            }
+
+            // WICHTIG: wp_delete_post mit true = PERMANENT DELETE (kein Trash!)
+            $result = wp_delete_post($post->ID, true);
+
+            if ($result) {
+                $deleted_count++;
+            } else {
+                // Fallback: Direkt aus Datenbank löschen wenn wp_delete_post fehlschlägt
+                $wpdb->delete($wpdb->posts, array('ID' => $post->ID));
+                $wpdb->delete($wpdb->postmeta, array('post_id' => $post->ID));
+                $deleted_count++;
+            }
+        }
+
+        // SCHRITT 3: Lösche verwaiste Attachments (ohne parent)
+        $orphaned_attachments = get_posts(array(
+            'post_type' => 'attachment',
+            'posts_per_page' => -1,
+            'post_parent' => 0,
             'post_status' => 'any'
         ));
 
-        $deleted_count = 0;
-
-        // Lösche alle Team Members
-        foreach ($team_members as $post) {
-            wp_delete_post($post->ID, true); // true = force delete (bypass trash)
-            $deleted_count++;
+        foreach ($orphaned_attachments as $attachment) {
+            // Prüfe ob Dateiname team-related ist
+            $filename = basename(get_attached_file($attachment->ID));
+            if (stripos($filename, 'therapist') !== false ||
+                stripos($filename, 'therapy') !== false ||
+                stripos($filename, 'team') !== false ||
+                stripos($filename, 'male-') !== false ||
+                stripos($filename, 'female-') !== false) {
+                wp_delete_attachment($attachment->ID, true);
+                $deleted_attachments++;
+            }
         }
+
+        // SCHRITT 4: Bereinige Datenbank-Reste (orphaned postmeta)
+        $wpdb->query("
+            DELETE pm FROM {$wpdb->postmeta} pm
+            LEFT JOIN {$wpdb->posts} p ON p.ID = pm.post_id
+            WHERE p.ID IS NULL
+        ");
 
         // Setze Status zurück
         Psycho_Status_Checker::update_status('demo_data_imported', false);
 
+        $message = sprintf(
+            '✅ %d Team Member permanent gelöscht (%d aus Trash wiederhergestellt), %d Bilder/Attachments entfernt. Re-Import ist jetzt möglich!',
+            $deleted_count,
+            $restored_count,
+            $deleted_attachments
+        );
+
         wp_send_json_success(array(
-            'message' => $deleted_count . ' Team Member gelöscht. Du kannst jetzt die Demo-Daten erneut importieren.',
-            'deleted_count' => $deleted_count
+            'message' => $message,
+            'deleted_count' => $deleted_count,
+            'restored_count' => $restored_count,
+            'deleted_attachments' => $deleted_attachments
+        ));
+    }
+
+    /**
+     * Enable SVG Upload - Aktiviert Elementor unfiltered file uploads für SVG/JSON
+     */
+    public function enable_svg_upload() {
+        $this->verify_request();
+
+        // Aktiviere Elementor unfiltered file uploads
+        update_option('elementor_unfiltered_files_upload', '1');
+
+        wp_send_json_success(array(
+            'message' => '✅ SVG-Upload aktiviert! Du kannst jetzt dein Template Kit mit Custom Icons importieren.'
         ));
     }
 
@@ -618,6 +753,40 @@ class Psycho_Ajax_Handlers {
         // Permalink-Struktur
         update_option('permalink_structure', '/%postname%/');
         flush_rewrite_rules();
+
+        // MENU SCREEN OPTIONS KONFIGURIEREN
+        $user_id = get_current_user_id();
+        if ($user_id) {
+            // 1. Metaboxen sichtbar machen (aus hidden array entfernen)
+            $hidden_metaboxes = get_user_meta($user_id, 'metaboxhidden_nav-menus', true);
+            if (!is_array($hidden_metaboxes)) {
+                $hidden_metaboxes = array();
+            }
+
+            // Metaboxen die sichtbar gemacht werden sollen
+            $boxes_to_show = array(
+                'add-post-type-team_member',  // Team CPT
+                'add-post_tag',                // Tags (WordPress Standard)
+                'add-job-title',               // Job Title Taxonomy
+                'add-therapy-focus'            // Therapy Focus Taxonomy
+            );
+
+            // Entferne diese Metaboxen aus dem hidden array (macht sie sichtbar)
+            $hidden_metaboxes = array_diff($hidden_metaboxes, $boxes_to_show);
+            update_user_meta($user_id, 'metaboxhidden_nav-menus', $hidden_metaboxes);
+
+            // 2. Link Target sichtbar machen (aus hidden columns entfernen)
+            $hidden_columns = get_user_meta($user_id, 'managenav-menuscolumnshidden', true);
+            if (!is_array($hidden_columns)) {
+                $hidden_columns = array();
+            }
+
+            // Entferne 'link-target' aus hidden columns (macht es sichtbar)
+            $hidden_columns = array_diff($hidden_columns, array('link-target'));
+            update_user_meta($user_id, 'managenav-menuscolumnshidden', $hidden_columns);
+
+            error_log('Menu Screen Options configured for user: ' . $user_id);
+        }
 
         Psycho_Status_Checker::update_status('settings_configured', true);
 

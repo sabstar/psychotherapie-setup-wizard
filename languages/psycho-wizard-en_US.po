@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Psychotherapie Template Kit - Setup Wizard 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-16 13:51+0100\n"
-"PO-Revision-Date: 2025-11-24 10:25+0000\n"
+"PO-Revision-Date: 2025-11-30 11:42+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -16,10 +16,24 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.29"
 
+#: templates/steps/step-11.php:137
+msgid "1. Assign Loop Grid"
+msgstr ""
+
+#: templates/steps/step-11.php:207
+msgid "1. Assign Taxonomy & Loop Grid"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:339
+msgid "1. Heading Widget for heading:"
+msgstr ""
+
+#: templates/steps/step-3.php:59
 msgid ""
 "1. Klicke auf \"Elementor aktivieren\" (öffnet Plugins-Seite in neuem Tab)"
 msgstr "1. Click on \"Activate Elementor\" (opens plugins page in new tab)"
 
+#: templates/steps/step-3.php:60
 msgid ""
 "2. Finde <strong>\"Elementor\"</strong> in der Plugin-Liste und klicke auf "
 "<strong>\"Aktivieren\"</strong>"
@@ -27,9 +41,31 @@ msgstr ""
 "2. Find <strong>\"Elementor\"</strong> in the plugin list and click on "
 "<strong>\"Activate\"</strong>"
 
+#: templates/admin-waiting-badge.php:344
+msgid "2. Heading Widget for time period:"
+msgstr ""
+
+#: templates/steps/step-11.php:187 templates/steps/step-11.php:263
+msgid "2. Set Condition"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:349
+msgid "3. Add CSS class to Container/Section:"
+msgstr ""
+
+#: templates/steps/step-3.php:61
 msgid "3. Kehre zu diesem Tab zurück und klicke auf \"Status prüfen\""
 msgstr "3. Return to this tab and click on \"Check status\""
 
+#: templates/admin-waiting-badge.php:353
+msgid "4. Icon Widget (Close Button) CSS class:"
+msgstr ""
+
+#: templates/steps/step-14.php:226
+msgid "</strong>"
+msgstr ""
+
+#: templates/steps/step-7.php:52
 msgid ""
 "<strong>1. Öffne die Elementor Einstellungen</strong><br>Klicke auf den "
 "Button unten um die Elementor-Einstellungen in einem neuen Tab zu öffnen.<br>"
@@ -55,6 +91,7 @@ msgstr ""
 "\"Save Changes\"</strong> at the bottom<br>• Return to this tab and click on "
 "\"Check configuration\""
 
+#: templates/steps/step-8.php:58
 msgid ""
 "<strong>Bessere Backend-Übersicht:</strong><br>• Größere, lesbarere "
 "Überschriften für ACF Feldgruppen<br>• Bessere visuelle Trennung zwischen "
@@ -68,9 +105,37 @@ msgstr ""
 "editing Team Members<br><br>The plugin is included in the Template Kit "
 "package as <code>styling-plugin.zip</code>"
 
+#: templates/steps/step-11.php:104
 msgid "<strong>Contact</strong> → Suche nach \"Contact\""
 msgstr "<strong>Contact</strong> → Search for \"Contact\""
 
+#: templates/steps/step-14.php:186
+msgid ""
+"<strong>Cormorant Garamond</strong> (Serif) + <strong>Raleway</strong> (Sans-"
+"Serif)"
+msgstr ""
+
+#: templates/steps/step-14.php:28
+msgid ""
+"<strong>Custom Fonts aktualisieren:</strong> Alle importierten Custom Fonts "
+"(Inter, Inter Italic, Instrument Serif, Instrument Serif Italic) werden "
+"aktualisiert und im Dropdown sichtbar gemacht"
+msgstr ""
+
+#: templates/steps/step-14.php:39
+msgid ""
+"<strong>Custom Fonts aktualisieren:</strong> Elementor → Custom Fonts → Jede "
+"Font bearbeiten und \"Aktualisieren\" klicken"
+msgstr ""
+
+#: templates/steps/step-14.php:48
+msgid ""
+"<strong>Datenschutz-relevante Einstellung!</strong><br>Bitte prüfe nach dem "
+"Fonts-Vorbereiten, ob \"Load Google Fonts Locally\" in den Elementor "
+"Performance Settings aktiviert ist. Dies ist wichtig für DSGVO-Konformität!"
+msgstr ""
+
+#: templates/steps/step-4.php:161
 msgid ""
 "<strong>Die Lizenz-Aktivierung ist zwingend erforderlich!</strong><br>Ohne "
 "aktive Elementor Pro Lizenz kann das Template Kit nicht importiert werden."
@@ -82,6 +147,7 @@ msgstr ""
 "If the license is already in use elsewhere:</strong><br>Go to Elementor → "
 "License → \"Deactivate\" on the old website"
 
+#: templates/steps/step-4.php:49
 msgid ""
 "<strong>Elementor Pro ist bereits auf deinem System installiert, aber "
 "momentan deaktiviert.</strong><br><br>Du musst es nicht nochmal hochladen! "
@@ -91,6 +157,7 @@ msgstr ""
 "deactivated.</strong><br><br>You don't need to upload it again! Simply "
 "activate it and then connect the license."
 
+#: templates/steps/step-4.php:31
 msgid ""
 "<strong>Elementor Pro Status:</strong><br>• Plugin: ✅ Installiert und "
 "aktiviert<br>• Lizenz: ✅ Aktiv<br><br>Du kannst direkt zum nächsten Schritt "
@@ -100,6 +167,7 @@ msgstr ""
 "activated<br>• License: ✅ Active<br><br>You can proceed directly to the next "
 "step!"
 
+#: templates/steps/step-4.php:132
 msgid ""
 "<strong>Elementor Pro wurde installiert!</strong><br><br>Aktiviere jetzt "
 "deine Lizenz, damit du das Template Kit importieren kannst.<br><br><strong>"
@@ -115,6 +183,8 @@ msgstr ""
 "Elementor account<br>4. Return to this tab and click on \"Check license "
 "status\""
 
+#: templates/steps/step-6.php:56
+#, php-format
 msgid ""
 "<strong>Erfolgreich eingerichtet:</strong><br>• Custom Post Type \"Team "
 "Member\" (team_member)<br>• %d ACF Field Group(s) für Team Members<br>• "
@@ -129,6 +199,7 @@ msgstr ""
 "Members under \"Team\" in the WordPress menu!<br><strong>⚠️ Important:"
 "</strong> Do not upload the ACF file again, this would create duplicates!"
 
+#: templates/steps/step-7.php:29
 msgid ""
 "<strong>Folgende Einstellungen wurden gesetzt:</strong><br>• Team Custom "
 "Post Type aktiviert<br>• Standardfarben deaktiviert (Theme-Farben aktiv)<br>"
@@ -140,6 +211,8 @@ msgstr ""
 "Default fonts disabled (theme fonts active)<br><br>You can proceed directly "
 "to the next step!"
 
+#: templates/steps/step-5.php:67
+#, php-format
 msgid ""
 "<strong>Gefundene Inhalte:</strong><br>• %d Elementor Templates (Header, "
 "Footer, Singles, etc.)<br>• %d Seiten mit Elementor erstellt<br><br>Du "
@@ -149,15 +222,43 @@ msgstr ""
 "Singles, etc.)<br>• %d pages created with Elementor<br><br>You can proceed "
 "directly to the next step!"
 
+#: templates/steps/step-16.php:85
+msgid ""
+"<strong>Global Settings</strong> findest du unter: <code style=\"background: "
+"white; padding: 2px 8px; border-radius: 4px; font-size: 14px;\">Elementor → "
+"Site Settings</code>"
+msgstr ""
+
+#: templates/steps/step-14.php:29
+msgid ""
+"<strong>Google Fonts lokal laden:</strong> Elementor wird so konfiguriert, "
+"dass Google Fonts DSGVO-konform von deinem Server geladen werden (nicht von "
+"Google)"
+msgstr ""
+
+#: templates/steps/step-14.php:40
+msgid ""
+"<strong>Google Fonts lokal laden:</strong> Elementor → Settings → "
+"Performance → \"Load Google Fonts Locally\" auf \"Enable\" setzen"
+msgstr ""
+
+#: templates/steps/step-11.php:106
 msgid "<strong>Home</strong> → Suche nach \"Home\""
 msgstr "<strong>Home</strong> → Search for \"Home\""
 
+#: templates/steps/step-11.php:105
 msgid "<strong>How it works</strong> → Suche nach \"How it works\""
 msgstr "<strong>How it works</strong> → Search for \"How it works\""
 
+#: templates/steps/step-14.php:102
+msgid "<strong>Instrument Serif</strong> (Custom) + <strong>Inter</strong>"
+msgstr ""
+
+#: templates/steps/step-11.php:107
 msgid "<strong>Kosten & Abrechnung</strong> → Suche nach \"Fees\""
 msgstr "<strong>Fees & Billing</strong> → Search for \"Fees\""
 
+#: templates/steps/step-6.php:92
 msgid ""
 "<strong>Lade die ACF JSON-Datei nur einmal hoch!</strong><br>Ein erneuter "
 "Upload würde Duplikate erstellen und das Backend beschädigen."
@@ -167,6 +268,28 @@ msgstr ""
 "JSON file once!</strong><br>Uploading it again would create duplicates and "
 "damage the backend."
 
+#: templates/steps/step-14.php:162
+msgid ""
+"<strong>Merriweather</strong> (Serif) + <strong>Lato</strong> (Sans-Serif)"
+msgstr ""
+
+#: templates/steps/step-14.php:150
+msgid "<strong>Montserrat</strong> + <strong>Inter</strong> (Corporate)"
+msgstr ""
+
+#: templates/steps/step-14.php:138
+msgid "<strong>Outfit</strong> + <strong>Inter</strong> (Rounded)"
+msgstr ""
+
+#: templates/steps/step-14.php:126
+msgid "<strong>Playfair Display</strong> + <strong>Inter</strong>"
+msgstr ""
+
+#: templates/steps/step-14.php:174
+msgid "<strong>Poppins</strong> + <strong>Nunito</strong> (beide Sans-Serif)"
+msgstr ""
+
+#: templates/steps/step-5.php:90
 msgid ""
 "<strong>Schritt-für-Schritt:</strong><br><br><strong>1.</strong> Klicke auf "
 "\"Elementor Kit Import öffnen\" (öffnet in neuem Tab)<br><strong>2.</strong> "
@@ -187,6 +310,7 @@ msgstr ""
 "wait until the import is complete<br><strong>5.</strong> Return to this tab "
 "and click on \"Check import status\""
 
+#: templates/steps/step-4.php:57
 msgid ""
 "<strong>So geht's:</strong><br>1. Klicke auf \"Elementor Pro aktivieren\" "
 "(öffnet Plugins-Seite in neuem Tab)<br>2. Finde <strong>\"Elementor "
@@ -203,6 +327,7 @@ msgstr ""
 " Log in with your Elementor account<br>5. Return to this tab and click on "
 "\"Check status\""
 
+#: templates/steps/step-4.php:95
 msgid ""
 "<strong>So geht's:</strong><br>1. Klicke auf \"Zur Lizenz-Seite\" (öffnet in "
 "neuem Tab)<br>2. Klicke auf <strong>\"Connect & Activate\"</strong><br>3. "
@@ -214,9 +339,19 @@ msgstr ""
 "with your Elementor account<br>4. Return to this tab and click on \"Check "
 "license status\""
 
+#: templates/steps/step-11.php:281
+msgid ""
+"<strong>Team Members will only appear if you have created them.</strong> "
+"After importing the kit, no Team Members are present.<br><br><strong>Solo "
+"Therapist?</strong> If you work alone, create one Team Member for yourself "
+"and link this page in the menu as \"About me\" instead of \"Team\"."
+msgstr ""
+
+#: templates/steps/step-11.php:108
 msgid "<strong>Therapy Services</strong> → Suche nach \"Services\""
 msgstr "<strong>Therapy Services</strong> → Search for \"Services\""
 
+#: templates/steps/step-7.php:81
 msgid ""
 "<strong>Warum ist das wichtig?</strong><br><br><strong>Team Post Type:"
 "</strong><br>Ermöglicht die Verwaltung deiner Team-Mitglieder mit allen 40+ "
@@ -235,22 +370,31 @@ msgstr ""
 "right away.<br><br><strong>Disable Default Fonts:</strong><br>Your template "
 "fonts will be used. This way all texts appear in the correct font."
 
-#: templates/steps/step-6.php
+#: templates/steps/step-6.php:42
 msgid "ACF für Team Members"
 msgstr "Team Members"
 
-msgid "ACF installieren →"
-msgstr ""
-
+#: templates/steps/step-6.php:78
 msgid "ACF JSON Datei hochladen"
 msgstr "Upload ACF JSON file"
 
+#: templates/wizard-page.php:56
 msgid "ACF Setup"
 msgstr "ACF Setup"
 
+#: templates/steps/step-6.php:79
 msgid "acf-team-members.json"
 msgstr "acf-team-members.json"
 
+#: templates/steps/step-12.php:91
+msgid "Adjust your navigation labels text (number 4)"
+msgstr ""
+
+#: templates/steps/step-12.php:84
+msgid "Adjust your navigation menus"
+msgstr ""
+
+#: templates/steps/step-7.php:20
 msgid ""
 "Aktiviere den Team Custom Post Type und konfiguriere die Elementor-"
 "Einstellungen für beste Darstellung."
@@ -259,9 +403,20 @@ msgstr ""
 "best display.Activate the Team Custom Post Type and configure the Elementor "
 "settings for best display."
 
+#: templates/steps/step-11.php:148
 msgid "Archiv Übersicht"
 msgstr "Archive overview"
 
+#: templates/steps/step-12.php:92
+msgid ""
+"Assign menu to <strong>header</strong> and click on <strong>save</strong>"
+msgstr ""
+
+#: templates/steps/step-11.php:243
+msgid "Assign Team Loop Grid Template"
+msgstr ""
+
+#: templates/steps/step-11.php:170
 msgid ""
 "Auf der linken Seite im Loop Grid wählst du jetzt das Template aus. Gebe "
 "<strong>\"blog\"</strong> ein. Es erscheint das <strong>\"Blog Posts Layout "
@@ -271,37 +426,31 @@ msgstr ""
 "\"blog\"</strong>. The <strong>\"Blog Posts Layout (Template)\"</strong> "
 "will appear. Select it."
 
-msgid ""
-"Auf der rechten Seite solltest du jetzt deine Team Members sehen (sofern du "
-"welche erstellt hast).<br><br><strong>Team Member erscheinen erst, wenn du "
-"sie angelegt hast.</strong> Nach dem Import des Kits sind keine Team Member "
-"vorhanden.<br><br><strong>Solo-Therapeut?</strong> Wenn du als Einzelperson "
-"arbeitest, erstelle einen Team Member für dich und verlinke diese Seite im "
-"Menü als \"Über mich\" statt \"Team\"."
-msgstr ""
-"On the right side you should now see your Team Members (if you have created "
-"any).<br><br><strong>Team Members only appear after you have created them."
-"</strong> After importing the Kit, no Team Members are available.<br><br>"
-"<strong>Solo therapist?</strong> If you work as an individual, create a Team "
-"Member for yourself and link this page in the menu as \"About me\" instead "
-"of \"Team\"."
-
+#: templates/steps/step-12.php:180
 msgid "Automatische Konfiguration"
 msgstr "Configuration"
 
-#: templates/steps/step-8.php
+#: templates/steps/step-8.php:15
 msgid "Backend Styling Plugin"
 msgstr "Styling Plugin"
 
+#: templates/admin-waiting-badge.php:247
+msgid "Badge Status"
+msgstr ""
+
+#: templates/steps/step-10.php:81
 msgid "Bearbeite die Datenschutzseite"
 msgstr "Edit the privacy policy page"
 
+#: templates/steps/step-11.php:80 templates/steps/step-11.php:85
 msgid "Bedingung hinzufügen"
 msgstr "Add condition"
 
+#: templates/steps/step-11.php:68 templates/steps/step-11.php:73
 msgid "Bedingungen bearbeiten"
 msgstr "Edit conditions"
 
+#: templates/steps/step-11.php:71
 msgid ""
 "Bei dem ausgewählten Template siehst du links unten die Option <strong>"
 "\"Bedingungen bearbeiten\"</strong>. Klicke darauf."
@@ -309,60 +458,143 @@ msgstr ""
 "On the selected template you will see the option <strong>\"Edit "
 "conditions\"</strong> at the bottom left. Click on it."
 
+#: templates/steps/step-11.php:119
 msgid ""
 "Bei den Legal Pages wählst du <strong>Imprint UND Privacy Policy</strong> "
 "aus."
 msgstr ""
 "For the Legal Pages, select <strong>Imprint AND Privacy Policy</strong>."
 
+#: templates/steps/step-16.php:95
+#, php-format
+msgid ""
+"Bei Fragen zur Bedienung von Elementor: <a href=\"%s\" target=\"_blank\" "
+"style=\"color: #2563eb; text-decoration: underline;\">Elementor "
+"Documentation</a>"
+msgstr ""
+
+#: templates/steps/step-9.php:57 templates/steps/step-9.php:280
 msgid "Beispiel-Daten mit ausgefüllten Feldern als Vorlage (optional)"
 msgstr "Sample data with filled fields as template (optional)"
 
+#: templates/steps/step-2.php:39
 msgid "Bereit"
 msgstr "Ready"
 
+#: templates/steps/step-3.php:93
 msgid "Bereit zur Installation"
 msgstr "Ready for installation"
 
+#: templates/steps/step-14.php:17
+msgid ""
+"Bereite deine Custom Fonts vor und wähle ein Schriftarten-Schema für deine "
+"Website."
+msgstr ""
+
+#: templates/steps/step-10.php:25
 msgid ""
 "Bevor wir die Templates zuweisen, müssen wir die Datenschutzseite "
 "veröffentlichen."
 msgstr ""
 "Before we assign the templates, we need to publish the privacy policy page."
 
+#: templates/steps/step-3.php:210
 msgid "Bitte aktiviere Elementor über die Plugins-Seite."
 msgstr "Please activate Elementor via the plugins page."
 
+#: templates/steps/step-8.php:112
 msgid "Bitte lade das Plugin hoch."
 msgstr "Please upload the plugin."
 
+#: templates/steps/step-6.php:145
 msgid "Bitte lade die ACF JSON-Datei hoch."
 msgstr "Please upload the ACF JSON file."
 
+#: templates/steps/step-9.php:112
 msgid "Bitte lade eine XML-Datei hoch (.xml)"
 msgstr "Please upload an XML file (.xml)"
 
+#: includes/class-wizard.php:91
 msgid "Bitte Lizenz aktivieren"
 msgstr "Please activate license"
 
+#: templates/steps/step-9.php:178
+msgid "Bitte nicht erneut importieren - Daten sind bereits vorhanden!"
+msgstr ""
+
+#: includes/class-wizard.php:92
 msgid "Bitte Template Kit importieren"
 msgstr "Please import Template Kit"
 
+#: templates/steps/step-3.php:216
 msgid "Bitte versuche es erneut."
 msgstr "Please try again."
 
+#: templates/steps/step-11.php:184
 msgid "Blog Posts Layout"
 msgstr "Blog Posts Layout"
 
+#: templates/steps/step-11.php:172
 msgid "Blog Template wählen"
 msgstr "Select blog template"
 
+#: templates/steps/step-11.php:167
 msgid "Blog Template zuweisen"
 msgstr "Assign blog template"
 
+#: templates/admin-waiting-badge.php:307
+msgid "Bottom Left"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:310
+msgid "Bottom Right"
+msgstr ""
+
+#: templates/steps/step-15.php:280
+msgid "Button"
+msgstr ""
+
+#: templates/steps/step-7.php:69
+msgid "Check Configuration"
+msgstr ""
+
+#: templates/steps/step-11.php:197
+msgid ""
+"Click on <strong>Add Condition</strong> and select the <strong>post "
+"archive</strong>. Don't forget to save!"
+msgstr ""
+
+#: templates/steps/step-11.php:273
+msgid ""
+"Click on <strong>Add Condition</strong> and select the <strong>team "
+"archive</strong>. Don't forget to save!"
+msgstr ""
+
+#: templates/steps/step-12.php:113
+msgid "Click on <strong>Save</strong> (number 4)"
+msgstr ""
+
+#: templates/steps/step-11.php:199
+msgid "Condition Post Archive"
+msgstr ""
+
+#: templates/steps/step-11.php:275
+msgid "Condition Team Archive"
+msgstr ""
+
+#: templates/steps/step-15.php:298
+msgid "Container"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:318
+msgid "Cookie Duration (Days)"
+msgstr ""
+
+#: templates/steps/step-welcome.php:54
 msgid "Custom Post Type mit 40+ Feldern"
 msgstr "Custom Post Type with 40+ fields"
 
+#: templates/steps/step-12.php:125
 msgid ""
 "Damit ist das Grund-Setup fertig. Jetzt geht es daran, deine Seite zu "
 "personalisieren und deine eigenen Farben, Schriften und Inhalte einzufügen."
@@ -370,6 +602,7 @@ msgstr ""
 "With this, the basic setup is complete. Now it's time to personalize your "
 "site and add your own colors, fonts and content."
 
+#: templates/steps/step-8.php:29
 msgid ""
 "Das Backend Styling Plugin ist aktiv und verbessert die Darstellung der Team "
 "Member Felder im WordPress Backend."
@@ -377,6 +610,14 @@ msgstr ""
 "The Backend Styling Plugin is active and improves the display of Team Member "
 "fields in the WordPress backend."
 
+#: templates/steps/step-13.php:216
+msgid ""
+"Das gewählte Farbschema überschreibt alle Elementor Global Colors. Wenn du "
+"eigene Farben verwendet hast, gehen diese verloren. <strong>Wähle \"Template "
+"Standard\"</strong> um die Original-Farben des Templates wiederherzustellen."
+msgstr ""
+
+#: templates/steps/step-11.php:311
 msgid ""
 "Das gleiche gilt für alle anderen Seiten, die du nicht brauchst. Im nächsten "
 "Step werden wir die Menüpunkte anpassen."
@@ -384,10 +625,27 @@ msgstr ""
 "The same applies to all other pages you don't need. In the next step we will "
 "adjust the menu items."
 
+#: templates/steps/step-2.php:27
+msgid ""
+"Das Hello Theme ist bereits installiert und aktiviert. Du kannst direkt zum "
+"nächsten Schritt weitergehen!"
+msgstr ""
+
+#: templates/steps/step-2.php:19
 msgid ""
 "Das Hello Theme ist das offizielle, leichtgewichtige Theme von Elementor."
 msgstr "The Hello Theme is the official, lightweight theme by Elementor."
 
+#: templates/steps/step-14.php:89
+msgid ""
+"Das System ändert <strong>15 Schriftarten</strong>: 4 System Fonts (Primary, "
+"Secondary, Text, Accent/Button) + 3 Custom Fonts (Small Text, Numbers, "
+"Quotes) + H1-H6 + Body + Link. Font-Größen, Line-Heights und Text-Transforms "
+"bleiben unverändert. <strong>H1-H4</strong> verwenden die Primary Font, "
+"<strong>H5-H6</strong> die Text Font."
+msgstr ""
+
+#: templates/steps/step-11.php:296
 msgid ""
 "Das Template aus den <strong>Conditions</strong> im Theme Builder löschen"
 msgstr ""
@@ -395,22 +653,34 @@ msgstr ""
 "BuilderDelete the template from the <strong>Conditions</strong> in Theme "
 "Builder"
 
+#: templates/steps/step-13.php:223
+msgid ""
+"Das Template nutzt Elementor Global Colors für maximale Flexibilität. Du "
+"kannst jede Farbe später unter <strong>Elementor → Custom Colors</strong> "
+"einzeln anpassen."
+msgstr ""
+
+#: templates/steps/step-9.php:219
 msgid "Datei ist zu groß."
 msgstr "File is too large."
 
+#: templates/steps/step-9.php:121
 msgid "Datei ist zu groß. Maximum: 10MB"
 msgstr "File is too large. Maximum: 10MB"
 
+#: templates/wizard-page.php:60
 msgid "Datenschutz"
 msgstr "Privacy"
 
-#: templates/steps/step-10.php
+#: templates/steps/step-10.php:23
 msgid "Datenschutzseite vorbereiten"
 msgstr "Prepare privacy policy page"
 
+#: templates/steps/step-welcome.php:31
 msgid "Dein Fortschritt"
 msgstr "Your Progress"
 
+#: templates/steps/step-16.php:23
 msgid ""
 "Deine Website ist jetzt bereit für deine persönlichen Inhalte! Folge dieser "
 "Anleitung, um Texte und Bilder in den Templates zu personalisieren."
@@ -418,25 +688,35 @@ msgstr ""
 "Your website is now ready for your personal content! Follow this guide to "
 "personalize texts and images in the templates."
 
+#: templates/wizard-page.php:59
 msgid "Demo Daten"
 msgstr "Demo Data"
 
+#: templates/steps/step-9.php:56 templates/steps/step-9.php:279
 msgid "Demo Team Members importieren"
 msgstr "Import demo Team Members"
 
-#: templates/steps/step-9.php
+#: templates/steps/step-9.php:172
+msgid "Demo-Daten erfolgreich importiert!"
+msgstr ""
+
+#: templates/steps/step-9.php:29
 msgid "Demo-Daten importieren (Optional)"
 msgstr "Import demo data (Optional)"
 
+#: templates/steps/step-9.php:132
 msgid "Demo-Daten werden importiert..."
 msgstr "Importing demo data..."
 
+#: templates/steps/step-9.php:65 templates/steps/step-9.php:288
 msgid "Demo-Daten XML hochladen"
 msgstr "Upload demo data XML"
 
+#: templates/steps/step-9.php:244
 msgid "Demo-Daten übersprungen"
 msgstr "Demo data skipped"
 
+#: templates/steps/step-7.php:88
 msgid ""
 "Der <strong>Team Post Type</strong> erscheint nur, wenn das ACF JSON "
 "erfolgreich importiert wurde (Schritt 6).<br>Falls \"Team\" nicht sichtbar "
@@ -446,6 +726,7 @@ msgstr ""
 "successfully imported (Step 6).<br>If \"Team\" is not visible, go back to "
 "Step 6 and import the ACF JSON again."
 
+#: templates/steps/step-6.php:85
 msgid ""
 "Der Custom Post Type \"Team Members\" ermöglicht es dir, dein Team mit ca. "
 "40 individuellen Feldern zu verwalten (Foto, Position, Qualifikationen, "
@@ -455,12 +736,15 @@ msgstr ""
 "approx. 40 individual fields (photo, position, qualifications, "
 "specializations, etc.)."
 
+#: templates/wizard-page.php:17
 msgid "Der Setup-Wizard wurde bereits durchlaufen."
 msgstr "The setup wizard has already been completed."
 
+#: templates/steps/step-welcome.php:58
 msgid "Design"
 msgstr "Design"
 
+#: templates/steps/step-10.php:108
 msgid ""
 "Die <strong>Impressum-Seite</strong> ist bereits in deinem Template Kit "
 "enthalten und veröffentlicht. Du musst nur noch den Inhalt mit deinen "
@@ -469,9 +753,11 @@ msgstr ""
 "The <strong>imprint page</strong> is already included in your Template Kit "
 "and published. You just need to adapt the content with your own data."
 
+#: templates/steps/step-9.php:217
 msgid "Die Anfrage hat zu lange gedauert."
 msgstr "The request took too long."
 
+#: templates/steps/step-9.php:42 templates/steps/step-9.php:176
 msgid ""
 "Die Beispiel-Team-Members wurden erfolgreich importiert und können als "
 "Vorlage genutzt werden."
@@ -479,13 +765,20 @@ msgstr ""
 "The sample Team Members have been successfully imported and can be used as a "
 "template."
 
+#: templates/steps/step-10.php:51
 msgid "Die Datenschutzseite existiert, ist aber noch nicht veröffentlicht."
 msgstr "The privacy policy page exists, but is not yet published."
 
+#: templates/steps/step-10.php:32
 msgid ""
-"Die Datenschutzseite ist <strong>deine rechtliche Verantwortung</strong>!"
+"Die Datenschutzseite ist <strong>deine rechtliche Verantwortung</strong>!<br>"
+"<br>WordPress erstellt automatisch eine Standard-Datenschutzseite. Du "
+"<strong>MUSST</strong>:<br>• Den Inhalt an deine Praxis anpassen<br>• "
+"Rechtlich korrekte Informationen eintragen<br>• Bei Unsicherheit einen "
+"Anwalt konsultieren"
 msgstr ""
 
+#: templates/steps/step-10.php:44
 msgid ""
 "Die Datenschutzseite ist bereits veröffentlicht und kann den Templates "
 "zugewiesen werden."
@@ -493,6 +786,7 @@ msgstr ""
 "The privacy policy page is already published and can be assigned to the "
 "templates."
 
+#: templates/steps/step-9.php:73 templates/steps/step-9.php:296
 msgid ""
 "Die Demo-Daten sind <strong>optional</strong>. Du kannst auch direkt mit "
 "eigenen Team Members starten.<br>Die Demo-Daten helfen dir zu verstehen, wie "
@@ -502,15 +796,14 @@ msgstr ""
 "your own Team Members.<br>The demo data helps you understand how the 40+ "
 "fields should be filled out."
 
-msgid "Die Installation startet automatisch, wenn du auf \"Weiter\" klickst."
-msgstr "The installation will start automatically when you click \"Continue\"."
-
+#: templates/steps/step-11.php:125
 msgid ""
 "Die Privacy Page (Datenschutz) muss zuerst veröffentlicht sein, um sie "
 "auswählen und zuordnen zu können!"
 msgstr ""
 "The Privacy Page must be published first to be able to select and assign it!"
 
+#: templates/steps/step-11.php:297
 msgid ""
 "Die Seite auf <strong>\"Entwurf\"</strong> stellen (sie sollte nicht "
 "veröffentlicht sein)"
@@ -518,12 +811,27 @@ msgstr ""
 "Set the page to <strong>\"Draft\"</strong> (it should not be published)Set "
 "the page to <strong>\"Draft\"</strong> (it should not be published)"
 
+#: templates/steps/step-11.php:298
 msgid "Die Seite aus dem Menü entfernen (das machen wir im nächsten Step)"
 msgstr "Remove the page from the menu (we'll do this in the next step)"
 
+#: templates/steps/step-3.php:192
 msgid "Die Seite wird in 2 Sekunden aktualisiert..."
 msgstr "The page will refresh in 2 seconds..."
 
+#: templates/steps/step-14.php:37
+msgid ""
+"Diese Einstellungen werden automatisch vorgenommen. Falls du sie später "
+"manuell ändern möchtest:"
+msgstr ""
+
+#: templates/steps/step-15.php:33
+msgid ""
+"Dieser Schritt ist <strong>optional</strong>. Du kannst direkt zum nächsten "
+"Schritt gehen, falls du die Styles nicht ändern möchtest."
+msgstr ""
+
+#: templates/steps/step-11.php:22
 msgid ""
 "Dieser Schritt ist essentiell! Ohne Template-Zuordnung werden deine Seiten "
 "nicht korrekt angezeigt."
@@ -531,12 +839,26 @@ msgstr ""
 "This step is essential! Without template assignment, your pages will not "
 "display correctly."
 
+#: templates/steps/step-16.php:57
 msgid "DO: Nur im Tab \"Inhalt\" arbeiten"
 msgstr "DO: Only work in the \"Content\" tab"
 
+#: templates/steps/step-16.php:69
 msgid "DON'T: Tab \"Style\" vermeiden"
 msgstr "DON'T: Avoid the \"Style\" tab"
 
+#: templates/steps/step-16.php:88
+msgid ""
+"Dort kannst du <strong>Farben, Schriftarten, Button-Styles</strong> und mehr "
+"für die gesamte Website ändern"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:379
+msgid "Download your current badge settings as JSON file."
+msgstr ""
+
+#: psychotherapie-setup-wizard.php:157
+#, php-format
 msgid ""
 "Du bist bei Schritt %d von 16. Setze den Setup-Wizard fort um dein Template "
 "Kit zu vervollständigen."
@@ -544,15 +866,31 @@ msgstr ""
 "You are at step %d of 16. Continue the Setup Wizard to complete your "
 "Template Kit."
 
+#: templates/steps/step-3.php:28
 msgid "Du kannst direkt zum nächsten Schritt weitergehen!"
 msgstr "You can proceed directly to the next step!"
 
+#: templates/steps/step-16.php:91
+msgid ""
+"Du kannst jederzeit zu diesem Wizard zurückkehren über: <strong>Template "
+"Setup im Dashboard</strong>"
+msgstr ""
+
+#: templates/steps/step-14.php:201
+msgid ""
+"Du kannst später jede Schriftart einzeln unter <strong>Elementor → Site "
+"Settings → Typography</strong> anpassen. Dort findest du alle System Fonts, "
+"Custom Fonts, H1-H6, Body und Link Settings."
+msgstr ""
+
+#: templates/steps/step-3.php:50
 msgid ""
 "Du musst es nicht nochmal installieren! Aktiviere es einfach über die "
 "Plugins-Seite."
 msgstr ""
 "You don't need to install it again! Simply activate it via the plugins page."
 
+#: templates/steps/step-11.php:48
 msgid ""
 "Du siehst hier die Übersichtsseite mit allen Templates. Wenn ein Template "
 "einen <strong style=\"color: #10b981;\">grünen Punkt</strong> oben links hat,"
@@ -566,41 +904,60 @@ msgstr ""
 "the <strong>Loop Grids</strong>, which we will assign to the blog and team "
 "pages later."
 
+#: templates/steps/step-11.php:194
+msgid "Edit Condition Blog Archive"
+msgstr ""
+
+#: templates/steps/step-11.php:270
+msgid "Edit Condition Team Archive"
+msgstr ""
+
+#: templates/steps/step-12.php:105
+msgid "Edit footer Legal Menu"
+msgstr ""
+
+#: templates/steps/step-10.php:175 templates/steps/step-11.php:364
+#: templates/steps/step-12.php:185
 msgid "Ein Fehler ist aufgetreten"
 msgstr "An error occurred"
 
+#: templates/steps/step-10.php:182 templates/steps/step-11.php:369
+#: templates/steps/step-12.php:191
 msgid "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
 msgstr "Please try again."
 
+#: templates/wizard-page.php:53 templates/steps/step-3.php:90
 msgid "Elementor"
 msgstr "Elementor"
 
+#: templates/steps/step-welcome.php:49
 msgid "Elementor & notwendige Erweiterungen"
 msgstr "Elementor & necessary extensions"
 
-#: templates/steps/step-3.php
+#: templates/steps/step-3.php:16
 msgid "Elementor installieren & aktivieren"
 msgstr "Install & activate Elementor"
 
-msgid "Elementor installieren →"
-msgstr ""
-
+#: templates/steps/step-3.php:49
 msgid ""
 "Elementor ist bereits auf deinem System installiert, aber momentan "
 "deaktiviert."
 msgstr ""
 "Elementor is already installed on your system, but currently deactivated."
 
+#: templates/steps/step-3.php:18
 msgid "Elementor ist der Page Builder, mit dem alle Templates erstellt wurden."
 msgstr "Elementor is the page builder used to create all templates."
 
+#: templates/wizard-page.php:54
 msgid "Elementor Pro"
 msgstr "Elementor Pro"
 
-#: templates/steps/step-4.php
+#: templates/steps/step-4.php:17
 msgid "Elementor Pro hochladen & aktivieren"
 msgstr "Install & activate Elementor"
 
+#: templates/steps/step-4.php:87
 msgid ""
 "Elementor Pro ist installiert und aktiviert, aber die Lizenz wurde noch "
 "nicht verbunden."
@@ -608,30 +965,25 @@ msgstr ""
 "Elementor Pro is installed and activated, but the license has not been "
 "connected yet."
 
+#: templates/steps/step-4.php:124
 msgid "Elementor Pro ZIP hochladen"
 msgstr "Elementor Pro"
 
+#: templates/steps/step-3.php:26
 msgid "Elementor Status:"
 msgstr "Elementor Status:"
 
-msgid ""
-"Entferne alle Seiten vom Menü, die du nicht brauchst.<br><br>Gehe zu <strong>"
-"Design → Menüs</strong> und wähle <strong>Psychotherape Main Menu</strong> "
-"aus und klicke auf <strong>\"Auswählen\"</strong>.<br>Gehe zu \"Team\" oder "
-"eine andere Seite die du nicht mehr im Menü haben möchtest und klicke auf "
-"<strong>\"Entfernen\"</strong>. Wenn du Seiten hinzufügen möchtest wähle von "
-"der linken Seite die gewünschten Seiten aus klicke auf <strong>\"Zum Menü "
-"hinzufügen\"</strong>.<br>Weise dem Menü <strong>Header</strong> hinzu und "
-"speichere dann."
+#: templates/admin-waiting-badge.php:255
+msgid "Enable or disable the Waiting Badge on your website."
 msgstr ""
-"Remove all pages from the menu that you don't need.<br><br>Go to <strong>"
-"Appearance → Menus</strong> and select <strong>Psychotherape Main "
-"Menu</strong> and click on <strong>\"Select\"</strong>.<br>Go to \"Team\" or "
-"another page you no longer want in the menu and click on <strong>"
-"\"Remove\"</strong>. If you want to add pages, select the desired pages from "
-"the left side and click on <strong>\"Add to Menu\"</strong>.<br>Assign "
-"<strong>Header</strong> to the menu and then save."
 
+#: templates/admin-waiting-badge.php:372
+msgid ""
+"Export your badge settings as JSON file for template kits or import settings "
+"from another site."
+msgstr ""
+
+#: templates/steps/step-12.php:63
 msgid ""
 "Falls du die Zuweisung manuell ändern möchtest, gehe zu <strong>Design → "
 "Customizer</strong>.<br>Bei <strong>Homepage Einstellungen</strong> legst du "
@@ -641,44 +993,103 @@ msgstr ""
 "Customizer</strong>.<br>Under <strong>Homepage Settings</strong> you can set "
 "your front page and blog page."
 
+#: templates/wizard-page.php:63
 msgid "Farben"
 msgstr "Colors"
 
+#: includes/class-wizard.php:93
 msgid "Farben anwenden →"
 msgstr "Apply Colors →"
 
+#: templates/steps/step-welcome.php:59
 msgid "Farben, Schriften & Templates"
 msgstr "Colors, fonts & templates"
 
+#: templates/steps/step-7.php:129
 msgid "Farben: "
 msgstr "Colors"
 
+#: templates/steps/step-13.php:14
+msgid "Farbschema personalisieren"
+msgstr ""
+
+#: templates/steps/step-3.php:148 templates/steps/step-3.php:154
+#: templates/steps/step-2.php:94 templates/steps/step-2.php:100
+msgid "Fehler"
+msgstr ""
+
+#: templates/steps/step-15.php:377
+msgid "Fehler beim Anwenden"
+msgstr ""
+
+#: templates/steps/step-9.php:204
 msgid "Fehler beim Importieren der Demo-Daten"
 msgstr "Error importing demo data"
 
+#: templates/steps/step-9.php:387
 msgid "Fehler beim Zurücksetzen"
 msgstr "Error during reset"
 
+#: templates/wizard-page.php:66
 msgid "Fertig"
 msgstr "Done"
 
+#: templates/steps/step-6.php:136
 msgid "Field Groups: "
 msgstr "Field Groups: "
 
+#: templates/steps/step-11.php:258
+msgid "Finally, publish the page to save all your changes."
+msgstr ""
+
+#: templates/steps/step-14.php:111
+msgid "Fließtext mit Inter — clean, modern und minimal"
+msgstr ""
+
+#: templates/steps/step-14.php:123
+msgid "Fließtext mit Inter — elegant und klassisch"
+msgstr ""
+
+#: templates/steps/step-14.php:135
+msgid "Fließtext mit Inter — freundlich und einladend"
+msgstr ""
+
+#: templates/steps/step-14.php:99
+msgid "Fließtext mit Inter — professionell und gut lesbar"
+msgstr ""
+
+#: templates/steps/step-14.php:147
+msgid "Fließtext mit Inter — professionell und klar"
+msgstr ""
+
+#: templates/steps/step-14.php:159
+msgid "Fließtext mit Lato — lesbar, warm, professionell"
+msgstr ""
+
+#: templates/steps/step-14.php:171
+msgid "Fließtext mit Nunito — sanft, modern, beruhigend"
+msgstr ""
+
+#: templates/steps/step-14.php:183
+msgid "Fließtext mit Raleway — elegant, gebildet, vertrauenswürdig"
+msgstr ""
+
+#: templates/steps/step-7.php:130
 msgid "Fonts: "
 msgstr "Fonts: "
 
-msgid "Footer Legal Menü bearbeiten"
-msgstr "Edit footer legal menu"
-
-msgid "Footer zuweisen"
-msgstr "Assign footer"
-
+#: psychotherapie-setup-wizard.php:158
 msgid ""
 "Führe den Setup-Wizard fort um dein Template Kit zu installieren und zu "
 "konfigurieren."
 msgstr "Continue the Setup Wizard to install and configure your Template Kit."
 
+#: includes/class-wizard.php:100
+#, php-format
+msgid "Gefunden: %d Templates, %d Seiten"
+msgstr ""
+
+#: templates/steps/step-11.php:146
 msgid ""
 "Gehe im Theme Builder auf <strong>\"Archiv\"</strong> und klicke bei der "
 "<strong>Blog Overview</strong> Seite auf <strong>\"Bearbeiten\"</strong>."
@@ -686,18 +1097,13 @@ msgstr ""
 "Go to <strong>\"Archive\"</strong> in the Theme Builder and click on <strong>"
 "\"Edit\"</strong> on the <strong>Blog Overview</strong> page."
 
-msgid "Gehe im WordPress-Backend zu:"
-msgstr ""
-
+#: templates/steps/step-16.php:34
 msgid ""
-"Gehe zu <strong>Design → Menüs</strong> und wähle bei \"Wähle ein Menü zum "
-"bearbeiten\" das <strong>Footer Menu Legal</strong> aus und klicke auf "
-"<strong>\"Auswählen\"</strong>."
+"Gehe im WordPress-Backend zu: <br><strong style=\"color: #1e293b; font-size: "
+"17px;\">Templates → Theme Builder</strong>"
 msgstr ""
-"Go to <strong>Appearance → Menus</strong> and select <strong>Footer Menu "
-"Legal</strong> from \"Select a menu to edit\" and click on <strong>"
-"\"Select\"</strong>."
 
+#: templates/steps/step-11.php:303
 msgid ""
 "Gehe zu <strong>Seiten → Alle Seiten</strong>, wähle z.B. \"Team\" aus und "
 "klicke auf <strong>\"Schnellbearbeitung\"</strong>. Bei Status wählst du "
@@ -708,29 +1114,63 @@ msgstr ""
 "<strong>\"Quick Edit\"</strong>. For status, select <strong>"
 "\"Draft\"</strong> and click on <strong>\"Update\"</strong>."
 
+#: templates/steps/step-10.php:71
 msgid "Gehe zu Einstellungen → Datenschutz"
 msgstr "Go to Settings → Privacy"
 
+#: templates/steps/step-11.php:34
 msgid "Gehe zu Templates → Theme Builder"
 msgstr "Go to Templates → Theme Builder"
 
-#: templates/steps/step-16.php
+#: templates/steps/step-16.php:13
 msgid "Geschafft!"
 msgstr "Done!"
 
+#: templates/steps/step-12.php:109
+msgid "Go to <strong>Appearance → Menus</strong>"
+msgstr ""
+
+#: templates/steps/step-12.php:88
+msgid ""
+"Go to <strong>Appearance → Menus</strong> and select <strong>Psychotherapy "
+"Main Menu</strong> and click on <strong>select</strong> (number 1)"
+msgstr ""
+
+#: templates/steps/step-12.php:89
+msgid ""
+"Go to <strong>Pages</strong> or <strong>Team</strong> or another page you "
+"want to add or remove and click whether on <strong>Add to Menu</strong> or "
+"on <strong>remove</strong> (number 2)"
+msgstr ""
+
+#: templates/steps/step-14.php:194
+msgid ""
+"Google Fonts werden lokal geladen (DSGVO-konform). Custom Fonts wie <strong>"
+"Instrument Serif</strong> bleiben verfügbar. Die Schriftarten-Auswahl ändert "
+"nur die <strong>font-family</strong>, alle Größen bleiben erhalten."
+msgstr ""
+
+#: templates/steps/step-15.php:191
+msgid "Größere Buttons, sanfte Schatten"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:266
+msgid "Heading"
+msgstr ""
+
+#: templates/steps/step-2.php:36
 msgid "Hello Elementor"
 msgstr "Hello Elementor"
 
+#: templates/wizard-page.php:52
 msgid "Hello Theme"
 msgstr "Hello Theme"
 
-#: templates/steps/step-2.php
+#: templates/steps/step-2.php:17
 msgid "Hello Theme installieren"
 msgstr "Install Hello Theme"
 
-msgid "Hello Theme installieren →"
-msgstr ""
-
+#: templates/steps/step-2.php:46
 msgid ""
 "Hello Theme ist extra schlank und enthält nur das Nötigste. Das sorgt für "
 "beste Performance und volle Kontrolle über dein Design mit Elementor."
@@ -738,12 +1178,23 @@ msgstr ""
 "Hello Theme is extra lean and contains only the essentials. This ensures "
 "best performance and full control over your design with Elementor."
 
+#: templates/steps/step-12.php:60
 msgid "Home und Blog Seite festlegen (optional)"
 msgstr "Set home and blog page (optional)"
 
+#: templates/steps/step-12.php:65
 msgid "Homepage und Blog festlegen"
 msgstr "Set homepage and blog"
 
+#: templates/admin-waiting-badge.php:321
+msgid "How many days should the badge remain hidden after being closed?"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:337
+msgid "How to use the shortcodes in your Elementor widgets:"
+msgstr ""
+
+#: templates/steps/step-12.php:75
 msgid ""
 "Im Customizer unter <strong>Website Informationen</strong> lädst du dein "
 "Logo und auch das Website Icon (Favicon) hoch."
@@ -751,6 +1202,7 @@ msgstr ""
 "In the Customizer under <strong>Site Identity</strong> you upload your logo "
 "and also the website icon (favicon)."
 
+#: templates/steps/step-11.php:182
 msgid ""
 "Im Editor sollten jetzt deine Blogposts in der Übersicht erscheinen (sofern "
 "du bereits Blog Posts erstellt hast). Klicke auf <strong>"
@@ -760,10 +1212,20 @@ msgstr ""
 "already created blog posts). Click on <strong>\"Publish\"</strong> to save "
 "everything."
 
+#: templates/steps/step-9.php:175
+msgid "Import abgeschlossen!"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:392
+msgid "Import badge settings from a JSON file."
+msgstr ""
+
+#: templates/steps/step-9.php:34 templates/steps/step-9.php:308
 msgid ""
 "Importiere Beispiel-Team-Members um die Struktur zu verstehen (optional)."
 msgstr "Import sample Team Members to understand the structure (optional)."
 
+#: templates/steps/step-5.php:58
 msgid ""
 "Importiere jetzt dein Elementor Website Kit über die offizielle Elementor "
 "Import-Seite."
@@ -771,6 +1233,37 @@ msgstr ""
 "Import your Elementor Website Kit now via the official Elementor Import page."
 "Now import your Elementor Website Kit via the official Elementor import page."
 
+#: templates/steps/step-12.php:90
+msgid ""
+"In case you don't see all items click on <strong>View all</strong> (number 3)"
+msgstr ""
+
+#: templates/steps/step-11.php:192
+msgid ""
+"In the archive overview, click on <strong>Edit Conditions</strong> on the "
+"Blog Overview."
+msgstr ""
+
+#: templates/steps/step-11.php:268
+msgid ""
+"In the archive overview, click on <strong>Edit Conditions</strong> on the "
+"Team Overview."
+msgstr ""
+
+#: templates/steps/step-11.php:216
+msgid ""
+"In the archive overview, go to the <strong>Team Overview Template</strong> "
+"and click on <strong>Edit</strong>."
+msgstr ""
+
+#: templates/steps/step-11.php:228
+msgid ""
+"In the navigation bar search for the <strong>Taxonomy filter</strong> and "
+"click on it. On the left side select the <strong>Loop Grid 1</strong>. You "
+"will then see the Focus Therapy Tags."
+msgstr ""
+
+#: templates/steps/step-8.php:20
 msgid ""
 "Installiere das Backend Styling Plugin für eine bessere Übersicht der Team "
 "Member Felder."
@@ -778,39 +1271,57 @@ msgstr ""
 "Install the Backend Styling Plugin for a better overview of the Team Member "
 "fields."
 
+#: templates/steps/step-3.php:123 templates/steps/step-2.php:69
+msgid "Installiere..."
+msgstr ""
+
+#: templates/steps/step-welcome.php:84
 msgid "Jetzt fortsetzen →"
 msgstr "Continue now →"
 
+#: templates/steps/step-15.php:80
+msgid "Kantige Buttons, minimale Schatten"
+msgstr ""
+
+#: templates/steps/step-9.php:221
 msgid "Keine Berechtigung."
 msgstr "No permission."
 
+#: templates/steps/step-9.php:104
 msgid "Keine Datei ausgewählt"
 msgstr "No file selected"
 
+#: templates/steps/step-10.php:58
 msgid ""
 "Keine Datenschutzseite gefunden. Erstelle eine unter Einstellungen → "
 "Datenschutz."
 msgstr "No privacy policy page found. Create one under Settings → Privacy."
 
+#: templates/steps/step-9.php:223
 msgid "Keine Verbindung zum Server."
 msgstr "No connection to server."
 
+#: templates/steps/step-welcome.php:91
 msgid "Klicke auf \"Los geht's →\" unten rechts um zu beginnen"
 msgstr "Click \"Let's go →\" at the bottom right to begin"
 
-msgid "Klicke auf <strong>\"Bearbeiten\"</strong>."
-msgstr ""
-
+#: templates/steps/step-11.php:83
 msgid "Klicke auf <strong>\"Bedingung hinzufügen\"</strong>."
 msgstr "Click on <strong>\"Add Condition\"</strong>."
 
+#: templates/steps/step-3.php:100
+#, fuzzy
+#| msgid ""
+#| "Klicke auf <strong>\"Weiter →\"</strong> um Elementor automatisch aus dem "
+#| "WordPress Repository zu installieren und zu aktivieren."
 msgid ""
-"Klicke auf <strong>\"Weiter →\"</strong> um Elementor automatisch aus dem "
-"WordPress Repository zu installieren und zu aktivieren."
+"Klicke auf <strong>\"Elementor installieren\"</strong> um das Plugin "
+"automatisch aus dem WordPress Repository zu installieren und zu aktivieren."
 msgstr ""
 "Click on <strong>\"Continue →\"</strong> to automatically install and "
 "activate Elementor from the WordPress repository."
 
+#: templates/steps/step-11.php:158
 msgid ""
 "Klicke auf das <strong>Loop Grid Widget</strong> - entweder direkt auf die "
 "graue Fläche oder rechts in der Struktur."
@@ -818,6 +1329,7 @@ msgstr ""
 "Click on the <strong>Loop Grid Widget</strong> - either directly on the gray "
 "area or on the right in the structure."
 
+#: templates/steps/step-12.php:36
 msgid ""
 "Klicke auf den Button um Homepage, Blog-Seite, Permalinks und "
 "Datenschutzseiten automatisch zu konfigurieren."
@@ -825,6 +1337,7 @@ msgstr ""
 "Click the button to automatically configure homepage, blog page, permalinks "
 "and privacy pages."
 
+#: templates/steps/step-16.php:50
 msgid ""
 "Klicke einfach in das <strong>Widget</strong> (Textblock, Überschrift, Bild "
 "etc.), das du bearbeiten möchtest."
@@ -833,21 +1346,26 @@ msgstr ""
 ") that you want to edit.Simply click on the <strong>widget</strong> (text "
 "block, heading, image, etc.) that you want to edit."
 
+#: templates/steps/step-11.php:57
 msgid "Klicke links auf \"Einzelne Seite\""
 msgstr "Click on \"Single Page\" on the left"
 
+#: templates/steps/step-4.php:125
 msgid "Klicke oder ziehe die elementor-pro.zip Datei hier her"
 msgstr "Click or drag the elementor-pro.zip file here"
 
+#: templates/steps/step-welcome.php:63
 msgid "Konfiguration"
 msgstr "Configuration"
 
+#: templates/steps/step-12.php:20
 msgid ""
 "Konfiguriere die grundlegenden WordPress-Einstellungen für deine "
 "Psychotherapie-Praxis."
 msgstr ""
 "Configure the basic WordPress settings for your psychotherapy practice."
 
+#: templates/steps/step-6.php:47
 msgid ""
 "Lade die ACF JSON-Datei hoch, um die Custom Post Type Struktur für Team "
 "Members zu erstellen."
@@ -856,51 +1374,72 @@ msgstr ""
 "members.Upload the ACF JSON file to create the Custom Post Type structure "
 "for Team Members."
 
+#: templates/steps/step-4.php:22
 msgid "Lade Elementor Pro hoch und aktiviere anschließend deine Lizenz."
 msgstr "Upload Elementor Pro and then activate your license."
 
+#: templates/steps/step-12.php:116
+msgid "Legal Menu"
+msgstr ""
+
+#: templates/steps/step-11.php:129
 msgid "Legal Pages zuweisen"
 msgstr "Assign legal pages"
 
+#: templates/steps/step-15.php:154
+msgid "Leichte Rundung, soft shadows"
+msgstr ""
+
+#: templates/steps/step-welcome.php:76
 msgid "Loading..."
 msgstr "Loading..."
 
+#: templates/steps/step-12.php:77
 msgid "Logo und Icon hochladen"
 msgstr "Upload logo and icon"
 
+#: templates/steps/step-12.php:72
 msgid "Logo und Website Icon hochladen"
 msgstr "Upload logo and website icon"
 
+#: templates/steps/step-11.php:160
 msgid "Loop Grid auswählen"
 msgstr "Select Loop Grid"
 
+#: templates/steps/step-11.php:155
 msgid "Loop Grid Widget auswählen"
 msgstr "Select Loop Grid widget"
 
+#: includes/class-wizard.php:90 psychotherapie-setup-wizard.php:41
+#: templates/wizard-page.php:107
 msgid "Los geht's →"
 msgstr "Let's Go →"
 
+#: templates/steps/step-16.php:71
 msgid ""
-"Mache hier das gleiche wie bei den Blog Posts. Gehe zurück zum <strong>Team "
-"Overview Template</strong> und klicke auf <strong>\"Bearbeiten\"</strong>. "
-"Suche wieder das <strong>Loop Grid Widget</strong> aus."
+"Mache <strong>nur in Ausnahmefällen</strong> Änderungen im Tab <strong>"
+"\"Style\"</strong>.<br><br><strong>Warum?</strong> Sobald du Styles in "
+"einzelnen Widgets änderst:<br>• Verlierst du die <strong>Konsistenz</strong> "
+"deines Layouts<br>• Kannst du Änderungen <strong>nicht mehr global</strong> "
+"anwenden<br>• Lassen sich diese Widget-Styles <strong>nicht mehr "
+"zurücksetzen</strong><br><br>Alle Widget-spezifischen Style-Änderungen "
+"überschreiben die Global Settings und werden <strong>nicht</strong> von "
+"globalen Änderungen betroffen."
 msgstr ""
-"Do the same here as with the blog posts. Go back to the <strong>Team "
-"Overview Template</strong> and click on <strong>\"Edit\"</strong>. Select "
-"the <strong>Loop Grid Widget</strong> again."
 
-msgid "Main Menu bearbeiten"
-msgstr "Edit main menu"
+#: templates/steps/step-12.php:95
+msgid "Manage menu items"
+msgstr ""
 
-msgid "Menüpunkte Entfernen & Hinzufügen, Menü zuweisen"
-msgstr "Remove & add menu items, assign menu"
+#: templates/admin-waiting-badge.php:237
+msgid "Manage your Waiting Time Badge - fully integrated with Elementor"
+msgstr ""
 
-msgid "Menüs auswählen"
-msgstr "Select menus"
-
+#: templates/steps/step-2.php:37
 msgid "Minimalistisches Theme optimiert für Elementor"
 msgstr "Minimalist theme optimized for Elementor"
 
+#: templates/steps/step-9.php:254
 msgid ""
 "Möchtest du wirklich die Demo-Daten zurücksetzen? Dies löscht alle "
 "importierten Team Members und setzt den Status zurück."
@@ -908,12 +1447,14 @@ msgstr ""
 "Do you really want to reset the demo data? This will delete all imported "
 "Team Members and reset the status."
 
+#: templates/steps/step-welcome.php:371
 msgid ""
 "Möchtest du wirklich von vorne beginnen? Der bisherige Fortschritt bleibt "
 "erhalten."
 msgstr ""
 "Do you really want to start over? Your previous progress will be preserved."
 
+#: templates/steps/step-10.php:99
 msgid ""
 "Nachdem du den Inhalt angepasst hast, klicke unten auf den Button um die "
 "Datenschutzseite zu veröffentlichen."
@@ -921,9 +1462,23 @@ msgstr ""
 "After adapting the content, click the button below to publish the privacy "
 "policy page."
 
+#: templates/steps/step-14.php:114
+msgid "Nur <strong>Inter</strong> (Clean & Modern)"
+msgstr ""
+
+#: templates/steps/step-welcome.php:76
 msgid "Nächster Schritt:"
 msgstr "Next step:"
 
+#: templates/steps/step-14.php:53
+msgid "Open Elementor Performance Settings (new tab)"
+msgstr ""
+
+#: templates/steps/step-7.php:62
+msgid "Open Elementor Settings (new tab)"
+msgstr ""
+
+#: templates/steps/step-10.php:84
 msgid ""
 "Passe den Inhalt der Datenschutzseite an deine Praxis an. Stelle sicher, "
 "dass alle Informationen rechtlich korrekt sind."
@@ -931,75 +1486,146 @@ msgstr ""
 "Adapt the content of the privacy policy page to your practice. Ensure that "
 "all information is legally correct."
 
-msgid "Plugin installieren →"
-msgstr ""
-
+#: templates/steps/step-welcome.php:48
 msgid "Plugins"
 msgstr "Plugins"
 
-msgid "Privacy Policy hinzufügen"
-msgstr "Add Privacy Policy"
+#: templates/admin-waiting-badge.php:298
+msgid "Position"
+msgstr ""
 
+#: templates/steps/step-11.php:260
+msgid "Publish Team Overview"
+msgstr ""
+
+#: templates/steps/step-11.php:255
+msgid "Publish the Page"
+msgstr ""
+
+#: templates/steps/step-welcome.php:22
 msgid "Richte deine Psychotherapie-Website in wenigen Schritten ein"
 msgstr "Set up your psychotherapy website in just a few steps"
 
+#: templates/steps/step-15.php:43
+msgid "Runde Buttons & sanfte Schatten"
+msgstr ""
+
+#: templates/steps/step-welcome.php:37
+#, php-format
 msgid "Schritt %d von 13"
 msgstr "Step %d of 13"
 
+#: templates/steps/step-11.php:246
+msgid ""
+"Search in the navigation structure for the <strong>Loop Grid</strong>, click "
+"on it and search on the left side for the <strong>team template</strong> and "
+"select it."
+msgstr ""
+
+#: templates/steps/step-15.php:117
+msgid "Sehr runde Ecken, weiche Schatten"
+msgstr ""
+
+#: templates/steps/step-11.php:97
 msgid "Seite auswählen"
 msgstr "Select page to edit"
 
+#: templates/steps/step-11.php:92
 msgid "Seite auswählen und speichern"
 msgstr "Select widget and change content"
 
+#: templates/steps/step-16.php:39
 msgid "Seite zum Bearbeiten auswählen"
 msgstr "Select page to edit"
 
+#: templates/steps/step-11.php:305
 msgid "Seiten Status ändern"
 msgstr "Change page status"
 
-msgid "Settings Recovery"
-msgstr "Settings Recovery"
+#: templates/steps/step-11.php:225 templates/steps/step-11.php:236
+msgid "Select Taxonomy Filter"
+msgstr ""
 
+#: templates/steps/step-11.php:248
+msgid "Select Team Loop Grid"
+msgstr ""
+
+#: templates/steps/step-11.php:218
+msgid "Select Team Overview"
+msgstr ""
+
+#: templates/steps/step-11.php:213
+msgid "Select Team Overview Template"
+msgstr ""
+
+#: templates/steps/step-12.php:110
+msgid ""
+"Select the <strong>Footer menu legal</strong> and click on <strong>"
+"select</strong> (number 1)"
+msgstr ""
+
+#: templates/steps/step-12.php:111
+msgid ""
+"Select the <strong>Privacy Policy Page</strong> on the left and click on "
+"<strong>Add to menu</strong> (number 2)"
+msgstr ""
+
+#: templates/steps/step-12.php:112
+msgid "Select the Display Location as <strong>Footer</strong> (number 3)"
+msgstr ""
+
+#: templates/steps/step-12.php:97
+msgid "Set header and save"
+msgstr ""
+
+#: includes/class-wizard.php:96
 msgid "Setup abgeschlossen ✓"
 msgstr "Setup completed ✓"
 
+#: templates/wizard-page.php:19
 msgid "Setup erneut durchführen"
 msgstr "Run Setup Again"
 
+#: templates/steps/step-3.php:58
 msgid "So geht's:"
 msgstr "Here's how:"
 
+#: templates/steps/step-11.php:301
 msgid "So stellst du eine Seite auf Entwurf:"
 msgstr "How to set a page to draft:"
 
+#: templates/steps/step-15.php:228
+msgid "Sophisticated, subtile Eleganz"
+msgstr ""
+
+#: templates/steps/step-7.php:142
 msgid "Standardfarben noch aktiv"
 msgstr "Default colors still active"
 
+#: templates/steps/step-7.php:143
 msgid "Standardschriftarten noch aktiv"
 msgstr "Default fonts still active"
 
+#: templates/wizard-page.php:65
 msgid "Styles"
 msgstr "Styles"
 
+#: templates/wizard-page.php:58
 msgid "Styling Plugin"
 msgstr "Styling Plugin"
 
+#: templates/steps/step-8.php:51
 msgid "Styling Plugin ZIP hochladen"
 msgstr "Styling Plugin"
 
+#: templates/steps/step-16.php:42
 msgid ""
 "Suche die Seite heraus, auf der du deine <strong>Texte und Bilder "
-"personalisieren</strong> möchtest."
+"personalisieren</strong> möchtest.<br>Klicke auf <strong>"
+"\"Bearbeiten\"</strong>."
 msgstr ""
 
-msgid ""
-"Suche nach <strong>\"team\"</strong> und wähle das <strong>\"Team Members "
-"Overview (Template)\"</strong> aus."
-msgstr ""
-"Search for <strong>\"team\"</strong> and select the <strong>\"Team Members "
-"Overview (Template)\"</strong>."
-
+#: templates/steps/step-16.php:15
 msgid ""
 "Super! Du hast deine <strong>Basic Settings und Styles</strong> erfolgreich "
 "abgeschlossen."
@@ -1007,79 +1633,119 @@ msgstr ""
 "Great! You have successfully completed your <strong>Basic Settings and "
 "Styles</strong>."
 
-#: templates/steps/step-7.php
+#: templates/steps/step-7.php:15
 msgid "Team CPT & Elementor Einstellungen"
 msgstr "Team CPT & Elementor Settings"
 
+#: templates/steps/step-7.php:141
 msgid "Team CPT nicht aktiviert"
 msgstr "Team CPT not activated"
 
+#: templates/steps/step-welcome.php:53
 msgid "Team Members"
 msgstr "Team Members"
 
+#: templates/wizard-page.php:57
 msgid "Team Settings"
 msgstr "Team Settings"
 
-msgid "Team Template wählen"
-msgstr "Select team template"
-
+#: templates/steps/step-9.php:66 templates/steps/step-9.php:289
 msgid "team-members-demo.xml"
 msgstr "team-members-demo.xml"
 
+#: templates/wizard-page.php:55
 msgid "Template Kit"
 msgstr "Template Kit"
 
-#: templates/steps/step-5.php
+#: templates/steps/step-5.php:53
 msgid "Template Kit importieren"
 msgstr "Template Kit"
 
-#: includes/class-wizard.php
+#: includes/class-wizard.php:25 includes/class-wizard.php:26
 msgid "Template Setup"
 msgstr "Template Setup"
 
+#: templates/wizard-page.php:61
 msgid "Templates"
 msgstr "Templates"
 
+#: templates/steps/step-11.php:354
 msgid "Templates wurden als zugewiesen markiert!"
 msgstr "Templates have been marked as assigned!"
 
-#: templates/steps/step-11.php
+#: templates/steps/step-11.php:14
 msgid "Templates zuweisen"
 msgstr "Templates"
 
+#: templates/admin-waiting-badge.php:269
+msgid "The main text of the badge (e.g. \"Waiting time\", \"Availability\")"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:285
+msgid ""
+"The waiting time or availability (e.g. \"8-10 weeks\", \"Available now\")"
+msgstr ""
+
+#: templates/steps/step-11.php:50
 msgid "Theme Builder Übersicht"
 msgstr "Open Theme Builder"
 
+#: templates/steps/step-11.php:45
 msgid "Theme Builder Übersicht verstehen"
 msgstr "Open Theme Builder"
 
+#: templates/steps/step-16.php:31
 msgid "Theme Builder öffnen"
 msgstr "Open Theme Builder"
 
+#: templates/admin-waiting-badge.php:282
+msgid "Time Period"
+msgstr ""
+
+#: templates/wizard-page.php:64
 msgid "Typography"
 msgstr "Typography"
 
+#: templates/steps/step-15.php:26
+msgid ""
+"Um alle Styles auf die Template-Standardwerte zurückzusetzen, wähle einfach "
+"<strong>\"🎯 Template Standard\"</strong> aus. Die Styles gelten für alle "
+"Buttons, Images und Container mit der Klasse <code>.rounded-container</code>."
+msgstr ""
+
+#: templates/steps/step-14.php:240 templates/steps/step-9.php:225
 msgid "Unbekannter Fehler"
 msgstr "Unknown error"
 
+#: templates/steps/step-9.php:214
 msgid "Upload fehlgeschlagen. "
 msgstr "Upload failed. "
 
+#: includes/class-wizard.php:37
+msgid "User Manual"
+msgstr ""
+
+#: templates/steps/step-10.php:96
 msgid "Veröffentliche die Seite"
 msgstr "Publish the page"
 
+#: templates/steps/step-16.php:105
 msgid "Viel Erfolg mit deiner neuen Website! 🚀"
 msgstr "Good luck with your new website! 🚀"
 
+#: templates/steps/step-3.php:91
 msgid "Visueller Page Builder für WordPress"
 msgstr "Visual page builder for WordPress"
 
+#: includes/class-waiting-badge.php:63
+msgid "Waiting Badge"
+msgstr ""
+
+#: templates/steps/step-welcome.php:44
 msgid "Was wird eingerichtet?"
 msgstr "What will be set up?"
 
-msgid "Weise dem Menü den <strong>Footer</strong> zu."
-msgstr "Assign <strong>Footer</strong> to the menu."
-
+#: templates/steps/step-11.php:16
 msgid ""
 "Weise die Elementor Templates den jeweiligen Seiten zu und verbinde Loop "
 "Grids mit deinen Inhalten."
@@ -1087,19 +1753,23 @@ msgstr ""
 "Assign the Elementor templates to the respective pages and connect Loop "
 "Grids with your content."
 
+#: includes/class-wizard.php:95
 msgid "Weiter (Styles sind optional) →"
 msgstr "Continue (Styles are optional) →"
 
+#: includes/class-wizard.php:94
 msgid "Weiter ohne Änderung →"
 msgstr "Continue without change →"
 
-#: includes/class-wizard.php
+#: includes/class-wizard.php:89
 msgid "Weiter →"
 msgstr "Next →"
 
+#: templates/steps/step-welcome.php:74
 msgid "Weitermachen wo du aufgehört hast"
 msgstr "Continue where you left off"
 
+#: templates/steps/step-11.php:292
 msgid ""
 "Wenn du bestimmte Seiten nicht brauchst (z.B. Team-Seite als Solo-Therapeut),"
 " solltest du:"
@@ -1107,26 +1777,23 @@ msgstr ""
 "If you don't need certain pages (e.g. Team page as a solo therapist), you "
 "should:"
 
-msgid ""
-"Wenn du die Team Seite wieder zum Menü hinzufügen willst, wirst du sie in "
-"der linken Seite bei der Auswahl nicht finden.<br><br>Wähle deshalb <strong>"
-"\"Individuelle Links\"</strong> aus und gebe bei URL <strong>/team/</strong> "
-"ein."
+#: templates/admin-waiting-badge.php:301
+msgid "Where should the badge be displayed on the page?"
 msgstr ""
-"If you want to add the Team page back to the menu, you won't find it in the "
-"left side selection.<br><br>Therefore select <strong>\"Custom "
-"Links\"</strong> and enter <strong>/team/</strong> for URL."
 
+#: templates/steps/step-16.php:47
 msgid "Widget auswählen und Inhalt ändern"
 msgstr "Select widget and change content"
 
+#: templates/wizard-page.php:51
 msgid "Willkommen"
 msgstr "Welcome"
 
-#: templates/steps/step-welcome.php
+#: templates/steps/step-welcome.php:20
 msgid "Willkommen beim Setup Wizard"
 msgstr "Welcome to the Setup Wizard"
 
+#: templates/steps/step-11.php:60
 msgid ""
 "Wir werden jetzt Seite für Seite die Templates zuordnen. Wähle eine Seite "
 "aus, die noch nicht zugeordnet ist (z.B. <strong>Contact</strong>)."
@@ -1134,16 +1801,43 @@ msgstr ""
 "We will now assign the templates page by page. Select a page that is not yet "
 "assigned (e.g. <strong>Contact</strong>)."
 
+#: templates/steps/step-welcome.php:64
 msgid "WordPress & Elementor Settings"
 msgstr "WordPress & Elementor Settings"
 
-#: templates/steps/step-12.php
+#: templates/steps/step-12.php:18
 msgid "WordPress Einstellungen"
 msgstr "WordPress & Elementor Settings"
 
+#: templates/wizard-page.php:62
 msgid "WP Settings"
 msgstr "WP Settings"
 
+#: templates/steps/step-13.php:16
+msgid "Wähle ein Farbschema für deine Website."
+msgstr ""
+
+#: templates/steps/step-14.php:83
+msgid ""
+"Wähle ein Schriftarten-Schema für deine Website. Es werden nur die "
+"Schriftarten geändert, Größen und Abstände bleiben erhalten."
+msgstr ""
+
+#: templates/steps/step-15.php:13
+msgid ""
+"Wähle ein Style-Set für deine Buttons, Images und Container. Du kannst die "
+"Styles jederzeit hier ändern."
+msgstr ""
+
+#: templates/steps/step-13.php:22
+msgid ""
+"Wähle eines der 4 vorgefertigten Schemas oder erstelle dein eigenes direkt "
+"in den <strong>Elementor → Site Settings → Global Colors</strong>. Das "
+"aktive Schema wird grün markiert. Hover-Farben werden automatisch 15% "
+"dunkler berechnet."
+msgstr ""
+
+#: templates/steps/step-11.php:95
 msgid ""
 "Wähle im ersten Dropdown <strong>\"Seiten\"</strong> aus. Im zweiten "
 "Dropdown gibst du <strong>\"Contact\"</strong> in die Suche ein. Die Contact-"
@@ -1155,33 +1849,52 @@ msgstr ""
 "should now appear. Select it and click on <strong>\"Save and Close\"</strong>"
 "."
 
+#: templates/steps/step-11.php:233
 msgid ""
-"Wähle links die <strong>Privacy Policy Seite</strong> aus und klicke danach "
-"auf <strong>\"Zum Menü hinzufügen\"</strong>. Klicke dann auf <strong>\"Menü "
-"speichern\"</strong>."
+"You will only see the tags here in case you have setup the demo data or you "
+"have setup your own Tags."
 msgstr ""
-"Select the <strong>Privacy Policy page</strong> on the left and then click "
-"on <strong>\"Add to Menu\"</strong>. Then click on <strong>\"Save "
-"Menu\"</strong>."
 
+#: templates/steps/step-8.php:52
 msgid "Ziehe die styling-plugin.zip Datei hier her"
 msgstr "Drag the styling-plugin.zip file here"
 
+#: templates/wizard-page.php:18
 msgid "Zum Dashboard"
 msgstr "Go to Dashboard"
 
+#: templates/steps/step-16.php:59
+msgid ""
+"Ändere <strong>NUR</strong> die Inhalte im Tab <strong>\"Inhalt\"</strong>:"
+"<br>• Texte anpassen<br>• Bilder austauschen<br>• Links aktualisieren<br><br>"
+"So bleiben deine <strong>globalen Styles konsistent</strong> und du kannst "
+"jederzeit global Änderungen vornehmen."
+msgstr ""
+
+#: templates/steps/step-11.php:143
 msgid "Öffne Blog Overview im Theme Builder"
 msgstr "Open Blog Overview in Theme Builder"
 
+#: templates/steps/step-10.php:74
 msgid "Öffne die Datenschutz-Einstellungen in WordPress."
 msgstr "Open the privacy settings in WordPress."
 
+#: templates/steps/step-11.php:37
 msgid "Öffne im WordPress Dashboard den Theme Builder von Elementor."
 msgstr "Open the Elementor Theme Builder in the WordPress dashboard."
 
+#: templates/steps/step-11.php:179
 msgid "Überprüfen und Veröffentlichen"
 msgstr "Review and publish"
 
+#: templates/steps/step-14.php:98 templates/steps/step-14.php:110
+#: templates/steps/step-14.php:122 templates/steps/step-14.php:134
+#: templates/steps/step-14.php:146 templates/steps/step-14.php:158
+#: templates/steps/step-14.php:170 templates/steps/step-14.php:182
+msgid "Überschrift"
+msgstr ""
+
+#: templates/steps/step-12.php:46
 msgid ""
 "• <strong>Startseite:</strong> Die \"Home\" Seite wird als statische "
 "Startseite festgelegt<br>• <strong>Blog-Seite:</strong> Die \"Blog\" Seite "
@@ -1194,6 +1907,7 @@ msgstr ""
 "blog posts<br>• <strong>Privacy & Imprint:</strong> Will be published<br>• "
 "<strong>Permalinks:</strong> Changed to SEO-friendly URLs (/%postname%/)"
 
+#: templates/steps/step-12.php:31 templates/steps/step-12.php:176
 msgid ""
 "• Homepage als Startseite festgelegt<br>• Blog-Seite für Beiträge "
 "zugewiesen<br>• SEO-freundliche Permalinks aktiviert"
@@ -1201,285 +1915,681 @@ msgstr ""
 "• Homepage set as front page<br>• Blog page assigned for posts<br>• SEO-"
 "friendly permalinks activated"
 
+#: templates/steps/step-3.php:27
 msgid "• Plugin: ✅ Installiert und aktiviert"
 msgstr "• Plugin: ✅ Installed and activated"
 
+#: templates/steps/step-10.php:106
 msgid "ℹ️ Hinweis zur Impressum-Seite"
 msgstr "ℹ️ Note about the imprint page"
 
+#: templates/steps/step-3.php:98
 msgid "ℹ️ Installation"
 msgstr "ℹ️ Installation"
 
+#: templates/steps/step-15.php:31
+msgid "ℹ️ Optionaler Schritt"
+msgstr ""
+
+#: templates/steps/step-2.php:44
 msgid "ℹ️ Warum Hello Theme?"
 msgstr "ℹ️ Why Hello Theme?"
 
+#: templates/steps/step-12.php:44
 msgid "ℹ️ Was wird konfiguriert?"
 msgstr "What will be set up?"
 
+#: templates/wizard-page.php:104
 msgid "← Zurück"
 msgstr "← Back"
 
+#: templates/admin-waiting-badge.php:341 templates/admin-waiting-badge.php:346
+#, php-format
+msgid "→ Shows: \"%s\""
+msgstr ""
+
+#: templates/steps/step-9.php:79 templates/steps/step-9.php:302
 msgid "⏭️ Überspringen (keine Demo-Daten)"
 msgstr "⏭️ Skip (no demo data)"
 
+#: includes/class-waiting-badge.php:64
+msgid "⏱️ Waiting Badge"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:236
+msgid "⏱️ Waiting Badge Settings"
+msgstr ""
+
+#: templates/steps/step-14.php:214
+msgid "⏳ Bereite Fonts vor..."
+msgstr ""
+
+#: templates/steps/step-14.php:215
+msgid "⏳ Custom Fonts werden aktualisiert und Google Fonts lokal aktiviert..."
+msgstr ""
+
+#: templates/steps/step-3.php:122 templates/steps/step-2.php:68
+msgid "⏳ Installiere..."
+msgstr ""
+
+#: templates/steps/step-7.php:111
 msgid "⏳ Prüfe Einstellungen..."
 msgstr "⏳ Checking status..."
 
+#: includes/class-wizard.php:102
+msgid "⏳ Prüfe Lizenz..."
+msgstr ""
+
+#: templates/steps/step-6.php:115 templates/steps/step-3.php:177
+#: templates/steps/step-8.php:83
 msgid "⏳ Prüfe Status..."
 msgstr "⏳ Checking status..."
 
-#: psychotherapie-setup-wizard.php
+#: templates/steps/step-15.php:338
+msgid "⏳ Wird angewendet..."
+msgstr ""
+
+#: templates/steps/step-14.php:77
+msgid ""
+"⏸️ Bitte bereite zuerst die Fonts vor (Schritt 1), um die Schriftarten-"
+"Schemas auswählen zu können."
+msgstr ""
+
+#: psychotherapie-setup-wizard.php:151
+#, php-format
 msgid "▶️ Setup fortsetzen (Schritt %d)"
 msgstr "▶️ Continue Setup (Step %d)"
 
+#: templates/steps/step-13.php:124
+msgid "☕ Schokobraun"
+msgstr ""
+
+#: templates/steps/step-14.php:180
+msgid "⚖️ Zeitlos & Seriös"
+msgstr ""
+
+#: templates/steps/step-12.php:25
 msgid "⚙️ Automatische Konfiguration"
 msgstr "⚙️ Automatic configuration"
 
+#: templates/steps/step-12.php:40 templates/steps/step-12.php:184
+#: templates/steps/step-12.php:190
 msgid "⚙️ Einstellungen übernehmen"
 msgstr "⚙️ Apply settings"
 
-msgid "⚙️ Elementor Einstellungen öffnen (neuer Tab)"
-msgstr "🔗 Activate Elementor (opens in new tab)"
-
+#: templates/steps/step-12.php:145
 msgid "⚙️ Konfiguriere..."
 msgstr "⚙️ Configuring..."
 
+#: templates/steps/step-7.php:50
 msgid "⚙️ Schritt-für-Schritt Anleitung"
 msgstr "⚙️ Step-by-step guide"
 
+#: templates/steps/step-6.php:144
 msgid "⚠️ <strong>ACF Setup unvollständig</strong><br>"
 msgstr "⚠️ <strong>ACF Setup incomplete</strong><br>"
 
+#: templates/steps/step-7.php:146
 msgid "⚠️ <strong>Noch nicht vollständig konfiguriert</strong><br>"
 msgstr "⚠️ <strong>Not yet fully configured</strong><br>"
 
+#: templates/steps/step-8.php:111
 msgid "⚠️ <strong>Plugin noch nicht installiert</strong><br>"
 msgstr "⚠️ <strong>Plugin not yet installed</strong><br>"
 
+#: templates/steps/step-3.php:210
 msgid "⚠️ Elementor ist noch nicht aktiviert"
 msgstr "⚠️ Elementor is not yet activated"
 
+#: templates/steps/step-4.php:85
 msgid "⚠️ Lizenz nicht aktiv"
 msgstr "⚠️ Elementor is not yet activated"
 
-msgid "⚠️ Sonderfall Team Seite"
-msgstr "⚠️ Special case Team page"
-
+#: templates/steps/step-6.php:90 templates/steps/step-7.php:79
+#: templates/steps/step-4.php:159 templates/steps/step-14.php:192
+#: templates/steps/step-11.php:123
 msgid "⚠️ Wichtig"
 msgstr "⚠️ Important"
 
+#: templates/steps/step-10.php:30
 msgid "⚠️ WICHTIG: Deine rechtliche Verantwortung!"
 msgstr "⚠️ IMPORTANT: Your legal responsibility!"
 
+#: templates/steps/step-13.php:214
+msgid "⚠️ Wichtig: Global Colors"
+msgstr ""
+
+#: templates/steps/step-14.php:46
+msgid "⚠️ WICHTIG: Prüfe Google Fonts Setting"
+msgstr ""
+
+#: templates/steps/step-14.php:226
+msgid "✅ <strong>"
+msgstr ""
+
+#: templates/steps/step-6.php:135
 msgid "✅ <strong>ACF Setup erfolgreich!</strong><br>Team CPT: "
 msgstr "✅ <strong>ACF Setup successful!</strong><br>Team CPT: "
 
+#: templates/steps/step-14.php:65
+msgid ""
+"✅ <strong>Fonts sind vorbereitet!</strong> Custom Fonts aktualisiert und "
+"Google Fonts lokal aktiviert."
+msgstr ""
+
+#: templates/steps/step-7.php:128
 msgid "✅ <strong>Perfekt konfiguriert!</strong><br>Team CPT: "
 msgstr "✅ <strong>Perfectly configured!</strong><br>Team CPT: "
 
+#: templates/steps/step-8.php:100
 msgid ""
 "✅ <strong>Plugin aktiv!</strong><br>Das Backend Styling Plugin ist "
 "installiert."
 msgstr ""
 "✅ <strong>Plugin active!</strong><br>The Backend Styling Plugin is installed."
 
+#: includes/class-wizard.php:99
+msgid "✅ <strong>Template Kit erfolgreich importiert!</strong>"
+msgstr ""
+
+#: templates/steps/step-6.php:45
 msgid "✅ ACF Setup wurde bereits erfolgreich abgeschlossen!"
 msgstr "✓ Setup Already Completed"
 
+#: templates/admin-waiting-badge.php:249
+msgid "✅ Active"
+msgstr ""
+
+#: templates/steps/step-4.php:29
 msgid "✅ Alles bereit!"
 msgstr "✅ All set!"
 
+#: templates/steps/step-12.php:29 templates/steps/step-12.php:174
 msgid "✅ Automatisch konfiguriert"
 msgstr "✅ Automatically configured"
 
+#: templates/steps/step-10.php:42
 msgid "✅ Datenschutzseite ist veröffentlicht"
 msgstr "✅ Privacy policy page is published"
 
+#: templates/steps/step-9.php:196
+msgid "✅ Demo data successfully imported!"
+msgstr ""
+
+#: templates/steps/step-9.php:40
 msgid "✅ Demo-Daten importiert!"
 msgstr "✅ Demo data imported!"
 
+#: templates/steps/step-9.php:32 templates/steps/step-9.php:165
 msgid "✅ Demo-Daten wurden importiert!"
 msgstr "✅ Demo data has been imported!"
 
+#: templates/steps/step-7.php:27
 msgid "✅ Einstellungen aktiv!"
 msgstr "✅ Elementor is active!"
 
+#: templates/steps/step-7.php:18
 msgid "✅ Einstellungen wurden bereits konfiguriert!"
 msgstr "✅ Settings have already been configured!"
 
+#: templates/steps/step-3.php:24
 msgid "✅ Elementor ist aktiv!"
 msgstr "✅ Elementor is active!"
 
+#: templates/steps/step-3.php:192
 msgid "✅ Elementor ist jetzt aktiv!"
 msgstr "✅ Elementor is now active!"
 
+#: templates/steps/step-4.php:20
 msgid "✅ Elementor Pro ist bereits installiert und die Lizenz ist aktiv!"
 msgstr ""
 "✅ Elementor Pro is already installed and the license is active!Elementor is "
 "already installed on your system, but currently deactivated."
 
+#: templates/steps/step-14.php:229
+msgid "✅ Fonts vorbereitet!"
+msgstr ""
+
+#: templates/steps/step-2.php:25
+msgid "✅ Hello Theme ist aktiv!"
+msgstr ""
+
+#: templates/steps/step-4.php:47 templates/steps/step-3.php:47
 msgid "✅ Plugin bereits installiert"
 msgstr "✅ Plugin already installed"
 
+#: templates/steps/step-8.php:27
 msgid "✅ Plugin installiert!"
 msgstr "✅ Plugin already installed"
 
+#: templates/admin-waiting-badge.php:55
+msgid "✅ Settings saved!"
+msgstr ""
+
+#: templates/steps/step-6.php:54
 msgid "✅ Setup abgeschlossen!"
 msgstr "✓ Setup Already Completed"
 
+#: templates/steps/step-11.php:340
 msgid "✅ Speichere..."
 msgstr "✅ Saving..."
 
+#: templates/steps/step-8.php:18
 msgid "✅ Styling Plugin wurde bereits installiert!"
 msgstr "✅ Plugin already installed"
 
+#: templates/steps/step-5.php:65
 msgid "✅ Template Kit bereits importiert!"
 msgstr "✅ Plugin already installed"
 
+#: templates/steps/step-5.php:56
 msgid "✅ Template Kit wurde bereits importiert!"
 msgstr "✅ Template Kit has already been imported!"
 
+#: templates/steps/step-11.php:319 templates/steps/step-11.php:363
+#: templates/steps/step-11.php:368
 msgid "✅ Templates zugewiesen - Weiter"
 msgstr "✅ Templates assigned - Continue"
 
+#: templates/steps/step-10.php:116
 msgid "✅ Weiter zum nächsten Schritt"
 msgstr "✅ Continue to next step"
 
+#: templates/steps/step-10.php:88
 msgid "✏️ Datenschutzseite bearbeiten"
 msgstr "✏️ Edit privacy policy page"
 
-#: templates/wizard-page.php
+#: includes/class-wizard.php:101
+msgid "✓ Installiert"
+msgstr ""
+
+#: templates/wizard-page.php:16
 msgid "✓ Setup bereits abgeschlossen"
 msgstr "✓ Setup Already Completed"
 
+#: templates/admin-waiting-badge.php:357
+msgid "✨ Colors are automatically inherited from your Elementor Global Colors!"
+msgstr ""
+
+#: templates/steps/step-14.php:120
+msgid "✨ Elegant Serif"
+msgstr ""
+
+#: templates/steps/step-15.php:153
+msgid "✨ Minimal"
+msgstr ""
+
+#: templates/steps/step-13.php:29
+msgid "✨ Template Standard"
+msgstr ""
+
+#: templates/steps/step-8.php:56
 msgid "✨ Was macht dieses Plugin?"
 msgstr "✨ What does this plugin do?"
 
+#: templates/steps/step-6.php:152 templates/steps/step-7.php:154
+#: templates/steps/step-8.php:119
 msgid "❌ <strong>Fehler beim Prüfen</strong><br>Bitte versuche es erneut."
 msgstr "❌ <strong>Error during check</strong><br>Please try again."
 
+#: templates/steps/step-14.php:240
+msgid "❌ <strong>Fehler:</strong> "
+msgstr ""
+
+#: templates/steps/step-14.php:245
+msgid "❌ <strong>Verbindungsfehler</strong> beim Vorbereiten der Fonts"
+msgstr ""
+
+#: templates/steps/step-10.php:56
 msgid "❌ Datenschutzseite nicht gefunden"
 msgstr "❌ Privacy policy page not found"
 
+#: templates/steps/step-3.php:216
 msgid "❌ Fehler beim Status-Check"
 msgstr "❌ Error during status check"
 
-msgid "🆘 Recovery"
-msgstr "🆘 Recovery"
+#: templates/steps/step-15.php:384
+msgid "❌ Verbindungsfehler"
+msgstr ""
 
+#: templates/admin-waiting-badge.php:390
+msgid "⬆️ Import"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:377
+msgid "⬇️ Export"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:251
+msgid "⭕ Inactive"
+msgstr ""
+
+#: templates/steps/step-13.php:105
+msgid "🌊 Blaugrau/Apricot"
+msgstr ""
+
+#: templates/steps/step-15.php:116
+msgid "🌸 Soft & Cozy"
+msgstr ""
+
+#: templates/steps/step-13.php:86
+msgid "🌸 Warme Rosétöne"
+msgstr ""
+
+#: templates/steps/step-13.php:48
+msgid "🌿 Salbeigrün"
+msgstr ""
+
+#: templates/steps/step-13.php:162
+msgid "🍂 Tiefes Terracotta"
+msgstr ""
+
+#: templates/steps/step-12.php:123
 msgid "🎉 Grund-Setup abgeschlossen!"
 msgstr "✓ Setup Already Completed"
 
+#: templates/steps/step-15.php:11
+msgid "🎨 Button, Image & Container Styles"
+msgstr ""
+
+#: templates/steps/step-13.php:221
+msgid "🎨 Global Colors System"
+msgstr ""
+
+#: templates/steps/step-12.php:54
 msgid "🎨 Manuelle Anpassungen"
 msgstr "🎨 Manual adjustments"
 
+#: templates/steps/step-14.php:72
+msgid "🎨 Schritt 2: Schriftarten-Schema wählen"
+msgstr ""
+
+#: templates/steps/step-14.php:199
+msgid "🎨 Weitere Anpassungen"
+msgstr ""
+
+#: includes/class-wizard.php:98
+msgid "🎨 Wende Farben an..."
+msgstr ""
+
+#: templates/steps/step-16.php:108
 msgid "🎨 Zum Theme Builder"
 msgstr "🎨 Go to Theme Builder"
 
+#: templates/steps/step-14.php:108
+msgid "🎯 Modern Sans"
+msgstr ""
+
+#: psychotherapie-setup-wizard.php:155
 msgid "🎯 Psychotherapie Template Kit Setup"
 msgstr "🎯 Psychotherapy Template Kit Setup"
 
+#: psychotherapie-setup-wizard.php:154
 msgid "🎯 Psychotherapie Template Kit Setup - Fortsetzen"
 msgstr "🎯 Psychotherapy Template Kit Setup - Continue"
 
-msgid "👥 Teil 4: Loop Grid - Team Members zuweisen"
-msgstr "👥 Part 4: Loop Grid - Assign team members"
+#: templates/steps/step-15.php:42
+msgid "🎯 Template Standard"
+msgstr ""
 
+#: templates/steps/step-14.php:156
+msgid "🏡 Warm & Einladend"
+msgstr ""
+
+#: templates/steps/step-11.php:205
+msgid "👥 Part 4: Team Overview - Manage Taxonomy, Loop Grid & Conditions"
+msgstr ""
+
+#: templates/steps/step-6.php:83
 msgid "👥 Was sind Team Members?"
 msgstr "Team Members"
 
+#: templates/steps/step-15.php:227
+msgid "💎 Elegant & Refined"
+msgstr ""
+
+#: templates/steps/step-13.php:143
+msgid "💙 Klares Mittelblau"
+msgstr ""
+
+#: templates/steps/step-13.php:67
+msgid "💜 Sanfte Lavendeltöne"
+msgstr ""
+
+#: templates/steps/step-13.php:20
+msgid "💡 Farbschema-System"
+msgstr ""
+
+#: templates/steps/step-16.php:81
 msgid "💡 Hilfreiche Tipps"
 msgstr "💡 Helpful tips"
 
+#: templates/steps/step-9.php:71 templates/steps/step-9.php:294
 msgid "💡 Hinweis"
 msgstr "💡 Helpful tips"
 
-msgid "💡 Hinweis für Solo-Therapeuten"
-msgstr "💡 Note for solo therapists"
+#: templates/steps/step-14.php:35
+msgid "💡 Manuelle Einstellung (falls benötigt)"
+msgstr ""
 
+#: templates/steps/step-11.php:279
+msgid "💡 Note for Solo Therapists"
+msgstr ""
+
+#: templates/steps/step-7.php:86 templates/steps/step-11.php:309
 msgid "💡 Tipp"
 msgstr "💡 Helpful tips"
 
+#: templates/steps/step-15.php:24
+msgid "💡 Tipp: Zurück zu Template-Standards"
+msgstr ""
+
+#: templates/steps/step-14.php:87
+msgid "💡 Typography-System"
+msgstr ""
+
+#: templates/steps/step-14.php:144
+msgid "💼 Professional"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:364
+msgid "💾 Save Settings"
+msgstr ""
+
+#: templates/steps/step-10.php:38
 msgid "📄 Status der Datenschutzseite"
 msgstr "📄 Privacy policy page status"
 
+#: templates/steps/step-11.php:28
 msgid "📄 Teil 1: Single Pages zuweisen"
 msgstr "📄 Part 1: Assign single pages"
 
+#: templates/steps/step-14.php:22
+msgid "📋 Schritt 1: Fonts vorbereiten (wichtig!)"
+msgstr ""
+
+#: templates/steps/step-10.php:66
 msgid "📋 So bereitest du die Datenschutzseite vor"
 msgstr "📋 How to prepare the privacy policy page"
 
+#: templates/steps/step-11.php:102
 msgid "📋 Wiederhole dies für folgende Seiten:"
 msgstr "📋 Repeat this for the following pages:"
 
+#: templates/steps/step-11.php:231
+msgid "📌 NOTE"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:336
+msgid "📖 Elementor Integration"
+msgstr ""
+
+#: templates/steps/step-14.php:96
+msgid "📖 Template Standard"
+msgstr ""
+
+#: includes/class-wizard.php:38
+msgid "📖 User Manual"
+msgstr ""
+
+#: templates/steps/step-11.php:20
 msgid "📘 Wichtig"
 msgstr "📘 Important"
 
+#: templates/steps/step-10.php:49
 msgid "📝 Datenschutzseite ist im Entwurf"
 msgstr "📝 Privacy policy page is in draft"
 
+#: templates/steps/step-16.php:21
 msgid "📝 Jetzt: Eigene Inhalte & Bilder hinzufügen"
 msgstr "📝 Now: Add your own content & images"
 
-msgid "📝 Teil 3: Loop Grid - Blog Posts zuweisen"
-msgstr "📝 Part 3: Loop Grid - Assign blog posts"
+#: templates/steps/step-11.php:135
+msgid "📝 Part 3: Blog Overview Page - Manage Loop Grid & Conditions"
+msgstr ""
 
+#: templates/steps/step-10.php:122 templates/steps/step-10.php:173
+#: templates/steps/step-10.php:180
 msgid "📢 Datenschutzseite jetzt veröffentlichen"
 msgstr "📢 Publish privacy policy page now"
 
+#: templates/steps/step-10.php:143
 msgid "📢 Veröffentliche..."
 msgstr "📢 Publishing..."
 
+#: templates/admin-waiting-badge.php:399
+msgid "📤 Import Settings"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:384
+msgid "📥 Export Settings (JSON)"
+msgstr ""
+
+#: templates/admin-waiting-badge.php:371
+msgid "📦 Export / Import"
+msgstr ""
+
+#: templates/steps/step-5.php:88
 msgid "📦 So importierst du dein Template Kit"
 msgstr "📦 How to import your Template Kit"
 
+#: templates/steps/step-9.php:48 templates/steps/step-9.php:185
 msgid "🔄 Demo-Daten zurücksetzen & erneut importieren"
 msgstr "🔄 Reset demo data & import again"
 
+#: includes/class-wizard.php:97 templates/steps/step-5.php:108
 msgid "🔄 Import-Status prüfen"
 msgstr "🔄 Check import status"
 
+#: templates/steps/step-7.php:123 templates/steps/step-7.php:152
 msgid "🔄 Konfiguration prüfen"
 msgstr "Configuration"
 
+#: includes/class-wizard.php:103 templates/steps/step-4.php:111
+#: templates/steps/step-4.php:148
 msgid "🔄 Lizenz-Status prüfen"
 msgstr "🔄 Check status"
 
+#: templates/steps/step-6.php:65 templates/steps/step-6.php:127
+#: templates/steps/step-6.php:150 templates/steps/step-7.php:38
+#: templates/steps/step-5.php:76 templates/steps/step-4.php:40
+#: templates/steps/step-3.php:36 templates/steps/step-8.php:38
+#: templates/steps/step-8.php:95 templates/steps/step-8.php:117
 msgid "🔄 Status erneut prüfen"
 msgstr "🔄 Check status again"
 
+#: templates/steps/step-4.php:73 templates/steps/step-3.php:76
+#: templates/steps/step-3.php:187 templates/steps/step-3.php:214
 msgid "🔄 Status prüfen"
 msgstr "🔄 Check status"
 
+#: templates/steps/step-3.php:56
 msgid "🔌 Plugin aktivieren"
 msgstr "🔌 Activate plugin"
 
+#: templates/steps/step-4.php:55
 msgid "🔌 Plugin aktivieren & Lizenz verbinden"
 msgstr "🔌 Activate plugin"
 
+#: templates/admin-waiting-badge.php:407
+msgid "🔍 JSON Structure Preview"
+msgstr ""
+
+#: templates/steps/step-4.php:93
 msgid "🔑 Lizenz verbinden"
 msgstr "🔑 Connect license"
 
+#: templates/steps/step-4.php:130
 msgid "🔑 Schritt 2: Lizenz aktivieren"
 msgstr "🔌 Activate plugin"
 
+#: templates/steps/step-11.php:115
 msgid "🔒 Teil 2: Legal Pages zuweisen"
 msgstr "🔒 Part 2: Assign legal pages"
 
+#: templates/steps/step-3.php:70
 msgid "🔗 Elementor aktivieren (öffnet in neuem Tab)"
 msgstr "🔗 Activate Elementor (opens in new tab)"
 
+#: templates/steps/step-4.php:66 templates/steps/step-4.php:141
 msgid "🔗 Elementor Pro aktivieren (öffnet in neuem Tab)"
 msgstr "🔗 Activate Elementor (opens in new tab)"
 
+#: templates/steps/step-4.php:104
 msgid "🔗 Zur Lizenz-Seite (öffnet in neuem Tab)"
 msgstr "🔗 Activate Elementor (opens in new tab)"
 
+#: templates/steps/step-14.php:15
+msgid "🔤 Schriftarten vorbereiten & anpassen"
+msgstr ""
+
+#: templates/steps/step-14.php:25
+msgid "🔧 Was wird gemacht?"
+msgstr ""
+
+#: templates/steps/step-15.php:79
+msgid "🔲 Modern & Sharp"
+msgstr ""
+
+#: templates/steps/step-11.php:288
 msgid "🗑️ Teil 5: Nicht benötigte Seiten verwalten"
 msgstr "🗑️ Part 5: Manage unneeded pages"
 
+#: templates/steps/step-14.php:132
+msgid "😊 Warm & Friendly"
+msgstr ""
+
+#: templates/steps/step-3.php:109 templates/steps/step-3.php:149
+#: templates/steps/step-3.php:155
+msgid "🚀 Elementor installieren"
+msgstr "🚀 Install Elementor"
+
+#: templates/steps/step-5.php:101
 msgid "🚀 Elementor Kit Import öffnen (neuer Tab)"
 msgstr "🚀 Open Elementor Kit Import (new tab)"
 
+#: templates/steps/step-14.php:60 templates/steps/step-14.php:241
+#: templates/steps/step-14.php:246
+msgid "🚀 Fonts jetzt vorbereiten"
+msgstr ""
+
+#: templates/steps/step-2.php:55 templates/steps/step-2.php:95
+#: templates/steps/step-2.php:101
+msgid "🚀 Hello Theme installieren"
+msgstr ""
+
+#: psychotherapie-setup-wizard.php:152
 msgid "🚀 Setup fortführen"
 msgstr "🚀 Continue Setup"
+
+#: templates/steps/step-15.php:190
+msgid "🤗 Spacious & Welcoming"
+msgstr ""
+
+#: templates/steps/step-14.php:168
+msgid "🧘 Ruhig & Harmonisch"
+msgstr ""
+
+#: templates/steps/step-13.php:181
+msgid "🪻 Weiches Mauve"
+msgstr ""

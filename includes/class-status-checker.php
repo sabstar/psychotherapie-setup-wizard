@@ -176,6 +176,10 @@ class Psycho_Status_Checker {
             if (!self::is_elementor_active()) {
                 $wizard_status['completed_steps'] = array_diff($wizard_status['completed_steps'], [3]);
             }
+            // Step 5 (Template Kit) nur als completed wenn auch wirklich importiert
+            if (!isset($wizard_status['template_kit_imported']) || !$wizard_status['template_kit_imported']) {
+                $wizard_status['completed_steps'] = array_diff($wizard_status['completed_steps'], [5]);
+            }
             // Reindex das Array
             $wizard_status['completed_steps'] = array_values($wizard_status['completed_steps']);
         }

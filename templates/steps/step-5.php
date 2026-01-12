@@ -41,10 +41,19 @@ if (class_exists('\Elementor\Plugin')) {
 
     $has_templates = ($template_count + $page_count) > 5; // Mindestens 5 Items
 
-    // WICHTIG: Wenn Templates gefunden wurden, Status SOFORT speichern (PHP-seitig)
-    if ($has_templates && !$is_imported) {
-        Psycho_Status_Checker::update_status('template_kit_imported', true);
-        $is_imported = true; // Update lokale Variable
+    // WICHTIG: Status dynamisch aktualisieren (auch zurücksetzen wenn keine Templates mehr da)
+    if ($has_templates) {
+        // Templates vorhanden -> Status auf true
+        if (!$is_imported) {
+            Psycho_Status_Checker::update_status('template_kit_imported', true);
+            $is_imported = true;
+        }
+    } else {
+        // Keine Templates mehr vorhanden -> Status zurücksetzen (für Progress Bubble)
+        if ($is_imported) {
+            Psycho_Status_Checker::update_status('template_kit_imported', false);
+            $is_imported = false;
+        }
     }
 }
 ?>
@@ -91,6 +100,27 @@ if (class_exists('\Elementor\Plugin')) {
             </div>
         </div>
 
+        <!-- SVG Upload Warnung und Aktivierung -->
+        <div class="info-box" style="background: #fff7ed; border-color: #fb923c; margin-top: 20px;">
+            <div class="info-box-title" style="color: #c2410c;"><?php _e('⚠️ Wichtig: Custom Icons (SVG)', 'psycho-wizard'); ?></div>
+            <div class="info-box-content" style="color: #c2410c;">
+                <?php _e('Falls dein Template Kit <strong>Custom Icons (SVG)</strong> enthält (z.B. Lucide Icons), musst du SVG-Uploads aktivieren, BEVOR du das Kit importierst.', 'psycho-wizard'); ?><br><br>
+                <strong><?php _e('⚠️ Sicherheitshinweis:', 'psycho-wizard'); ?></strong> <?php _e('Dies ist ein potentielles Sicherheitsrisiko. Aktiviere es nur, wenn du der Quelle deines Kits vertraust.', 'psycho-wizard'); ?>
+            </div>
+        </div>
+
+        <div style="margin-top: 20px; padding: 15px; background: #f3f4f6; border-radius: 8px;">
+            <button type="button"
+                    class="btn btn-secondary"
+                    id="enableSvgBtn"
+                    onclick="enableSvgUpload()">
+                <?php _e('🔓 SVG-Upload aktivieren (für Icons)', 'psycho-wizard'); ?>
+            </button>
+            <span id="svgStatus" style="margin-left: 15px; display: none; color: #10b981; font-weight: 600;">
+                <?php _e('✓ SVG-Upload aktiviert', 'psycho-wizard'); ?>
+            </span>
+        </div>
+
         <!-- Buttons -->
         <div style="display: flex; gap: 15px; margin-top: 30px;">
             <a href="<?php echo admin_url('admin.php?page=elementor-tools#tab-import-export-kit'); ?>"
@@ -129,4 +159,42 @@ jQuery(document).ready(function($) {
 
 // Status-Prüfung wird über checkTemplateKitImport() gemacht (in wizard.js)
 // Die Progress Bubble wird automatisch von loadWizardStatus() gesetzt
+
+// SVG Upload aktivieren
+window.enableSvgUpload = function() {
+    const $ = jQuery;
+    const $btn = $('#enableSvgBtn');
+    const $status = $('#svgStatus');
+
+    $btn.prop('disabled', true).text(<?php echo json_encode(__('⏳ Aktiviere...', 'psycho-wizard')); ?>);
+
+    $.ajax({
+        url: psychoWizard.ajaxUrl,
+        type: 'POST',
+        data: {
+            action: 'psycho_enable_svg_upload',
+            nonce: psychoWizard.nonce
+        },
+        success: function(response) {
+            if (response.success) {
+                $status.fadeIn();
+                $btn.hide();
+                if (typeof window.showNotification === 'function') {
+                    window.showNotification('success', response.data.message);
+                }
+            } else {
+                $btn.prop('disabled', false).text(<?php echo json_encode(__('🔓 SVG-Upload aktivieren (für Icons)', 'psycho-wizard')); ?>);
+                if (typeof window.showNotification === 'function') {
+                    window.showNotification('error', response.data.message || <?php echo json_encode(__('Fehler beim Aktivieren', 'psycho-wizard')); ?>);
+                }
+            }
+        },
+        error: function() {
+            $btn.prop('disabled', false).text(<?php echo json_encode(__('🔓 SVG-Upload aktivieren (für Icons)', 'psycho-wizard')); ?>);
+            if (typeof window.showNotification === 'function') {
+                window.showNotification('error', <?php echo json_encode(__('Fehler beim Aktivieren. Bitte versuche es erneut.', 'psycho-wizard')); ?>);
+            }
+        }
+    });
+};
 </script>

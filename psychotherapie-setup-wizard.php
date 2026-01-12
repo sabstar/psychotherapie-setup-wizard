@@ -19,18 +19,38 @@ define('PSYCHO_WIZARD_VERSION', '1.0.1');
 define('PSYCHO_WIZARD_PATH', plugin_dir_path(__FILE__));
 define('PSYCHO_WIZARD_URL', plugin_dir_url(__FILE__));
 
-// Plugin Update Checker
-require_once PSYCHO_WIZARD_PATH . 'lib/plugin-update-checker/plugin-update-checker.php';
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+// Plugin Update Checker initialisieren
+function psycho_wizard_init_update_checker() {
+    $update_checker_file = PSYCHO_WIZARD_PATH . 'lib/plugin-update-checker/plugin-update-checker.php';
 
-$myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/sabstar/psychotherapie-setup-wizard/',
-    __FILE__,
-    'psychotherapie-setup-wizard'
-);
+    // Prüfe ob die Bibliothek existiert
+    if (!file_exists($update_checker_file)) {
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('Psycho Wizard: Plugin Update Checker Bibliothek nicht gefunden');
+        }
+        return;
+    }
 
-// Optional: Branch festlegen
-$myUpdateChecker->setBranch('main');
+    require_once $update_checker_file;
+
+    // Prüfe ob die Klasse verfügbar ist
+    if (!class_exists('YahnisElsts\PluginUpdateChecker\v5\PucFactory')) {
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('Psycho Wizard: PucFactory Klasse nicht gefunden');
+        }
+        return;
+    }
+
+    $myUpdateChecker = YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
+        'https://github.com/sabstar/psychotherapie-setup-wizard',
+        __FILE__,
+        'psychotherapie-setup-wizard'
+    );
+
+    // Branch festlegen
+    $myUpdateChecker->setBranch('main');
+}
+add_action('plugins_loaded', 'psycho_wizard_init_update_checker', 0);
 
 
 // Hauptklasse laden
@@ -120,6 +140,26 @@ function psycho_wizard_allow_xml_upload($data, $file, $filename, $mimes) {
     if ($filetype['ext'] === 'xml') {
         $data['ext'] = 'xml';
         $data['type'] = 'application/xml';
+        $data['proper_filename'] = $filename;
+    }
+
+    return $data;
+}
+
+// Zusätzlicher Filter um SVG-Upload zu erlauben (umgeht WordPress Security Check)
+add_filter('wp_check_filetype_and_ext', 'psycho_wizard_allow_svg_upload', 10, 4);
+function psycho_wizard_allow_svg_upload($data, $file, $filename, $mimes) {
+    // Nur für Admins
+    if (!current_user_can('manage_options')) {
+        return $data;
+    }
+
+    $filetype = wp_check_filetype($filename, $mimes);
+
+    // Prüfe ob es eine SVG-Datei ist
+    if ($filetype['ext'] === 'svg') {
+        $data['ext'] = 'svg';
+        $data['type'] = 'image/svg+xml';
         $data['proper_filename'] = $filename;
     }
 
