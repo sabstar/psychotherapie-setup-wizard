@@ -47,7 +47,7 @@ $is_set = isset($wizard_status['colors_set']) && $wizard_status['colors_set'];
         <div class="color-scheme" data-scheme="sage-green">
             <div class="scheme-name"><?php _e('🌿 Salbeigrün', 'psycho-wizard'); ?></div>
             <div class="color-palette">
-                <div class="color-swatch" style="background: #5D7D5D;" title="Primary"></div>
+                <div class="color-swatch" style="background: #557555;" title="Primary"></div>
                 <div class="color-swatch" style="background: #B8C9B8;" title="Secondary"></div>
                 <div class="color-swatch" style="background: #2A2F2A;" title="Text"></div>
                 <div class="color-swatch" style="background: #5B8CA8;" title="Info"></div>
@@ -85,7 +85,7 @@ $is_set = isset($wizard_status['colors_set']) && $wizard_status['colors_set'];
         <div class="color-scheme" data-scheme="warm-rose">
             <div class="scheme-name"><?php _e('🌸 Warme Rosétöne', 'psycho-wizard'); ?></div>
             <div class="color-palette">
-                <div class="color-swatch" style="background: #B8644D;" title="Primary"></div>
+                <div class="color-swatch" style="background: #A5533A;" title="Primary"></div>
                 <div class="color-swatch" style="background: #E8AFA6;" title="Secondary"></div>
                 <div class="color-swatch" style="background: #3A2E2E;" title="Text"></div>
                 <div class="color-swatch" style="background: #7FA3B8;" title="Info"></div>

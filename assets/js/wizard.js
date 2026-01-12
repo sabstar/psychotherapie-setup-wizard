@@ -152,7 +152,7 @@ window.showNotification = function (type, message) {
     "sage-green": {
       name: "🌿 Salbeigrün",
       colors: [
-        "#5D7D5D",
+        "#557555",
         "#B8C9B8",
         "#2A2F2A",
         "#5B8CA8",
@@ -182,7 +182,7 @@ window.showNotification = function (type, message) {
     "warm-rose": {
       name: "🌸 Warme Rosétöne",
       colors: [
-        "#B8644D",
+        "#A5533A",
         "#E8AFA6",
         "#3A2E2E",
         "#7FA3B8",
